@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>Wednesday, April 11 2007</title>
+  <text xml:space="preserve"><note-content version="0.1"> Wednesday, April 11 2007
+
+
+
+<size:huge><link:internal>Tasks</link:internal></size:huge>
+<list><list-item dir="ltr"><bold>dsp</bold>
+</list-item><list-item dir="ltr"><bold><link:internal>English</link:internal></bold><bold>  -- Word list 1 and 2</bold></list-item></list>
+
+
+<size:huge>Appointments</size:huge>
+<list><list-item dir="ltr">学长 <highlight>钱中昌 4.21 </highlight> 到浦口交流
+</list-item><list-item dir="ltr">晚上带 超声试卷，U-disk，纸</list-item></list>
+
+<size:huge>DSP</size:huge>
+<list><list-item dir="ltr"><bold>AR </bold>（<highlight>自回归</highlight>系统）：全极点系统
+</list-item><list-item dir="ltr"><bold>ARMA </bold>（<highlight>自回归滑动平均</highlight>系统）：零极点系统
+</list-item><list-item dir="ltr"><bold>MA</bold> （<highlight>滑动平均</highlight>系统）：全零点系统
+</list-item><list-item dir="ltr"><bold>IIR </bold>：只能采用<highlight>递归</highlight>结构
+</list-item><list-item dir="ltr"><bold><link:internal>FIR</link:internal></bold><bold>：</bold>大多采用<highlight>非递归</highlight>结构，但也可包含递归结构（用零，极点相消法）</list-item></list>
+<size:huge><link:internal>MATLAB</link:internal></size:huge>
+<list><list-item dir="ltr"><bold>export LD_ASSUME_KERNEL=2.4.1</bold></list-item></list>
+<size:huge><link:internal>English</link:internal></size:huge>
+<list><list-item dir="ltr"><bold>accord</bold></list-item></list>
+		of one's own <highlight>accord</highlight>
+		sign a peace <highlight>accord</highlight>
+<list><list-item dir="ltr"><bold>account</bold></list-item></list>
+	<bold><italic>n.</italic></bold>
+		keep <italic><highlight>account</highlight></italic><italic>s
+		</italic>give sb. an <italic><highlight>account</highlight></italic> of
+	<bold><italic>vi.</italic></bold>
+		<italic><highlight>account</highlight></italic><italic> </italic>for
+		on <italic><highlight>account</highlight></italic><italic> </italic>of
+		take ... into <italic><highlight>account</highlight></italic><italic>
+		</italic>on any <italic><highlight>account</highlight></italic>
+
+</note-content></text>
+  <last-change-date>2008-09-10T20:44:38.7556120+08:00</last-change-date>
+  <last-metadata-change-date>2008-09-10T20:44:38.7556120+08:00</last-metadata-change-date>
+  <create-date>2007-04-11T08:26:51.2656180+08:00</create-date>
+  <cursor-position>256</cursor-position>
+  <width>583</width>
+  <height>490</height>
+  <x>431</x>
+  <y>33</y>
+  <tags>
+    <tag>system:notebook:日积月累</tag>
+  </tags>
+  <open-on-startup>False</open-on-startup>
+</note>

@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>让Gmail成为Firefox3.0默认邮件客户端</title>
+  <text xml:space="preserve"><note-content version="0.1">让Gmail成为Firefox3.0默认邮件客户端
+
+set gmail as default <link:internal>mail</link:internal> client in Ubuntu
+
+
+System \ Preferences \ Preferred Applications
+	open_mailto.sh
+		    #!/bin/sh
+	    <link:internal>firefox</link:internal> <link:url>https://mail.google.com/mail?view=cm&amp;tf=0&amp;to=`echo</link:url> $1 | sed ’s/mailto://’`
+OR
+	    <link:internal>firefox</link:internal> -remote "openurl(<link:url>https://mail.google.com/mail?view=cm&amp;tf=0&amp;to=`echo</link:url> $1 | sed ’s/<link:url>mailto://’`,new-tab</link:url>)"
+
+
+<bold>Set <link:internal>Firefox</link:internal></bold><bold> 3 to Launch Gmail for mailto Links</bold>
+
+1 Open Gmail in <link:internal>Firefox</link:internal>.
+2 In the tab where Gmail is loaded, copy and paste the following snippet of JavaScript into your address bar:
+	javascript:window.navigator.registerProtocolHandler("mailto","<link:url>https://mail.google.com/mail/?extsrc=mailto&amp;url=%s","GMail</link:url>")
+
+
+<link:url>weihezhangem@gmail.com</link:url>
+<link:url>liuhuee@gmail.com</link:url></note-content></text>
+  <last-change-date>2008-11-10T15:56:14.2104030+08:00</last-change-date>
+  <last-metadata-change-date>2008-11-10T15:56:14.2104030+08:00</last-metadata-change-date>
+  <create-date>2008-10-01T10:38:16.0160260+08:00</create-date>
+  <cursor-position>685</cursor-position>
+  <width>777</width>
+  <height>337</height>
+  <x>0</x>
+  <y>0</y>
+  <tags>
+    <tag>system:notebook:日积月累</tag>
+  </tags>
+  <open-on-startup>False</open-on-startup>
+</note>

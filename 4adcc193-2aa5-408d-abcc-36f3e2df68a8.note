@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>Back up your system in Ubuntu</title>
+  <text xml:space="preserve"><note-content version="0.1">Back up your system in Ubuntu
+
+<bold>Nov. 8
+
+</bold>1: Backing-up<bold>
+</bold>	tar cvpzf backup.tgz --exclude=/proc --exclude=/lost+found --exclude=/backup.tgz --exclude=/mnt --exclude=/sys /
+	preserve permissions, gzip
+
+change z to j
+	Bzip2 to compress your backup. This means higher compression but lower speed.
+2: Restoring
+	tar xvpfz backup.tgz -C /
+	mkdir proc
+	mkdir lost+found
+	mkdir mnt
+	mkdir sys
+
+SBackup
+
+</note-content></text>
+  <last-change-date>2008-11-08T15:03:14.1382680+08:00</last-change-date>
+  <last-metadata-change-date>2008-11-08T15:03:14.1382680+08:00</last-metadata-change-date>
+  <create-date>2008-11-08T14:53:05.3275140+08:00</create-date>
+  <cursor-position>380</cursor-position>
+  <width>450</width>
+  <height>360</height>
+  <x>0</x>
+  <y>0</y>
+  <tags>
+    <tag>system:notebook:日积月累</tag>
+  </tags>
+  <open-on-startup>False</open-on-startup>
+</note>

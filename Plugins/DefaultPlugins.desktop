@@ -1,0 +1,17 @@
+[Desktop Entry]
+Encoding=UTF-8
+Type=Link
+URL=file:///usr/lib/tomboy/Plugins
+Icon=gnome-fs-directory
+X-GNOME-DocPath=
+Terminal=false
+Name=Default Plugins
+Name[bg]=Стандартни приставки
+Name[ja]=デフォルトのプラグイン
+Name[nl]=Standaardplugins
+Name[pt]=Plugins Por Omissão
+Name[ru]=Стандартные расширения
+Name[zh_CN]=默认插件
+Comment=Directory containing system-installed Plugins
+Comment[en_GB]=Directory containing system-installed Plugins
+Comment[sv]=Katalog som innehåller de insticksmoduler som är installerade på systemet

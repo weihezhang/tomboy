@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>教材 textbook</title>
+  <text xml:space="preserve"><note-content version="0.1">教材 textbook
+
+数理：
+	姚端正 数学物理方法
+
+<link:internal>非线性</link:internal>
+	1. Nonlinear Waves 	P321/W98 Japan
+	2. 湍鉴 turbulent mirror: An Illustrated Guide to Chaos Theory and the Science of Wholeness
+
+流体力学
+	Fluid mechanics	P26/W34	Yih, Chia-shun	易家训
+
+振动台的计算和设计
+	A.E. 捷索夫	沈宝初译
+
+The Finite Element Method
+	O.C. Zienkiewicz and Robert L. Taylor
+
+</note-content></text>
+  <last-change-date>2008-11-03T20:21:41.8143100+08:00</last-change-date>
+  <last-metadata-change-date>2008-11-03T20:21:41.8143100+08:00</last-metadata-change-date>
+  <create-date>2008-09-09T22:43:51.8650280+08:00</create-date>
+  <cursor-position>160</cursor-position>
+  <width>466</width>
+  <height>360</height>
+  <x>0</x>
+  <y>0</y>
+  <tags>
+    <tag>system:notebook:日积月累</tag>
+  </tags>
+  <open-on-startup>False</open-on-startup>
+</note>

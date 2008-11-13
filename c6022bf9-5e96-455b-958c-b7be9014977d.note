@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>Sunday, April 15 2007</title>
+  <text xml:space="preserve"><note-content version="0.1"> Sunday, April 15 2007
+
+
+
+<size:huge><link:internal>Tasks</link:internal></size:huge>
+<list><list-item dir="ltr"><bold>Word List 6</bold></list-item></list>
+
+
+<size:huge>Appointments</size:huge>
+<size:huge>Word</size:huge>
+<list><list-item dir="ltr"><bold>brochure</bold>
+</list-item><list-item dir="ltr"><bold>brass</bold>
+</list-item><list-item dir="ltr"><bold>brittle</bold>
+</list-item><list-item dir="ltr"><bold>bruise</bold>
+</list-item><list-item dir="ltr"><bold>bud</bold></list-item></list>
+<size:huge><link:internal>超声</link:internal></size:huge>
+<list><list-item dir="ltr"><bold><highlight><link:internal>横波</link:internal></highlight></bold></list-item></list>
+		<highlight>各向同性</highlight>固体中传播的<highlight>切变波</highlight>
+<list><list-item dir="ltr"><bold><highlight><link:internal>欧拉角</link:internal></highlight></bold>
+</list-item><list-item dir="ltr"><bold><highlight><link:internal>力矩</link:internal></highlight></bold>
+</list-item><list-item dir="ltr"><bold><highlight><link:internal>转动惯量</link:internal></highlight></bold>
+</list-item><list-item dir="ltr"><bold><highlight><link:internal>纵波</link:internal></highlight></bold>
+</list-item><list-item dir="ltr"><bold><highlight><link:internal>杨氏模量</link:internal></highlight></bold>
+</list-item><list-item dir="ltr"><bold><highlight><link:internal>泊松比</link:internal></highlight></bold>
+</list-item><list-item dir="ltr"><bold><highlight><link:internal>声阻抗</link:internal></highlight></bold>
+</list-item><list-item dir="ltr"><bold><highlight>B超</highlight></bold></list-item></list>
+<size:huge>C</size:huge>
+<list><list-item dir="ltr"><bold><link:internal>typecast</link:internal></bold>
+</list-item><list-item dir="ltr"><bold>const</bold>
+</list-item><list-item dir="ltr"><bold>volatile</bold>
+</list-item><list-item dir="ltr"><bold><link:internal>interrupt</link:internal></bold></list-item></list>
+
+
+</note-content></text>
+  <last-change-date>2008-02-29T12:30:14.7760800+08:00</last-change-date>
+  <last-metadata-change-date>2008-02-29T12:30:14.7760800+08:00</last-metadata-change-date>
+  <create-date>2007-04-15T09:14:33.3412269+08:00</create-date>
+  <cursor-position>103</cursor-position>
+  <width>450</width>
+  <height>360</height>
+  <x>445</x>
+  <y>51</y>
+  <open-on-startup>False</open-on-startup>
+</note>

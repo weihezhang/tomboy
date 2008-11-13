@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>linux相关专业术语发音</title>
+  <text xml:space="preserve"><note-content version="0.1">linux相关专业术语发音
+
+操作系统相关
+
+Unix: [ ju:niks ] 发音 (yew-nicks) 尤里克斯
+GNU [ gəˈnju: ] 发音 (guh-noo) 葛扭
+<link:internal>Linux</link:internal>: [ ‘li:nэks ] 里那克斯
+<link:internal>GNOME</link:internal>: [ gəˈnoʊm ] 发音 (guh-nome) 葛擩呣
+Debian: [ ˈdebiən ] 发音 (deb-e-un)
+Ubuntu: [ ùbúntú ] 发音 (oo-BOON-too) 乌班图
+SuSE: [ zuzə ] 发音 (su-zee)
+Fedora: [ fi’dɔ:rə ]
+Solaris: [ səu’leris ] 瑟’拉瑞丝
+Leopard: [ ‘lepəd ]
+
+浏览器相关
+
+Mozilla = Mosaic + Godzilla ( Mo=[’mәu] zilla=[zilʌ] )
+Mozilla: [mәu’zilʌ] 官方中文译法 “谋智“
+<link:internal>Firefox</link:internal>: [ faiefɔ:ks ]
+Opera: [ ‘ɔpərə ]
+Safari: [ sə’fa:ri ]
+Netscape: [ netskeip ]
+Konqueror: [ ‘kɔŋkərə ]
+
+其他方面
+
+Apache: [ ə’pætʃi ] 阿帕奇
+python: [ ‘paiθɔn ] 派森
+perl: [ pə:l ] 泼尔
+Pidgin: [ ‘pidʒin ] 裴金
+<link:internal>Beryl</link:internal>: [ ‘beril ] 贝里尔
+Samba: [ ’sæmbə ] 桑巴
+Rhythmbox: [ ‘riðəmbɔks ]
+WiFi: [ ‘waifai ]
+WYSIWYG: [ ‘wiziwig ]
+
+</note-content></text>
+  <last-change-date>2008-09-05T11:00:12.8641940+08:00</last-change-date>
+  <last-metadata-change-date>2008-09-05T11:00:12.8641940+08:00</last-metadata-change-date>
+  <create-date>2008-07-18T19:04:31.8322740+08:00</create-date>
+  <cursor-position>98</cursor-position>
+  <width>466</width>
+  <height>360</height>
+  <x>0</x>
+  <y>0</y>
+  <tags>
+    <tag>system:notebook:日积月累</tag>
+  </tags>
+  <open-on-startup>False</open-on-startup>
+</note>

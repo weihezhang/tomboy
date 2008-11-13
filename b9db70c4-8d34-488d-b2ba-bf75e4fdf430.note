@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>横波</title>
+  <text xml:space="preserve"><note-content version="0.1">横波
+
+	[Physics] a transverse wave	a shear wave
+	[seismic or earthquake] a secondary wave
+	<highlight>各向同性</highlight>固体中传播的<highlight>切变波</highlight>
+<bold>横波探伤 （也称斜射探伤）
+	</bold>横波探伤的应用相当广泛，对于垂直于探测面或对探测面倾斜较大的缺陷颇为敏感，可与纵波相辅相成，主要用于焊缝探伤，因为焊缝表面有加强量，凹凸不平，不宜放置直探头，加上焊缝中有害缺陷总是垂直于板面，所以一般采用横波探伤法。</note-content></text>
+  <last-change-date>2007-04-20T14:45:00.1090890+08:00</last-change-date>
+  <last-metadata-change-date>2007-04-20T14:45:00.1090890+08:00</last-metadata-change-date>
+  <create-date>2007-04-15T10:30:41.9195420+08:00</create-date>
+  <cursor-position>107</cursor-position>
+  <width>450</width>
+  <height>360</height>
+  <x>470</x>
+  <y>79</y>
+  <open-on-startup>False</open-on-startup>
+</note>

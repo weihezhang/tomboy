@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>FIR</title>
+  <text xml:space="preserve"><note-content version="0.1">FIR
+
+<list><list-item dir="ltr">横截型（卷积型，直接型）
+</list-item><list-item dir="ltr">级联型结构
+</list-item><list-item dir="ltr">频率抽样型结构（用DFT表示DTFT）</list-item></list>
+		FIRDF 由两部分级联
+		第一部分为：N节延时单元构成的梳状滤波器
+		第二部分为：N个一阶谐振器并联构成
+<list><list-item dir="ltr">FIR 快速卷积结构</list-item></list>
+		进行 L&gt;N1+N2-1的圆卷积（通过两个FFT和一个IFFT）
+<list><list-item dir="ltr">线性相位FIR滤波器结构（需N／2次乘法，比直接型N少一半）</list-item></list></note-content></text>
+  <last-change-date>2007-05-18T10:27:34.4870820+08:00</last-change-date>
+  <last-metadata-change-date>2007-05-18T10:27:34.4870820+08:00</last-metadata-change-date>
+  <create-date>2007-05-17T15:37:50.1811130+08:00</create-date>
+  <cursor-position>155</cursor-position>
+  <width>470</width>
+  <height>363</height>
+  <x>436</x>
+  <y>59</y>
+  <open-on-startup>False</open-on-startup>
+</note>

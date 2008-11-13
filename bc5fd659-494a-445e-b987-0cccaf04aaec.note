@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>Tuesday, April 10 2007</title>
+  <text xml:space="preserve"><note-content version="0.1">Tuesday, April 10 2007
+
+<list><list-item dir="ltr"><bold>叫铁公鸡下蛋</bold>                   ---<highlight>异想天开</highlight></list-item></list>
+
+<size:huge><link:internal>Tasks</link:internal></size:huge>
+<list><list-item dir="ltr"><bold>DSP</bold></list-item></list>
+
+<size:huge>Appointments</size:huge>
+
+<size:huge>Learn</size:huge>
+<list><list-item dir="ltr"><highlight>差分方程</highlight>  <bold>唯一确定 </bold><highlight> H(n)</highlight> ， 但不唯一确定<highlight>h(n)</highlight> .
+</list-item><list-item dir="ltr">exp(jwn)  为系统<highlight>特征函数</highlight></list-item></list>
+<size:huge>Acoustics</size:huge>
+<list><list-item dir="ltr"><highlight>物理声学   </highlight>  非线性声学，强声学，空气声学与声凝聚</list-item></list>
+			         <bold>魏荣爵</bold>
+<list><list-item dir="ltr"><highlight>光声学</highlight>               <bold>张淑仪</bold>
+</list-item><list-item dir="ltr"><highlight>超声学</highlight>         超声电子学，检测声学
+</list-item><list-item dir="ltr"><highlight>生物医学超声学</highlight></list-item></list>
+		医学超声工程，超声生物医学效应
+<list><list-item dir="ltr"><highlight>声信号处理</highlight></list-item></list>
+		语言声学与语音信号处理，非线性声信号处理
+<list><list-item dir="ltr"><highlight>音频声学</highlight></list-item></list>
+		环境与建筑声学，电声学与音响工程
+
+
+
+</note-content></text>
+  <last-change-date>2008-02-29T12:30:14.8034850+08:00</last-change-date>
+  <last-metadata-change-date>2008-02-29T12:30:14.8034850+08:00</last-metadata-change-date>
+  <create-date>2007-04-10T07:59:42.1311710+08:00</create-date>
+  <cursor-position>0</cursor-position>
+  <width>570</width>
+  <height>532</height>
+  <x>361</x>
+  <y>83</y>
+  <open-on-startup>False</open-on-startup>
+</note>

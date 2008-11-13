@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>History</title>
+  <text xml:space="preserve"><note-content version="0.1">History
+
+夏：前2070-前1600
+商：前1600-前1046
+周：前1046-前256 {西周：前1046-前771东周：前770-前256（春秋：前770-前476战国：前475-前221）}
+<bold>秦：前221-前206</bold>
+<bold>汉：前206-公元220</bold> {西汉：前206-公元25（包括新（王莽篡权）：8-23、更始帝23-25）东汉：25-220}
+<bold>三国：220-280</bold> {魏：220-265　　蜀：221-263　　吴：222-280}
+晋：265-420 {　西晋：265-316　东晋：317-420 十六国：304-439 }
+南北朝：420-589 {南朝：(宋：420-479　齐：479-502　梁：502-557　陈：557-589） {北朝：（北魏：386-534东魏：534-550北齐：550-557西魏：535-557北周：557-581）}
+隋：581-618； 
+<bold>唐：618-907</bold>
+五代十国：907-960{后梁：907-923后唐：923-936后晋：936-946后汉：947-950后周：951-960十国：902-979}
+<bold>宋：960-1279</bold> {北宋：960-1127　南宋：1127-1279}
+辽：916-1125；西夏：1038-1227；金：1115-1234；元：1279-1368；
+<bold>明：1368-1644</bold>
+<bold>清：1644-1912</bold>
+中华民国：1912-1949；
+中华人民共和国：1949-至今
+</note-content></text>
+  <last-change-date>2008-09-03T21:51:43.5438640+08:00</last-change-date>
+  <last-metadata-change-date>2008-09-03T21:51:43.5438640+08:00</last-metadata-change-date>
+  <create-date>2008-08-26T17:26:55.7239730+08:00</create-date>
+  <cursor-position>594</cursor-position>
+  <width>450</width>
+  <height>360</height>
+  <x>0</x>
+  <y>0</y>
+  <tags>
+    <tag>system:template</tag>
+    <tag>system:notebook:日积月累</tag>
+  </tags>
+  <open-on-startup>False</open-on-startup>
+</note>

@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>Wednesday, May 9 2007</title>
+  <text xml:space="preserve"><note-content version="0.1"> Wednesday, May 9 2007
+
+<size:huge><link:internal>Tasks</link:internal></size:huge>
+<list><list-item dir="ltr"><bold>Word List 34</bold></list-item></list>
+
+<size:huge>Word</size:huge>
+<list><list-item dir="ltr"><bold>both principal and interest</bold>
+</list-item><list-item dir="ltr"><bold>rate of interest</bold></list-item></list>
+<size:huge>电声</size:huge>
+<list><list-item dir="ltr"><link:internal>扬声器阵列</link:internal>
+</list-item><list-item dir="ltr">带通式
+</list-item><list-item dir="ltr">平板
+</list-item><list-item dir="ltr">带式
+</list-item><list-item dir="ltr">带通式
+</list-item><list-item dir="ltr">无源辐射式
+</list-item><list-item dir="ltr">T/S参数      （12个）</list-item></list>
+<size:huge><link:internal>DFT</link:internal></size:huge>
+
+
+</note-content></text>
+  <last-change-date>2008-02-29T12:30:14.6864520+08:00</last-change-date>
+  <last-metadata-change-date>2008-02-29T12:30:14.6864520+08:00</last-metadata-change-date>
+  <create-date>2007-05-09T08:23:27.5665450+08:00</create-date>
+  <cursor-position>0</cursor-position>
+  <width>450</width>
+  <height>360</height>
+  <x>441</x>
+  <y>49</y>
+  <open-on-startup>False</open-on-startup>
+</note>

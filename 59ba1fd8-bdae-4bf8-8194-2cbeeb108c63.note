@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>瑞利波</title>
+  <text xml:space="preserve"><note-content version="0.1">瑞利波
+
+Rayleigh wave
+	在<highlight>各向同性均匀固</highlight>体表面传播的<highlight>表面声波</highlight>
+　　一种常见的<highlight>界面弹性波</highlight>，是沿半无限弹性介质自由<highlight>表面</highlight>传播的<highlight>偏振波</highlight> 。由 L.瑞利于 1887 年首先指出其存在而得名。地震学中称其为R波或L波。在表层附近，质点的运动轨迹为<highlight>椭圆</highlight>；在离表面为 0.2 个波长的深度以下，其运动轨迹仍为椭圆，但运动方向与表层相反。在自由表面上，质点沿表面法向的位移约为切向的 1.5 倍。瑞利波的波速与频率无关 ，<highlight>只与介质的弹性常数有关</highlight>，为同介质中横波波速的 <highlight>0.862～0.955</highlight> 倍。在震中附近，不出现瑞利波。从震源射出的纵波在离震源距离为
+后才形成瑞利波。由震源射出的横波在离震源距离为
+后才形成瑞利波。其中 cR 为瑞利波波速；h 为震源深度 ；c1、c2 分别为纵波和横波波速。瑞利波沿二维自由表面扩展，在距波源较远处，其摧毁力比沿空间各方向扩展的纵波和横波大得多，因而它是地震学中的主要研究对象。
+	<bold>特点</bold>
+<list><list-item dir="ltr">能量集中在表面一个波长范围之内
+</list-item><list-item dir="ltr">非色散特性。
+</list-item><list-item dir="ltr">低衰减。
+</list-item><list-item dir="ltr">可用叉指换能器方便地激发</list-item></list>
+<bold>表面波探伤法</bold>
+	表面波（瑞利波）是在表面层传播的波。表面波可以检测表面缺陷，此外还可以检测表面裂纹深度。
+</note-content></text>
+  <last-change-date>2007-04-20T14:46:51.9782700+08:00</last-change-date>
+  <last-metadata-change-date>2007-04-20T14:46:51.9782700+08:00</last-metadata-change-date>
+  <create-date>2007-04-15T10:27:55.7025050+08:00</create-date>
+  <cursor-position>467</cursor-position>
+  <width>514</width>
+  <height>360</height>
+  <x>5</x>
+  <y>73</y>
+  <open-on-startup>False</open-on-startup>
+</note>

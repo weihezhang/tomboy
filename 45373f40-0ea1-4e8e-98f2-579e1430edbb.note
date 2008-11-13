@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>室谱</title>
+  <text xml:space="preserve"><note-content version="0.1">室谱
+
+00 郑能恒：香港城市大学
+01 梅笑冰（会计）、杨朔（来自西北工业大学的复旦之星）、巫晨云、王庆幅
+02 孙俊峰老大（香港城市大学）、马伟菁姐姐（加拿大）、金伟萍姐姐（Intel的BOSS，年薪20万）、肖师兄、刘璞（-1）
+03 张黎昆：宾州州立,  陶老师
+04 洪弘
+05 老板出国
+06 何维予、白永锋、包飞
+07 杨帆 (cloak，俄亥俄)、郁高坤
+08 李琛、张伟和、张亚东（-1）</note-content></text>
+  <last-change-date>2008-08-26T21:19:16.7141670+08:00</last-change-date>
+  <last-metadata-change-date>2008-08-29T14:55:30.2043970+08:00</last-metadata-change-date>
+  <create-date>2008-08-25T21:35:54.3074670+08:00</create-date>
+  <cursor-position>17</cursor-position>
+  <width>599</width>
+  <height>406</height>
+  <x>0</x>
+  <y>0</y>
+  <tags>
+    <tag>system:notebook:Work</tag>
+  </tags>
+  <open-on-startup>False</open-on-startup>
+</note>

@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>AlphaServer DS20</title>
+  <text xml:space="preserve"><note-content version="0.1">AlphaServer DS20
+
+处理器类型
+    Alpha 21264
+
+处理器主频
+    500MHz
+
+处理器缓存
+    4MB
+
+标准处理器数量
+    2
+
+最大处理器数量
+    2
+
+内存类型
+    ECC
+
+标准内存容量
+    128MB
+
+最大内存容量
+    4GB
+
+惠普 AlphaServer DS20存储
+    参数纠错
+
+硬盘类型
+    SCSI
+
+标准硬盘容量(GB)
+    18.1
+
+软驱
+    1.44MB 3.5英寸软盘驱动器
+
+光驱
+    24X
+
+惠普 AlphaServer DS20网络
+    参数纠错
+
+网卡类型
+    10/100 Ethernet
+
+网卡数量
+    1
+
+惠普 AlphaServer DS20电源
+    参数纠错
+
+电源类型
+    N+1个冗余电源
+
+电源数量
+    N+1
+
+支持冗余
+    是
+
+惠普 AlphaServer DS20其他
+    参数纠错
+
+操作系统
+    Tru64 UNIX, OpenVMS, or <link:internal>Linux</link:internal>-ready
+
+工作湿度
+    8% - 80%
+
+工作温度(℃)
+    5 - 35
+
+9.22
+500万次加法 1min37.9  本机 58s
+
+100万 svd分解 3mins31.9 本机 4mins48.3s
+
+1万次fft, 49s  本机 45s
+
+</note-content></text>
+  <last-change-date>2008-09-22T21:42:29.0029790+08:00</last-change-date>
+  <last-metadata-change-date>2008-09-22T21:42:29.0029790+08:00</last-metadata-change-date>
+  <create-date>2008-09-22T19:58:33.6527089+08:00</create-date>
+  <cursor-position>456</cursor-position>
+  <width>450</width>
+  <height>360</height>
+  <x>0</x>
+  <y>0</y>
+  <tags>
+    <tag>system:notebook:Work</tag>
+  </tags>
+  <open-on-startup>False</open-on-startup>
+</note>

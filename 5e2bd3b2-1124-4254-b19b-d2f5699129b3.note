@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>导波</title>
+  <text xml:space="preserve"><note-content version="0.1">导波
+
+<list><list-item dir="ltr">在<highlight>有界</highlight>媒质中，当媒质的<highlight>几何尺寸</highlight>与声波的<highlight>波束宽度</highlight>及波长可相比较时，由于边界的影响，在媒质中只允许一些满足边界条件的<highlight>特定振动方式</highlight>的声波传播
+</list-item><list-item dir="ltr">固体中的导波一般有纵波、切变波、弯曲波和扭转波等。在固体媒质<highlight>自由表面层</highlight>或两种固体媒质<highlight>分界面附近</highlight>的导波，就是声表面波，而瑞利波就是一种常用的声表面波。
+</list-item><list-item dir="ltr">在媒质中,导波的<highlight>相位</highlight>以相速度Cp传播,而<highlight>能量</highlight>以群速度Cg传播，而且Cp和Cg都是<highlight>频率</highlight>的函数。</list-item></list></note-content></text>
+  <last-change-date>2007-04-20T10:58:35.4037490+08:00</last-change-date>
+  <last-metadata-change-date>2007-04-20T10:58:35.4037490+08:00</last-metadata-change-date>
+  <create-date>2007-04-20T10:53:11.2121180+08:00</create-date>
+  <cursor-position>195</cursor-position>
+  <width>450</width>
+  <height>360</height>
+  <x>0</x>
+  <y>49</y>
+  <open-on-startup>False</open-on-startup>
+</note>

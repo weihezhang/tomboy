@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>Fcitx(GirlDog 3.4.3)</title>
+  <text xml:space="preserve"><note-content version="0.1">Fcitx(GirlDog 3.4.3)
+ short for "Free Chinese Input Toy for X"
+<list><list-item dir="ltr">configure "/etc/gtk-2.0/gtk.immodules" for <link:internal>English</link:internal> Locale
+</list-item><list-item dir="ltr">set fcitx to the default IM</list-item></list>
+im-switch -s fcitx -z default
+
+fcitx激活状态( Ctrl+Space )下按 Ctrl+5 启用配置
+
+in <link:internal>English</link:internal> locale
+	sudo im-switch -s fcitx -z all_ALL
+	im-switch -s fcitx -z all_ALL
+	
+	change the following file
+<link:url>	/usr/lib/gtk-2.0/2.10.0/immodule-files.d/libgtk2.0-0.immodules</link:url>
+	add 'en' in "xim" line
+
+<link:url>	/var/lib/locales/supported.d/zh</link:url>
+zh_SG.UTF-8 UTF-8
+zh_HK.UTF-8 UTF-8
+zh_TW.UTF-8 UTF-8
+zh_CN.UTF-8 UTF-8
+zh_CN.GB2312 GB2312
+zh_CN.GBK GBK
+zh_CN.GB18030 GB18030
+zh_HK.Big5 Big5
+zh_TW.Big5 Big5 
+	sudo locale-gen
+
+方块字
+
+gedit --encoding gbk<link:url> ~/.fcitx/config</link:url>
+
+    显示字体(中)=*
+to	显示字体(中)=Microsoft YaHei</note-content></text>
+  <last-change-date>2008-11-07T22:07:38.5036040+08:00</last-change-date>
+  <last-metadata-change-date>2008-11-07T22:07:38.5036040+08:00</last-metadata-change-date>
+  <create-date>2007-06-01T15:41:36.9813860+08:00</create-date>
+  <cursor-position>707</cursor-position>
+  <width>450</width>
+  <height>369</height>
+  <x>820</x>
+  <y>36</y>
+  <tags>
+    <tag>system:notebook:日积月累</tag>
+  </tags>
+  <open-on-startup>False</open-on-startup>
+</note>

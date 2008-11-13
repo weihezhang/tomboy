@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>杨氏模量</title>
+  <text xml:space="preserve"><note-content version="0.1">杨氏模量
+
+杨氏模量(Young's modulus)就是弹性模量,这是材料力学里的一个概念。
+
+对于线弹性材料有公式σ＝Eε成立，式中σ为正应力，ε为正应变，E为弹性模量，是与材料有关的常数。
+
+设钢丝截面积为S，长为L。若沿长度方向施以外力F使钢丝伸长△L，则比值F／S 是单位截面上的作用力，称为应力；比值△L/L 是物体的相对伸长量，称为应变，表示物体形变的大小。根据胡克定律，在物体的弹性限度内，应力与应变成正比，即
+
+F／S =E×△L/L
+
+则E即为杨氏模量.它由英国物理学家托马斯 杨(Thomas Young, 1773-1829))提出. </note-content></text>
+  <last-change-date>2007-04-15T16:36:28.6806690+08:00</last-change-date>
+  <last-metadata-change-date>2007-04-15T16:36:28.6806690+08:00</last-metadata-change-date>
+  <create-date>2007-04-15T16:36:14.0717370+08:00</create-date>
+  <cursor-position>214</cursor-position>
+  <width>450</width>
+  <height>360</height>
+  <x>0</x>
+  <y>49</y>
+  <open-on-startup>False</open-on-startup>
+</note>

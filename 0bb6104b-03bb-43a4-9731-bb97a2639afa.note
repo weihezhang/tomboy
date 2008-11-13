@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>分频点</title>
+  <text xml:space="preserve"><note-content version="0.1">分频点
+
+	分频点的选择原则之一是要使组合声箱中各扬声器工作在各自性能较好的频段,最好工作于活塞振动区避开中频谷点,退一步讲,也可工作于分割振动区但应避开指向性较明显的频段.为此需要知道活塞振动区的上限频率和指向性允许的最高工作频率.</note-content></text>
+  <last-change-date>2007-04-16T17:43:44.9469420+08:00</last-change-date>
+  <last-metadata-change-date>2007-04-16T17:43:44.9469420+08:00</last-metadata-change-date>
+  <create-date>2007-04-16T17:43:02.6866280+08:00</create-date>
+  <cursor-position>80</cursor-position>
+  <width>450</width>
+  <height>360</height>
+  <x>413</x>
+  <y>44</y>
+  <open-on-startup>False</open-on-startup>
+</note>

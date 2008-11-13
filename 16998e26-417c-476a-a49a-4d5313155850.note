@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>AU</title>
+  <text xml:space="preserve"><note-content version="0.1">AU
+
+<list><list-item dir="ltr"><bold>Upenn</bold>          -- University of Pennsylvania
+</list-item><list-item dir="ltr"><bold>UCLA </bold>           -- University of California at Los Angeles
+</list-item><list-item dir="ltr"><bold>UMD            </bold>-- The University of Maryland
+</list-item><list-item dir="ltr"><bold>FIU</bold>                -- Florida International University
+</list-item><list-item dir="ltr"><bold>UI            </bold>      -- University of Idaho
+</list-item><list-item dir="ltr"><bold>UGA</bold>              -- University of Georgia
+</list-item><list-item dir="ltr"><bold>Utah</bold>             -- the University of Utah
+</list-item><list-item dir="ltr"><bold>UIUC            </bold> -- University of Illinois at Urbana Champaign
+</list-item><list-item dir="ltr"><bold>BU </bold>                 -- boston university
+</list-item><list-item dir="ltr"><bold>NCSU       </bold>     --North Carolina State University</list-item></list></note-content></text>
+  <last-change-date>2007-06-01T10:21:39.8690280+08:00</last-change-date>
+  <last-metadata-change-date>2007-06-01T10:21:39.8690280+08:00</last-metadata-change-date>
+  <create-date>2007-04-15T19:58:13.5042030+08:00</create-date>
+  <cursor-position>50</cursor-position>
+  <width>485</width>
+  <height>387</height>
+  <x>468</x>
+  <y>84</y>
+  <open-on-startup>False</open-on-startup>
+</note>

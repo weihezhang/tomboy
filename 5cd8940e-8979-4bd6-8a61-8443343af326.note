@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>Wednesday, May 16 2007</title>
+  <text xml:space="preserve"><note-content version="0.1"> Wednesday, May 16 2007
+
+<size:huge><link:internal>Tasks</link:internal></size:huge>
+<list><list-item dir="ltr"><bold>Word List 41</bold></list-item></list>
+
+<size:huge>Words</size:huge>
+<list><list-item dir="ltr"><bold>patrol </bold>
+</list-item><list-item dir="ltr"><bold>petrol</bold>
+</list-item><list-item dir="ltr"><bold>sophomore</bold>
+</list-item><list-item dir="ltr"><bold>enthusiast</bold></list-item></list>
+<size:huge><link:internal>Software</link:internal></size:huge>
+<list><list-item dir="ltr"><bold>akregator</bold>
+</list-item><list-item dir="ltr"><bold>kile    </bold>: <link:internal>KDE</link:internal> integrated <link:internal>Latex</link:internal> Environment<bold>
+</bold></list-item><list-item dir="ltr"><bold>fish</bold>
+</list-item><list-item dir="ltr"><bold>exaile ( similar to Amarok )</bold></list-item></list>
+<size:huge>DSP</size:huge>
+<list><list-item dir="ltr">横截型（卷积型，直接型）
+</list-item><list-item dir="ltr">级联型</list-item></list>
+</note-content></text>
+  <last-change-date>2008-10-19T19:35:25.1806730+08:00</last-change-date>
+  <last-metadata-change-date>2008-10-19T19:35:25.1806730+08:00</last-metadata-change-date>
+  <create-date>2007-05-16T09:09:21.1768480+08:00</create-date>
+  <cursor-position>117</cursor-position>
+  <width>506</width>
+  <height>285</height>
+  <x>482</x>
+  <y>49</y>
+  <open-on-startup>False</open-on-startup>
+</note>

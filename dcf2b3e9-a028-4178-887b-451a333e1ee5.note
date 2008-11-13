@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>DRM</title>
+  <text xml:space="preserve"><note-content version="0.1">DRM
+
+<bold>Digital Rights Management</bold>
+DRM is more accurately called Digital Restrictions Management, because it is a technology that Big Media and computer companies try to impose on us all, in order to have control over how our computers are used.
+(from badvista.fsf.org)</note-content></text>
+  <last-change-date>2007-05-14T19:25:01.3639100+08:00</last-change-date>
+  <last-metadata-change-date>2007-05-14T19:25:01.3639100+08:00</last-metadata-change-date>
+  <create-date>2007-05-14T19:23:41.3746230+08:00</create-date>
+  <cursor-position>217</cursor-position>
+  <width>462</width>
+  <height>360</height>
+  <x>241</x>
+  <y>419</y>
+  <open-on-startup>False</open-on-startup>
+</note>

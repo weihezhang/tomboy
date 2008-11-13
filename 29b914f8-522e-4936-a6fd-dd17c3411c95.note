@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>Thursday, April 12 2007</title>
+  <text xml:space="preserve"><note-content version="0.1"> Thursday, April 12 2007
+
+
+
+<size:huge><link:internal>Tasks</link:internal></size:huge>
+<list><list-item dir="ltr"><bold>DSP</bold>
+</list-item><list-item dir="ltr"><bold>Word List 3</bold></list-item></list>
+
+<size:huge>Appointments</size:huge>
+
+<size:huge><link:internal>MATLAB</link:internal></size:huge>
+<list><list-item dir="ltr"><bold>zplane          -- zero, pole plot</bold>
+</list-item><list-item dir="ltr"><bold>freqz            -- digital filter freq response</bold>
+</list-item><list-item dir="ltr"><bold>residuez      -- Z-transform partial-fraction expansion</bold>
+</list-item><list-item dir="ltr"><bold>filtic              -- initial conditions for 'filter' function</bold></list-item></list>
+<size:huge>Word</size:huge>
+<list><list-item dir="ltr"><bold>amateur</bold></list-item></list>
+</note-content></text>
+  <last-change-date>2008-09-10T20:44:38.8037800+08:00</last-change-date>
+  <last-metadata-change-date>2008-09-10T20:44:38.8037800+08:00</last-metadata-change-date>
+  <create-date>2007-04-12T07:35:45.2729910+08:00</create-date>
+  <cursor-position>75</cursor-position>
+  <width>493</width>
+  <height>410</height>
+  <x>388</x>
+  <y>190</y>
+  <open-on-startup>False</open-on-startup>
+</note>

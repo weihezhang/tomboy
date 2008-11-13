@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>Matlab</title>
+  <text xml:space="preserve"><note-content version="0.1">Matlab
+
+2008.9.10
+<link:url>www.mathworks.com</link:url>
+
+webinars: <link:url>www.mathworks.com/company/events/webinars/index.html</link:url>
+	Camtasia Studio 5
+
+10.10
+rectangle:	FaceColor
+xlim, ylim
+
+fdesign.lowpass (specification)
+designmethods
+fdatool
+trade-off
+
+<bold>11.7
+
+</bold>plotyy
+
+<bold>Nov. 12
+
+</bold>Problem: conflit with compiz
+	solution: add the following code in matlab
+	export MATLAB_JAVA=/usr/lib/jvm/java-6-sun/jre/
+
+<bold>Nov. 13
+
+</bold>subfigure: axes('position', [.7, .7, .2, .2])
+
+
+</note-content></text>
+  <last-change-date>2008-11-13T13:17:16.6774080+08:00</last-change-date>
+  <last-metadata-change-date>2008-11-13T13:17:16.6774080+08:00</last-metadata-change-date>
+  <create-date>2008-09-10T20:44:27.7850010+08:00</create-date>
+  <cursor-position>368</cursor-position>
+  <width>466</width>
+  <height>360</height>
+  <x>0</x>
+  <y>25</y>
+  <tags>
+    <tag>system:notebook:日积月累</tag>
+  </tags>
+  <open-on-startup>False</open-on-startup>
+</note>

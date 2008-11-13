@@ -1,0 +1,297 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>Modern DSP</title>
+  <text xml:space="preserve"><note-content version="0.1">Modern DSP
+
+<bold>壹 2008.9.17 Wed.</bold>
+
+[Resource]
+	<link:url>ftp://signal:signal@assp.nju.edu.cn</link:url>  202.119.44.15
+	<link:url>www.fftw.org</link:url>
+	
+[Textbook]
+	1.A. S. Pandya and R. B. Macy, Pattern Recognition with Neural Networks in C++（神经网络模式识别及其实现），电子工业出版社
+	2.<bold>S. K. Mitra, Digital Signal Processing, A Computer-based Approach</bold>, 2nd edition
+	3. J. G. Proakis etc., Algorithms for Statistical Signal Processing
+	4. L. Ljung, System Identification, Theory for the User, 2nd edition
+	5. S. Haykin, Neural Networks, A Comprehensive Foundation, 2nd edition
+	6. S. Mallat,<bold> A Wavelet Tour of Signal Processing, 2nd editio</bold>n
+	7. A. Boggess, F. J. Narcowich, A First Course in Wavelets with Fourier Analysis
+	8. B. Widrow，Adaptive Signal Processing
+	9.S. Haykin, Adaptive Filter Theory（自适应滤波器原理），电子工业出版社
+	10. S. M. Kay, Fundamentals of Statistical Signal Processing
+
+[HaveToReview]
+	1. algebra
+	2. random processing
+	3. dsp
+
+[<link:internal>MATLAB</link:internal>]
+	Bessel, Butterworth, Chebyshev, Elliptic
+
+[Content]
+	线卷积与圆卷积  normal(linear) /circular convolution
+	<link:internal>DFT</link:internal> 误差
+	exp(-abs(t))
+	Use <link:internal>fft</link:internal> to calculate convolution: attention <bold>Overlapping</bold> input blocks
+		edge effects
+		Overlapping output blocks, pads with zero-valued samples
+
+<bold>贰 2008.9.24 Wed.</bold>
+
+CRLB：Cramer-Rao Lower Bound
+MAP: Maximum A Posteriori
+均值
+自相关、互相关
+功率谱
+相关
+独立
+Bayes
+stationary
+均方遍历
+最小二乘估计
+Stochastic process
+
+[<link:internal>MATLAB</link:internal>]
+rand
+randn
+corrcoef
+xcorr
+mscohere
+toeplitz
+
+[Stationary process]
+joint probability distribution does not change when shifted in time or space
+trend stationary 
+mean, expected value, mathematical expectation
+variance
+
+10.7
+norm: length
+	taxicab(manhattan) norm, Chebyshev norm
+inner product
+	Euclidean space, Unitary space
+Hilbert space	
+orthogonal functions assembly:
+	triangular, complex exponential function, Legendre polynomial
+	Chebyshev polynomial, Walsh functions
+finite-dimensional spectral theorem  real spectral theorem
+Orthogonal transform
+	Parseval theorem(Energy conservative)
+Data compress
+Karhunen-Loeve(K-L) Transform &lt;-&gt; Fourier Transform
+	covariance function
+Covariance measure of correlation between random variables
+	
+10.8
+resonator, notch filter(band-stop), comb filter, all-pass filter, oscillator
+<link:internal>FIR</link:internal> and IIR: direct-form, cascade, parallel, lattice, lattice-ladder
+	minimum-<link:internal>phase</link:internal>, mixed-<link:internal>phase</link:internal>, maximum-<link:internal>phase</link:internal>
+state-space analysis
+quantization effect
+least-squares method
+
+[In Class]
+Hilbert's <link:internal>problems</link:internal>
+Hilbert transform: convolution, linear operator: Paley-Wiener theorem
+holomorphic function
+
+10.9
+196*~7* 	8*~9*
+integrated-circuit fabrication
+power spectrum estimation
+system modeling
+adaptive signal processing algorithm
+multirate and multidimensional signal processing
+higher-order statistical methods
+
+Wiener filter
+Givens Transformation(rotation), Householder transformation(reflection)
+
+have witnessed an expansion ...
+
+sample space
+probability mass function 
+cumulative distribution function  probability density function
+monotonically non-decreasing
+Support
+Entropy
+payoff
+
+<bold>10.12
+</bold>red, orange, yellow, green, cyan, blue, purple
+
+<bold>10.15
+</bold>complex cepstrum
+<italic>one-dimensional, M-dimensional
+multichannel</italic> 
+<italic>Parseval's theorem: </italic>Fourier transform is unitary    
+	<italic>Rayleigh's energy theorem, Plancherel's Theorem
+energy density spectrum
+autocorrelation function</italic>: find repeating patterns
+<italic>unit impulse function, step function</italic>
+<italic>convolution
+Ergodicity
+a single realization</italic>
+<italic>Wiener-Khinchin theorem
+
+Lagrange </italic>极值<italic>法</italic>
+<italic>Markov
+
+ensemble( random process) &lt;-&gt; single realization(sample function)
+joint probability density function(pdf)
+Stationary </italic>Random Process <italic>in the strict sense</italic>
+<italic>wide-sense stationary: mean value </italic>is constant and <italic>autocovariance</italic> is function of time difference
+<italic>cross-correlation</italic>
+
+<italic>statistically independent: </italic>joint pdf
+<italic>uncorrelated: </italic>cross-correlation
+
+<italic>moment, expected value</italic>
+
+complex-valued random process: 
+pairwise stationary
+
+power density spectrum: always real
+<italic>cross-power density spectrum
+
+ergodic: </italic>obtain the averages of the random process from  single realization
+
+<bold>Assignment 2, deadline 10.29
+Compare the performance of K-L, DCT, <link:internal>DFT</link:internal></bold><bold>, DST in compressing matrix
+
+10.21
+
+</bold>SVD    
+	M = USV' 
+	V: a set of orthonormal "input" or "analysing" basis vector directions for M
+	U: a set of orthonormal "output" basis vector directions for M
+	S: singular values, which can be thought of as scalar "gain controls" by which each corresponding input is multiplied to give a corresponding output.
+
+	M' u=s v
+	left-singular and right-singular vectors
+
+	A singular value for which we can find two left (or right) singular vectors that are linearly independent is called degenerate.
+
+	if M has degenerate singular values, then its singular value decomposition is not unique
+
+Application:
+	Pseudoinverse
+	Solving homogeneous linear equations
+	Total least squares minimization
+	Range, null space and rank
+	Matrix approximation
+	Separable models
+	
+The right singular vectors corresponding to vanishing singular values of M span the null space of M. The left singular vectors corresponding to the non-zero singular values of M span the range of M. As a consequence, the rank of M equals the number of non-zero singular values which is the same as the number of non-zero elements in Σ.
+
+separable model: outer product
+
+normal matrix: normality &lt;-&gt; diagonalizability
+	N = UDU'
+	H = URU'
+
+
+
+Linear least squares
+	overdetermined system
+
+Frobenius norm
+<bold>
+10.22
+
+</bold><italic>moment </italic>&lt;-&gt; <italic>expected value
+joint moment </italic>&lt;-&gt; <italic>autocorrelation function
+joint pdf  </italic>of (X1, X2) depend on t1-t2 &lt;=&gt; <italic>stationary
+autocorrelation </italic>depend on t1-t2 &lt;=&gt; <italic>wide-sense stationary</italic>
+<italic>continuous system -&gt; Laplace Transform
+discrete system -&gt; z-Transform
+contour integral
+</italic>
+time-domain: <italic>system funtion, impulse reponse
+</italic>freq-domain: <italic>freq response
+Causality </italic>	iff	 h(t)=0,t&lt;0
+<italic>stability		</italic>iff	BIBO
+	<italic>Schur</italic>-<italic>Cohn test
+
+Quantizer
+Entropy Decoder
+DC Coefficient
+AC Coefficient</italic>
+
+声带边缘肿胀而变厚，两端较窄呈梭形，发声时不能闭紧，其表面常附有粘稠分泌物。室带、杓状会厌襞亦显著充血肿胀。诊断 根据患者症状结合喉镜所见，诊断不难。但须注意与特异性感染如梅毒、结核作鉴别。
+
+<bold>10.29
+</bold>
+dct2, imshow, woman2(128x128), 2-D K-L Transform
+imagesc, image
+<bold>
+</bold><link:internal>FIR</link:internal> 线性相位 对称 
+Riesz 基: an overcomplete set of Frame of a vector space<bold>
+
+</bold>daughter wavelets: scaled and translated copies
+mother wavelet: fast-decaying oscillating waveform
+father wavelet: scale function
+discontinuities and sharp peaks, deconstructing and reconstructing finite, non-periodic and/or non-stationary signals
+
+Jean Morlet 
+
+discrete-time filter banks:the wavelet and scaling coefficients in wavelets nomenclature
+
+has a lower bound
+
+Euler's Identity
+
+scaleogram
+
+approximation data compression 
+JPEG 2000  biorthogonal wavelets
+wavelet shrinkage smoothing/denoising data
+
+downsampling or upsampling
+
+<bold>10.30
+
+</bold>Stephane G. Mallat 
+multiresolution analysis (MRA) or multiscale approximation (MSA)
+
+<bold>11.2
+
+</bold>pyramidal
+quadrature mirror filters: h(n) and g(n), i.e., <italic>low pass </italic>and <italic>high pass
+	</italic>SUM h(n) = sqrt(2), SUM g(n) = 0
+<italic>operator representation of filters
+</italic>
+<bold>Nov. 12
+
+</bold>Fourier Analysis: localized in freq but not in time, aka in the basis 	functions sin(wt) and cos(wt), w is variable and there is not vary in time axis.
+	small freq changes produce changes everywhere in time
+
+Wavelet: have translation and dilation
+	small freq changes cause little chang in time
+	discontinuity, sharp spikes
+	data compression and encryption: fingerprint
+	clean noisy sound recordings
+
+Large and noisy data sets can be easily and quickly transformed by the discrete wavelet transform. The data are coded by
+
+<link:internal>MATLAB</link:internal> :
+	wavedec, pwelch, pburg, pyulear
+	variable: sumsin
+	wavemenu
+	
+
+</note-content></text>
+  <last-change-date>2008-11-12T19:55:51.9286190+08:00</last-change-date>
+  <last-metadata-change-date>2008-11-12T19:55:51.9286190+08:00</last-metadata-change-date>
+  <create-date>2008-09-17T16:07:43.9655470+08:00</create-date>
+  <cursor-position>7342</cursor-position>
+  <width>538</width>
+  <height>530</height>
+  <x>16</x>
+  <y>75</y>
+  <tags>
+    <tag>system:notebook:Work</tag>
+  </tags>
+  <open-on-startup>False</open-on-startup>
+</note>

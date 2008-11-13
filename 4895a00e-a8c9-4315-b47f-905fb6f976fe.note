@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>XeTeX</title>
+  <text xml:space="preserve"><note-content version="0.1">XeTeX
+
+<bold>Nov. 10
+
+</bold>使用 xCJK 来进行中英混排<bold>
+
+</bold>\renewcommand{\contentsname}{目~录}
+\renewcommand{\listfigurename}{图~目~录}
+\renewcommand{\listtablename}{表~目~录}
+\renewcommand{\appendixname}{附~录}
+\renewcommand{\abstractname}{摘~要}
+\renewcommand{\refname}{参考资料}       % 这个我没用过
+\renewcommand{\bibname}{参~考~文~献}
+\renewcommand{\figurename}{图}
+\renewcommand{\tablename}{表}
+
+图片：
+
+调整图片与图片、图片与内容的间距：
+\setlength{\floatsep} {10pt plus 3pt minus 2pt}
+\setlength{\textfloatsep} {12pt plus 2pt minus 2pt}
+\setlength{\abovecaptionskip}{0pt}
+\setlength{\belowcaptionskip}{10pt}
+
+要加入图片时，使用浮动图形环境：
+\begin {figure}
+  \centering                              %图片居中
+  \includegraphics[scale=x]{file name}  % x 为缩放比例。e.g.: scale=0.5
+  \caption{一张很鸟的图片}                  %图片的标题，默认标在图片下方
+  \label{fig:bird}                        %交叉引用
+\end{figure}
+如果要产生并排的图片，可以使用 minipage 环境。
+
+\[
+\begin{split}
+  \imath\hbar\,\spartial{\psi_1}{t} &amp;= U_1\psi_1+K\psi_2\\
+  \imath\hbar\,\spartial{\psi_2}{t} &amp;= U_2\psi_2+K\psi_1
+\end{split}
+\]
+
+</note-content></text>
+  <last-change-date>2008-11-10T16:47:46.7854770+08:00</last-change-date>
+  <last-metadata-change-date>2008-11-10T16:47:46.7854770+08:00</last-metadata-change-date>
+  <create-date>2008-11-10T16:29:16.8940360+08:00</create-date>
+  <cursor-position>832</cursor-position>
+  <width>450</width>
+  <height>360</height>
+  <x>0</x>
+  <y>0</y>
+  <tags>
+    <tag>system:notebook:日积月累</tag>
+  </tags>
+  <open-on-startup>False</open-on-startup>
+</note>

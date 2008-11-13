@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>Sunday, April 8 2007</title>
+  <text xml:space="preserve"><note-content version="0.1">Sunday, April 8 2007
+<size:huge><link:internal>Tasks</link:internal></size:huge>
+<list><list-item dir="ltr">复习 <highlight>DTFT</highlight>
+</list-item><list-item dir="ltr">learn <bold><highlight>z</highlight></bold><highlight> transform</highlight></list-item></list>
+<size:huge>Appointments</size:huge>
+
+<size:huge>Learn</size:huge>
+<list><list-item dir="ltr">exp(jW0n) 's response is<bold> H(W0)*self</bold>
+</list-item><list-item dir="ltr"><highlight>ZOH</highlight> :  Zero Order Hold
+</list-item><list-item dir="ltr"><highlight>FOH</highlight> : <italic>一阶保持内插</italic>
+</list-item><list-item dir="ltr"><bold><highlight>spline</highlight></bold><bold> </bold>: 三次样条内插
+</list-item><list-item dir="ltr"><bold>ROC :<highlight> R</highlight></bold><highlight>egion <bold>O</bold></highlight><highlight>f <bold>C</bold></highlight><highlight>onvergency</highlight> (收敛域)
+</list-item><list-item dir="ltr"><bold>DTFT </bold>is the particular represent of <bold>Z-transform </bold>(z=exp(jw))
+</list-item><list-item dir="ltr"><highlight>conj(z^n)</highlight> == <highlight>conj(z)^n</highlight></list-item></list>
+
+
+
+</note-content></text>
+  <last-change-date>2008-02-29T12:30:14.8080420+08:00</last-change-date>
+  <last-metadata-change-date>2008-02-29T12:30:14.8080420+08:00</last-metadata-change-date>
+  <create-date>2007-04-08T08:02:34.2494200+08:00</create-date>
+  <cursor-position>26</cursor-position>
+  <width>450</width>
+  <height>689</height>
+  <x>475</x>
+  <y>25</y>
+  <open-on-startup>False</open-on-startup>
+</note>

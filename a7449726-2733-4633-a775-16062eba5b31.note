@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>Mathematica</title>
+  <text xml:space="preserve"><note-content version="0.1">Mathematica
+
+
+1. Ctrl-K, AutoCompletence
+2. Plot
+	<bold>PlotStyle</bold>: Dashed
+	Frame-&gt;True, <bold>FrameLabel</bold>, PlotLabel
+	<bold>AspectRatioed</bold>-&gt;1/GoldenRatioed
+	<bold>Text</bold>, Graphics 
+
+9.10
+3. Use <bold>Epilog</bold> and <bold>Text</bold> to add label in a figure
+	Plot[Sin[x], {x, 0, 10}, Epilog-&gt;{Text["Sin[x]", {pi, 1}] }
+4. Use "String" to add a label
+
+"<bold>demonstrations.wolfram.com"</bold> complex application
+
+9.15
+LogPlot, LogLinearPlot, LogLogPlot
+
+9.19
+Piecewise function
+
+9.20
+1. FourierTransform in our area(system engineering)
+	FourierTransform[1, t, \[Omega], FourierParameters -&gt; {1, -1}]
+2. Use FourierCoefficient to caulculate Fourier series
+	FourierCoefficient[f[t], t, n]
+
+10.1
+1. Conjugate, AdjointMatrix(Minors), Inverse(A)*Det(A)
+2. Range[2, 10, 3]
+3. Fetch a element in a list
+	list[[1]]
+
+<bold>10.12
+</bold>DisplayFunction, FontSize, RGBColor
+
+<bold>11.7
+
+</bold><link:broken>Installation</link:broken>:
+	License Number -&gt; MathID -&gt; Passwd
+
+<bold>11.8
+	</bold>License Number:  L3121-4208<bold>
+</bold>	MathID: 	7112-63943-07269
+	Passwd: 9078-734-891:251:10
+
+</note-content></text>
+  <last-change-date>2008-11-07T22:23:46.1511450+08:00</last-change-date>
+  <last-metadata-change-date>2008-11-07T22:23:46.1511450+08:00</last-metadata-change-date>
+  <create-date>2008-09-09T16:35:41.7736420+08:00</create-date>
+  <cursor-position>5</cursor-position>
+  <width>466</width>
+  <height>360</height>
+  <x>0</x>
+  <y>0</y>
+  <tags>
+    <tag>system:notebook:日积月累</tag>
+  </tags>
+  <open-on-startup>False</open-on-startup>
+</note>

@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>散度</title>
+  <text xml:space="preserve"><note-content version="0.1">散度
+
+	散度指流体运动时单位体积的改变率。简单地说，流体在运动中集中的区域为辐合，运动中发散的区域为辐散。用以表示的量称为散度，值为负时为辐合，此时有利于天气系统的的发展和增强，为正时表示辐散，有利于天气系统的消散。表示辐合、辐散的物理量为散度。</note-content></text>
+  <last-change-date>2007-04-16T11:38:49.5226960+08:00</last-change-date>
+  <last-metadata-change-date>2007-04-16T11:38:49.5226960+08:00</last-metadata-change-date>
+  <create-date>2007-04-16T11:38:34.4221260+08:00</create-date>
+  <cursor-position>4</cursor-position>
+  <width>450</width>
+  <height>360</height>
+  <x>5</x>
+  <y>73</y>
+  <open-on-startup>False</open-on-startup>
+</note>

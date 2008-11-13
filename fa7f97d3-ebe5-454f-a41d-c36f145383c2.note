@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>Google Docs</title>
+  <text xml:space="preserve"><note-content version="0.1">Google Docs
+
+<link:url>http://docs.google.com/?action=updoc&amp;formsubmitted=true&amp;uploadURL=DOCUMENTURL</link:url>
+
+start /d "%PROGRAMFILES%\Mozilla <link:internal>Firefox</link:internal>" <link:internal>firefox</link:internal> "<link:url>http://docs.google.com/?action=updoc&amp;formsubmitted=true&amp;uploadURL=http://www.fireworksafety.com/pdfs/FireworkSafetyTest.pdf</link:url>"
+
+start /d "%PROGRAMFILES%\Mozilla <link:internal>Firefox</link:internal>" <link:internal>firefox</link:internal> "<link:url>http://docs.google.com/?action=updoc&amp;formsubmitted=true&amp;uploadURL=www.fs.fed.us/fire/safety/wct/2002/brochure_2002.pdf</link:url>"</note-content></text>
+  <last-change-date>2008-10-06T18:16:18.1419400+08:00</last-change-date>
+  <last-metadata-change-date>2008-10-06T18:16:18.1419400+08:00</last-metadata-change-date>
+  <create-date>2008-10-06T16:57:18.5757640+08:00</create-date>
+  <cursor-position>23</cursor-position>
+  <width>450</width>
+  <height>360</height>
+  <x>0</x>
+  <y>0</y>
+  <tags>
+    <tag>system:notebook:日积月累</tag>
+  </tags>
+  <open-on-startup>False</open-on-startup>
+</note>

@@ -1,0 +1,416 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>准周期结构</title>
+  <text xml:space="preserve"><note-content version="0.1">准周期结构
+quasi-period structure
+
+<bold><size:large>壹 </size:large></bold>2008.8.26 Tue.
+
+<bold>Goal:</bold>
+	 testify the deduce of vice Prof. Tao, give out the dispersive curve
+
+<bold>Strategy: </bold>
+	1. testify the former work
+	2. testify the present work
+
+<bold>Demands of Tao:</bold>
+1. <link:internal>mathematica</link:internal> 验证
+
+2. 写程序分别验证积分和结果
+
+3. k=2pi, e=0.1
+
+<bold>Progress:</bold>
+	1.                 | Ca Cb | 
+		|C| =&gt; | Da Db|
+	2. Modify the boundary condition
+
+	3. 3:15pm finished the program, and start to run, 9:34
+		cost 375.2 mins = <highlight>6h 15mins </highlight>
+
+	4. error:  ??? Undefined function or variable 'd'
+		
+
+<bold>Qs:</bold> 
+	1. Variepsilon = ? theta = ?
+	2. Why call Wup and Wlow? 
+		A: 1 and -1 as in axis
+	3. COMSOL cannot open .dxf format file, why?
+		A: Don't put the file under a dir with Chinese name, move it to a place with <link:internal>english</link:internal> directory name
+
+	<highlight>4. The prime program have omited epsilon, when calculate Cmn????</highlight>
+	5.<highlight> There is something wrong with Db, in the Tao's deduce</highlight>
+
+<size:large> <bold>贰</bold></size:large>  2008.8.27 Wed.<size:large>
+	
+</size:large><bold><link:internal>Task</link:internal></bold><link:internal>s</link:internal>:
+	1. modify plot program, i. e., fig
+	2. debug mydis and disverify program
+	3. Use symmetry to modify the 'dis' program in order not to lavish time
+
+<bold>Progress:</bold>
+	1. domega=0.1, cost 5.6mins
+	2. The disverify, which use the deduce result, cost 27mins
+	3. 'disverify' 6/51 points , cost 4.3mins
+	4. 'mydis' 11.6mins
+	5. Use symmetry, 'dis' program cost 4.4mins
+
+	6. Find out where the zero point will exist
+		when beta = -pi, there are eight zero points
+			28    34    47    54    73    81    93    94
+		i.e. omega = 2.8 3.4 ...
+
+<bold>Qs：</bold>
+	1. <highlight>The disseration  of Tao for postdoctor degree is not found now</highlight> 
+	2. The <link:internal>dispersion</link:internal> curve isn't symmetic about the centre
+	3. Why this 'CF=CF./max(abs(CF))' step is needed?
+
+<bold><size:large><link:broken>叁</link:broken></size:large></bold> 8.28 Thurs.
+
+<bold>Task:</bold>
+	1. Find out why the <link:internal>dispersion</link:internal> curve is symmetry about centre?
+		<highlight>And for things in water trough, is it symmetry too?</highlight>
+	2. Why the result gave out by 'disverify' is nothing, i.e., all are zeros?
+		<bold>A:</bold> For the DETERMINANT of the Cmn equal to zero perpetuation.
+
+	3. Why we can fetch 13 out of 64 items from the consequence which 			produced by <link:internal>fft</link:internal> ?
+	   <bold>A:</bold> Because the function we do research on is attenuating gradually as we increase the frequency, and the consequence produce by <link:internal>fft</link:internal> is symmetry about the center.  	
+
+<bold>Process:</bold>
+	1. Presuppose fruition calculated by 'mydis' is correct, then use the zero 			information. Zeros points is as follows:
+		 31    32    36    45    52    58    71    84    94
+	at omega=3.1, f0=1.2886e-07, f1=-3.0138e-07
+	when omega = 3.0
+			Ca		   	Cb			Da			Db
+		8.3567e-05, 6.4346e-05, 8.3567e-05, 6.4346e-05
+		    omega = 3.1	
+		1.5926e-04, 1.7123e-05, 1.5926e-04,   1.7123e-05
+
+	2. A surprising phenomena, det|Cmn| == 0 is satified at all points.
+
+<bold><size:large>肆</size:large></bold>  8.29 Fri.
+
+<bold>Task:</bold>
+	1. Determinant, the normalize <link:internal>Problems</link:internal>.
+	2. Modify the program according to the theoretic dispersive curve, letting it save time.
+	3. Verify the symmetry of dispersive curve.
+	4. Nonzero zero points is what in water wave.
+		
+<bold>Progress:</bold>
+	1. 'disverify', cost 25.6mins
+	2. 'mydis', 5.3mins
+	3. Matrix produced by fomula is a diagonal dominated.
+	4. ‘mydis', 6.5181mins
+	5. 'disverify', 26.8mins
+	6. 'mydis', 4.2mins
+	
+	7. Enhance the program by rewriting the 'for' loop into matrix manipulation
+	
+<bold><size:large>伍</size:large></bold> 8.30 Sat.
+
+<bold>Task:</bold>
+	1. Test the symmetry, let theta = 0
+	
+
+<bold>Progress:</bold>
+	1.Find a fault in the program, that is when we normalize a vector X, we  should use max(abs(X)) as the denominator
+	2. 'disverify', 12.3mins
+	3. 'mydis', 7mins
+	4. Let theta=0
+	5. 'mydis', 3.7mins
+	6. 'mydis', 8.5mins
+
+<bold><size:large>陆</size:large></bold> 8.31 Sun.
+
+<bold>Task:</bold>
+	1. Draw out all conditions which may be occour
+	2. Find out all the reasons that will cause the wrong results
+
+<bold>Progress:</bold>
+	1. Test the symmetry
+	2. 'mydis' with domega=.01,  62.2mins
+	3. 'mydis', 7.8mins
+	4. 'mydis', 3.8
+	5. 'disverify', 14.4mins
+
+
+<bold><size:large>柒</size:large></bold> 9.1 Mon.
+
+<bold>Methods:</bold>
+	1. Change the test condition
+	2. Observe the amplitude of real and imaginary part
+
+<bold>Progress:</bold>
+	1. 'mydis', without normalize
+	2. 'mydis', with n=10, N=30, 11.2mins
+	3. Revise the 'mydis' program, where fdw=e*k*f(x) should be careful
+
+<bold><size:large>捌</size:large></bold> 9.2 Tue.
+
+<bold>Task:</bold>
+	1. Make sure the 'mydis' program, i.e. using <link:internal>fft</link:internal> method, is true certainly.
+
+
+<bold>Progress:</bold>
+	1. 'mydis', n=3, 1.04mins
+	2. 'mydis', n=4, 2.1mins
+	3. 'mydis', n=5, Non-unified, 2.6mins
+		zero points at nk=2 are 15    18    21    25    35    37
+ Non-unified										unified
+at f=1.4            1.4075                                              1.4                                                                  
+7.2000e+86 + 1.4340e+83i                2.6890e-07 + 5.3556e-11i          3.3026e+91 - 1.6582e+95i     
+   5.3329e+85 - 6.6806e+83i              2.5814e-20 - 6.1302e-20i            -3.1903e+91 - 2.5467e+93i   
+at f=1.7          1.7498                                             NaN
+ 1.9490e+85 - 9.0996e+82i              -2.3083e-19 - 1.6404e-21i
+   4.0430e+85 + 4.7405e+82i          -2.2658e-19 + 4.1519e-21i
+at f=2.0          2.0801                                          <link:internal>Problems</link:internal> NaN          
+ 1.5275e+85 + 2.2220e+82i            -1.0505e-19 + 6.5643e-21i
+   3.7539e+84 - 3.6114e+81i            -5.8018e-20 + 6.5596e-21i
+at f=2.4           2.4012                                               NaN
+ 1.9177e+84 - 6.8766e+79i             7.0967e-20 + 5.5009e-21i
+   2.7564e+84 + 4.0850e+81i         1.1723e-19 + 4.9582e-21i
+at f=3.4           3.4938                                              NaN
+ 1.1428e+81 + 2.9556e+78i           7.1500e-20 - 2.6052e-21i
+   4.0178e+78 - 4.1497e+76i          4.1274e-20 - 2.7438e-21i
+at f=3.6          3.6072
+2.7250e+79 - 1.7823e+76i            1.0638e-20 - 2.8172e-21i
+8.6157e+79 + 1.5061e+77i           -2.1261e-20 - 2.8391e-21i
+	4. Solve the <link:internal>Problems</link:internal> in 'mydis', that is in a FOR loop I use 'k' as the variable and 'k' already is the spatial wave number for the whole program.
+	5. Test the stability of the result
+		a. Change n, see the result
+		b. Change test condition
+	6. 'mydis', 4.1mins, n=5
+	7. 'mydis', 5.2mins, n=7, similar to n=5, i.e. accurate at n=5 is enough. But there is no band gap.
+	8. n=3, 2.6mins
+	9. n=2, 1.73mins, without divided by krnProduct, the result is wrong
+	10. n=2, 1.87mins
+	11. n=1, 1mins
+==&gt; n=2 is enough for drawing the dispersive curve.
+	12. 'disverify', n=2, 6.1mins, similar to 'mydis'
+
+		<bold>WE ARE SUCCESSFUL, WE ARE VICTORS, YEAH!!!!!!</bold>
+
+	13. 'disverify', n=2, using symmetry, 3.3mins
+
+<bold>Qs:</bold>
+	1. Why there is no band gap?
+
+<bold><size:large>玖</size:large></bold> 9.3 Wed.
+
+<bold><size:large>拾</size:large></bold> 9.4 Thurs.
+
+<bold>Instructions from Tao</bold>
+	1.细化程序，将一些参数再调一下，找出最适合参数。
+	2.比较两个方法的结果，找出不同的原因。
+
+<bold>Task:</bold>
+	1. Find the reason that cause the differences between two methods.
+		
+
+<bold>Progress:</bold>
+	1. Make sure the result of every method is stable.
+	2. Revise the data format from <bold>%16.13g to %8.4g</bold>
+		to <bold>%5.2g</bold> to <bold>%16.13g</bold>
+                    difference number: 508
+                387/2397=0.16
+	3. 18~10
+	4. [d5(7:8, 19:21)' v5(7:8, 19:21)']
+	 	    0                0    		1.8000    1.8000
+		    1.9000    1.9000         0         0
+		    2.0000    2.1000    2.1000    2.1000
+<bold>Debug details:</bold>	
+	  in 'mydis' 
+          at (7, 19) omega0=1.8      <bold>0</bold>
+    59.3322 + 0.0350i	      -4.2573e+08        -1.3937e-07 - 8.2309e-11i
+   <highlight> 18.3977 - 0.3352i</highlight>         -2.6057e+08        -7.0607e-08 + 1.2863e-09i
+	  at (7, 20) omega0=1.9       <bold>1.9</bold>
+   <highlight> 18.3977 - 0.3352i </highlight>         -2.6057e+08           -7.0607e-08 + 1.2863e-09i
+    -0.5027 +17.3382i        + 2.8929e+08i        5.9934e-08 + 1.7378e-09i
+          at (7, 21) omega0=2.0       <bold>2</bold>
+    -0.5027 +17.3382i        + 2.8929e+08i        5.9934e-08 + 1.7378e-09i
+    0.0018 -31.3087i          + 5.1892e+08i         -6.0334e-08 - 3.4883e-12i
+         in 'disverify'
+	at (7, 19)                               <bold>1.8</bold>
+    28.9074 + 0.0000i             -4.2573e+08        -6.7901e-08 - 6.2432e-24i
+    <highlight>-49.0711 - 0.0000i </highlight>            -2.6057e+08       1.8833e-07 + 4.0534e-25i
+       at (7, 20)                               <bold>0</bold>
+    <highlight>-49.0711 - 0.0000i</highlight>           -2.6057e+08        1.8833e-07 + 4.0534e-25i
+   -0.0000 +59.6944i           + 2.8929e+08i     2.0635e-07 + 1.1166e-23i
+       at (7, 21) omega0=2.0      <bold>2.1</bold>
+   -0.0000 +59.6944i           + 2.8929e+08i     2.0635e-07 + 1.1166e-23i
+   0.0000 -27.9638i            0 + 5.1892e+08i    -5.3888e-08 - 3.0403e-24i
+ 
+at (7, 19), omega0=1.9  'mydis'
+	det(Cmn) = 7.0936e+92 - 1.2923e+91i
+      max(max(abs(Cmn)))        3.1475e+08
+      max(max((Cmn)))   -5.1216e+07 - 3.1055e+08i   = max(max(Cbmn))
+      min(min((Cmn)))      8.1882e-04 + 1.2705e-04i
+
+at (7, 19), omega0=1.9  'disverify'
+    Cb and Db is &lt;&lt; Ca and Da
+      10^-11                 10^6
+  det(Cmn) =   -9.1963e+81 - 1.9794e+64i
+   max(max(abs(Cmn)))                    9.6725e+07
+  max(max((Cmn)))         0 - 9.6725e+07i
+ min(min((Cmn)))    -1.6175e-12 - 1.4697e-27i
+   
+
+
+<bold>Qs:</bold>
+	1. Why the band gap is not obvious?
+		Possible reason: n is too small,     NO
+
+<bold><size:large>拾壹</size:large></bold> 9.5 Fri.
+
+<bold><size:large>拾贰</size:large></bold> 9.7 Sun.
+pm 7:50
+	  in 'mydis' 
+          at (26, 31) omega0=3.1      <bold>0</bold>
+-1.2319e+89+7.7741e+73i    -1.0284e+02 + 2.8422e-14i   4.5768e-07 - 1.2648e-22i
+-1.2230e+87<highlight>-7.4539e+71i </highlight> -32.7783 - 1.0658e-14i   4.8949e-07 + 1.5916e-22i
+	in 'disverify'
+	at (26, 31)      <bold> 3.0230</bold>
+-5.5948e+76 + 2.0899e+60i  -1.5341e+01+5.7306e-16i 6.8272e-08 - 2.5503e-24i
+ 1.1374e+75<highlight> + 1.8396e+59i </highlight>  8.9926+1.4545e-15i  -1.3429e-07 - 2.1720e-23i    -6.6964e+07
+
+	<bold>(25, 32) omega0=3.2 'disverify'</bold> <bold>3.1967</bold>
+-1.1775e-15 + 1.9238e+01i  <bold>7.5777e+07i </bold> 2.5388e-07 + 1.5538e-23i
+ -1.7413e-16 <highlight>- 6.1843e+00i</highlight> <bold> 3.7695e+07i</bold>  -1.6406e-07 + 4.6194e-24i
+	<bold>(25, 32) omega0=3.2 'mydis'</bold> <bold>0</bold>
+ -1.5618e-01 + 2.6145e+01i  7.5777e+07i  3.4502e-07 + 2.0610e-09i
+ -1.1154e-01 <highlight>+ 1.8875e+01i</highlight>  3.7695e+07i    5.0072e-07 + 2.9591e-09i
+
+<bold><size:large>拾叁</size:large></bold> 9.9 Tue.
+
+<bold>Task:</bold>
+	1. Decreasing step in order to gain more perfect <link:internal>dispersion</link:internal> curve.
+	2. Fetch the bandgap, and change them into water freq.
+
+length(v5~=0)=391  
+length(d5~=0)=365
+
+<bold>Process:</bold>
+	1. Epsilon=0.2, theta=0, pi/2, pi
+	2. The missed points theta=pi
+		(5:6, 18:19)    1.8268    1.8334    1.8495    1.8786
+		(17:18, 30:31)   3.0250    3.0578    3.0578    3.0699
+	3. <bold>The first Bragg bandgap</bold> is <bold>1.3815~1.541</bold>  0.16
+		There is only one bandgap in theta=pi, symmetric situation
+	4. 'disverify', theta=0, epsilon=.2, antisym, <bold>15mins</bold>
+		There is only one <bold>non-Bragg</bold> bandgap is <bold>1.7215~2.1404</bold> 0.42
+
+<bold><size:large>拾肆</size:large></bold> 9.10 Wed.	
+
+<bold>Task:</bold>
+	1. Make sure the result of 'mydis.m' is the same with 'disverify'
+	2. Use 'disverify' to draw figure with different spatial number(k = pi/2, pi, 3*pi/2, 2*pi)
+	3. Revise the 'disverify' program to make it more intelligent.
+
+<bold>Process:</bold>		
+	1. The missed points theta=0
+	 	(19:20, 27:28)  19  	 119  	 140   	160     (20x10)matrix
+			n=4	2.7061    2.7547    2.7642    2.7701
+			n=3	 2.7060    2.7546    2.7641    2.7700
+		(20:21, 34:35)   20    42    63   146				(21x10)matrix
+			n=3	 3.4054    3.4100    3.4225    3.4677
+
+<bold>Requestions from Tao:</bold>
+
+k=0.35π~0.5π(间隔0.05π);0.5π~π(0.1π);π~2π(0.2π)共14个参数的能带图（张）和传输损耗图（王）
+      4 + 5 + 5 = 14
+
+<bold><size:large>拾伍</size:large></bold><size:large> 9.11 Thurs.
+
+</size:large><bold>Task:</bold>
+	1. Revise the 'disverify' program to make it more intelligent.
+<size:large>
+</size:large><bold>Process:</bold>
+	1. k=.35pi, when nk=26, beta(nk)=0, omega0=0, then krn and kzn=0, so 'Divide by zero' is occured
+	fortunitely it only affect one point, the value of myDetFun(0, 0)
+	and it didn't affect the result of fd, for krnProduct=0, so fd=0
+
+	2. k=.4pi, 2.5mins
+	3. k=1.2pi, 17mins
+	4. k=1.6pi, 22mins
+	5. k=1.8pi, 23.8mins   pm10:35
+
+<bold><size:large>拾陆</size:large></bold><size:large> 9.12 Fri.</size:large>
+
+<bold>Process:</bold>
+	1. k=.5pi, 14.5mins
+		.35pi, 15.3mins
+		.4pi, 14mins
+		.45pi, 
+		.6pi, 12.2mins
+		.7pi, 10.4mins
+		pi, 8.5mins
+		2*pi, 10.8mins
+	2. k=pi, Bragg bandgap  <bold>1.3815~1.541</bold>  .44pi~.49pi    .22~.245Hz    0:.01:1
+
+<bold><size:large>拾柒</size:large></bold><size:large> 9.13 Sat.</size:large>
+
+<bold>Process:</bold>
+	1. theta = pi/2, k=.35pi, .4pi, 		There are holes at points (-k/2, k/2) i.e. (1, k/2) and (26, k)
+
+	2.  calculate theta=0
+
+<bold><size:large>拾捌</size:large></bold><size:large> 9.16 Tue.</size:large>
+	
+<bold>Process:</bold>
+	1. Points have to replot: (-k/2, k/2), (-k/2, sqrt(kr^2 + (k/2)^2)), (0, k), ((.25pi^2-k^2)/2k, k+x)
+	2. k=.35pi
+		(-k/2, k/2)   [0.5498    0.5498]      [0.5228   0.5663]
+		(-k/2, sqrt(kr^2 + (k/2)^2))   [] [ 1.5957    1.7257    1.7517 ] [1.6106    1.7139]
+			wrong: [1.6642   1.6642   1.7297   1.7473]   [1.7341    1.7425] [ 1.7218   1.7562]
+		(0, k)   [1.0743    1.0962    1.0996]
+
+<bold><size:large>拾玖</size:large></bold><size:large> 9.17 Wed.</size:large>
+
+<bold>Process:</bold>
+	1. revise program, mainly in 'findzero', reduce half computation, i.e. the number of provoking function 'myDetFun'
+
+	2. k=.4pi, 825s/60
+		 k=0    25 [1.2144    1.2689]  26 [1.2287    1.2548    1.2566]
+
+	3. Begin calculate theta=0  antisym
+		k=.35pi, 11.5mins
+
+<bold><size:large>贰拾</size:large></bold><size:large> 9.19 Fri.</size:large>
+
+	空点检测：从点 (-k/2, 0) 开始步进式搜索
+		It need two function to complete this repletive task, one to find the blank region and the other fulfill the holes.
+
+<bold><size:large>廿一</size:large></bold><size:large> 9.21 Sun.</size:large>
+
+bandgap:
+	epsilon = 0.2, theta = pi/2(Semisym)
+							Bragg					non-Bragg
+	k = .35					.25												non-concord .08, .26,
+		.4																	non-concord .1, .2, .3
+		.45					.1125(e), .22(e)				.26, .3(e)                        non-concord  .12, .22, .3
+		.5					.125(e), 						.24(e)
+		.6					.15							.25					no-concord   .15  .5
+		.7					.175						.26
+		.8					.2							.27
+		.9					.22							..28
+		1					.25							.3
+		1.2					.275						.33	
+		1.4												.375
+		1.6												.4, .5
+		1.8												.43, .52
+		2												.45, .55
+
+</note-content></text>
+  <last-change-date>2008-09-21T12:18:26.8045909+08:00</last-change-date>
+  <last-metadata-change-date>2008-09-21T12:18:26.8045909+08:00</last-metadata-change-date>
+  <create-date>2008-08-26T08:57:13.0957430+08:00</create-date>
+  <cursor-position>5</cursor-position>
+  <width>740</width>
+  <height>456</height>
+  <x>211</x>
+  <y>26</y>
+  <tags>
+    <tag>system:notebook:Work</tag>
+  </tags>
+  <open-on-startup>False</open-on-startup>
+</note>

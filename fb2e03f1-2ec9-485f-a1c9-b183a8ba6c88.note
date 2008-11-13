@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>Saturday, April 14 2007</title>
+  <text xml:space="preserve"><note-content version="0.1"> Saturday, April 14 2007
+
+
+
+<size:huge><link:internal>Tasks</link:internal></size:huge>
+<list><list-item dir="ltr">W<bold>ord List 5</bold></list-item></list>
+
+<size:huge>Network print</size:huge>
+<list><list-item dir="ltr"><bold><highlight>CSS</highlight></bold>
+</list-item><list-item dir="ltr">空间</list-item></list>
+
+
+<size:huge>Learn</size:huge>
+<list><list-item dir="ltr"><bold>take attendance</bold>
+</list-item><list-item dir="ltr"><bold> a bosom friend</bold></list-item></list>
+
+
+
+<size:huge>Done</size:huge>
+<list><list-item dir="ltr">到紫金山</list-item></list>
+<size:huge><link:internal>AU</link:internal></size:huge>
+<list><list-item dir="ltr"><bold>Upenn</bold>          -- University of Pennsylvania
+</list-item><list-item dir="ltr"><bold>UCLA </bold>           -- University of California at Los Angeles
+</list-item><list-item dir="ltr"><bold>UMD            </bold>-- The University of Maryland</list-item></list>
+<size:huge><link:internal>超声</link:internal></size:huge>
+<list><list-item dir="ltr">固体介质</list-item></list>
+		1. <highlight>纵波</highlight>速度<highlight>大</highlight>于<highlight>横波</highlight>
+		2. <link:internal>瑞利波</link:internal>
+		3. <link:internal>兰姆波</link:internal>
+<list><list-item dir="ltr"><link:internal>声阻抗</link:internal></list-item></list>
+	
+
+</note-content></text>
+  <last-change-date>2008-02-29T12:30:14.7799120+08:00</last-change-date>
+  <last-metadata-change-date>2008-02-29T12:30:14.7799120+08:00</last-metadata-change-date>
+  <create-date>2007-04-14T19:46:03.3791080+08:00</create-date>
+  <cursor-position>138</cursor-position>
+  <width>450</width>
+  <height>689</height>
+  <x>0</x>
+  <y>25</y>
+  <open-on-startup>False</open-on-startup>
+</note>

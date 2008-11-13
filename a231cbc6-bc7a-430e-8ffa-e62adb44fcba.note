@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>周期结构研究</title>
+  <text xml:space="preserve"><note-content version="0.1">周期结构研究
+
+<size:large>特性</size:large>
+<list><list-item dir="ltr">慢波结构
+</list-item><list-item dir="ltr">Bragg 禁带</list-item></list>
+<size:large>历史</size:large>
+<list><list-item dir="ltr">1887 Rayleigh: 分层介质中一维波动问题
+</list-item><list-item dir="ltr">1928 Stutt和Van der Pol: 周期势场中粒子的运动
+</list-item><list-item dir="ltr">Bloch理论：周期结构中波动问题的Bloch解</list-item></list>
+<size:large>概念</size:large>
+<list><list-item dir="ltr"><link:internal>Bragg共振</link:internal>：一般指纵向声传播模式和周期结构的相互作用
+</list-item><list-item dir="ltr">非Bragg共振：一般指横向驻波模式的共振，这种共振也是由周期结构引起的</list-item></list></note-content></text>
+  <last-change-date>2008-03-14T23:26:25.5213109+08:00</last-change-date>
+  <last-metadata-change-date>2008-03-14T23:26:25.5213109+08:00</last-metadata-change-date>
+  <create-date>2008-02-20T15:05:28.5918960+08:00</create-date>
+  <cursor-position>197</cursor-position>
+  <width>574</width>
+  <height>360</height>
+  <x>0</x>
+  <y>0</y>
+  <open-on-startup>False</open-on-startup>
+</note>

@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>力矩</title>
+  <text xml:space="preserve"><note-content version="0.1">力矩
+
+moment of force
+torque
+	力使物体转动的效果，不仅跟力的大小有关，还跟力和转动轴的距离有关。力越大，力跟转动轴的距离越大，力使物体转动的作用就越大。从转动轴到力的作用线的距离，叫做力臂。力和力臂的乘积叫做力对转动轴的力矩。</note-content></text>
+  <last-change-date>2007-04-15T15:46:26.7586010+08:00</last-change-date>
+  <last-metadata-change-date>2007-04-15T15:46:26.7586010+08:00</last-metadata-change-date>
+  <create-date>2007-04-15T14:56:46.6717870+08:00</create-date>
+  <cursor-position>27</cursor-position>
+  <width>450</width>
+  <height>360</height>
+  <x>0</x>
+  <y>25</y>
+  <open-on-startup>False</open-on-startup>
+</note>

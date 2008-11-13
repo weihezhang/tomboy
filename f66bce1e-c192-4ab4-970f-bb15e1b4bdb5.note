@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>Today: Wednesday, May 2 2007</title>
+  <text xml:space="preserve"><note-content version="0.1">Wednesday, May 2 2007
+
+<size:huge><link:internal>Tasks</link:internal></size:huge>
+<list><list-item dir="ltr"><bold>Word List 24</bold></list-item></list>
+
+<size:huge>Registration</size:huge>
+<list><list-item dir="ltr">hotmail : account : weihezhangnju</list-item></list>
+			passwd:   zhangweihenju
+<size:huge>Solution</size:huge>
+<list><list-item dir="ltr"><bold>apt-get  BUG</bold></list-item></list>
+<bold>		</bold>relevant with soucers.list , one or more repos are broken ,
+	me for example, comment deb <link:url>http://ubuntu.cn99.com/ubuntu-cn/</link:url> feisty main restricted universe multiverse
+
+
+</note-content></text>
+  <last-change-date>2008-02-29T12:30:14.6961520+08:00</last-change-date>
+  <last-metadata-change-date>2008-02-29T12:30:14.6961520+08:00</last-metadata-change-date>
+  <create-date>2007-05-02T09:13:16.5479330+08:00</create-date>
+  <cursor-position>0</cursor-position>
+  <width>581</width>
+  <height>324</height>
+  <x>385</x>
+  <y>391</y>
+  <open-on-startup>False</open-on-startup>
+</note>

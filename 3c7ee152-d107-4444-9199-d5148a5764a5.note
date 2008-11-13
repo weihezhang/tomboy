@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>Bank Account</title>
+  <text xml:space="preserve"><note-content version="0.1">Bank Account
+
+Main Account	I&amp;C
+	6222 0243 0101 3028 368
+<link:internal>Mail</link:internal> Saving
+	6221 8843 7000 3716 226
+
+臻
+	5187 1071 0156 5809</note-content></text>
+  <last-change-date>2008-11-10T15:56:14.2091650+08:00</last-change-date>
+  <last-metadata-change-date>2008-11-10T15:56:14.2091650+08:00</last-metadata-change-date>
+  <create-date>2008-10-01T15:04:06.2619600+08:00</create-date>
+  <cursor-position>55</cursor-position>
+  <width>450</width>
+  <height>360</height>
+  <x>0</x>
+  <y>0</y>
+  <tags>
+    <tag>system:notebook:私有</tag>
+  </tags>
+  <open-on-startup>False</open-on-startup>
+</note>

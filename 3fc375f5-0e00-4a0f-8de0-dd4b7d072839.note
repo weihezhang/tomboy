@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>2007 年 10 月 2 日 星期二</title>
+  <text xml:space="preserve"><note-content version="0.1"> 2007 年 10 月 2 日 星期二
+
+<size:huge>天文与数学</size:huge>
+
+立春基本上在 2月5号左右
+
+日心说 -&gt; 开浦勒三定律 -&gt; 万有引力
+
+1. 精确测量
+	地球绕太阳一周的时间    ：356d 5h 48min 46s （百年一润）
+	月亮绕地球一周               ：29.5306
+2. 正确简单的计算方法
+
+连分数
+渐近分数
+用最佳逼近做最佳日历
+
+公历（日历)
+农历（阴阳合历）
+24节气（只考虑太阳运动）春节（只考虑月亮的运动）
+
+周期运动都可以用连分数来解决。
+
+
+</note-content></text>
+  <last-change-date>2007-10-04T20:37:15.0000000+08:00</last-change-date>
+  <last-metadata-change-date>2007-10-04T20:37:15.0000000+08:00</last-metadata-change-date>
+  <create-date>2007-10-02T14:45:26.8506980+08:00</create-date>
+  <cursor-position>74</cursor-position>
+  <width>450</width>
+  <height>360</height>
+  <x>548</x>
+  <y>175</y>
+  <open-on-startup>False</open-on-startup>
+</note>

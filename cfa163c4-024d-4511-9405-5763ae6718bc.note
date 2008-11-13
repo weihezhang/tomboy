@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>声阻抗</title>
+  <text xml:space="preserve"><note-content version="0.1">声阻抗
+
+	Acoustic impedance Z (characteristic impedance or sound impedance) is the ratio of sound pressure <italic><highlight>p</highlight></italic> to particle velocity <italic><highlight>v</highlight></italic>. Also it is the product of the density of air<italic><highlight> ρ</highlight></italic> (rho) and the speed of sound <italic><highlight>c</highlight></italic>. See table: acoustic impedance vs. temperature.
+
+The acoustic impedance Z in Pa·s/m (or, in the equivalent units common before the pascal was added to SI, N·s/m3)</note-content></text>
+  <last-change-date>2007-04-15T17:05:36.1844830+08:00</last-change-date>
+  <last-metadata-change-date>2007-04-15T17:05:36.1844830+08:00</last-metadata-change-date>
+  <create-date>2007-04-15T17:04:17.7186320+08:00</create-date>
+  <cursor-position>350</cursor-position>
+  <width>450</width>
+  <height>360</height>
+  <x>117</x>
+  <y>98</y>
+  <open-on-startup>False</open-on-startup>
+</note>

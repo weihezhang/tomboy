@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>论语</title>
+  <text xml:space="preserve"><note-content version="0.1">论语
+
+<link:internal>《论语</link:internal>》心灵之道
+<link:internal>《论语》处世之道</link:internal>
+<link:internal>《论语》君子之道</link:internal>
+<link:internal>《论语》交友之道</link:internal>
+<link:internal>《论语》理想之道</link:internal>
+<link:internal>《论语》人生之道</link:internal>
+
+<bold>10.14</bold>
+学而第一 
+	共16句
+	学（1，4,7,14,16）仁（3,6）、孝（2,11）、政（5,9，10）、礼（12，13,15）
+
+	有子、曾子、子夏、子禽、子贡
+
+<bold>10.15
+</bold>为政第二
+	24句
+	政（1,3,16,18,19,20）、学（2,4,11,15）、孝（5,6,7,8）、察人（9,10）、
+	修行[礼]（12,13,14,17,22,23,24）
+
+	孟懿子，孟武伯，子游，子夏，颜回，由，子张，季康子，子奚，樊迟，哀公
+
+	君子，小人
+	直，枉
+	言（尤），行（悔）
+	信
+	德
+
+<bold>10.16
+</bold>八佾第三<bold>
+	</bold>26句
+	礼（1,3,4,8,9,14,15,16,17,22,26）、政（2,5,21,24）、修行（7）、杂（6,10,11）
+	、祭（12,13）、道（16,19）、评（20,25）、乐（23）
+
+	季氏，林放，冉有，子夏，子贡，定公、哀公，宰我，鲁大师，仪封人
+
+	禘，王孙贾
+
+<bold>10.17
+</bold>里仁第四<bold>
+	</bold>26
+	
+	子游
+
+	仁，君子，小人
+
+公冶长第五
+	28
+	教（10,12）评（13,17,18,19,20）,行（14，16），文（15）
+
+	子路（由），子贡（赐），颜回（回），宰予，子产，晏平仲，藏文仲，子文
+	子张，崔子，陈文子，季文子，宁武子，伯夷，叔齐，微生高，左丘明
+	颜渊，季路，丘
+
+	仁，忠，清，过，信
+
+
+	</note-content></text>
+  <last-change-date>2008-10-17T08:45:02.1942680+08:00</last-change-date>
+  <last-metadata-change-date>2008-10-17T08:45:02.1942680+08:00</last-metadata-change-date>
+  <create-date>2007-07-14T09:48:27.5361900+08:00</create-date>
+  <cursor-position>500</cursor-position>
+  <width>497</width>
+  <height>234</height>
+  <x>504</x>
+  <y>337</y>
+  <open-on-startup>False</open-on-startup>
+</note>

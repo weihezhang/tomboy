@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>Tasks</title>
+  <text xml:space="preserve"><note-content version="0.1">Tasks
+
+
+<size:large>2008.2.29</size:large>
+<list><list-item dir="ltr">学习Bragg和non-Bragg禁带的计算
+</list-item><list-item dir="ltr">翻译Agilent Infiniium 54855说明书</list-item></list></note-content></text>
+  <last-change-date>2008-02-29T12:30:14.8924250+08:00</last-change-date>
+  <last-metadata-change-date>2008-02-29T12:30:14.8924250+08:00</last-metadata-change-date>
+  <create-date>2008-02-29T12:27:30.2402640+08:00</create-date>
+  <cursor-position>73</cursor-position>
+  <width>450</width>
+  <height>360</height>
+  <x>0</x>
+  <y>0</y>
+  <open-on-startup>False</open-on-startup>
+</note>

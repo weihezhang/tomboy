@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>Phase space</title>
+  <text xml:space="preserve"><note-content version="0.1"><link:internal>Phase</link:internal> space
+
+all possible states of a system are represented, with each possible state of the system corresponding to one unique point in the <link:internal>phase</link:internal> space
+
+A plot of position and momentum variables as a function of time is sometimes called a <link:internal>phase</link:internal> plot or a <link:internal>phase</link:internal> diagram.
+
+its shape can easily elucidate qualities of the system</note-content></text>
+  <last-change-date>2008-10-07T10:10:52.8947750+08:00</last-change-date>
+  <last-metadata-change-date>2008-10-07T10:10:52.8947750+08:00</last-metadata-change-date>
+  <create-date>2008-09-08T15:38:41.9279630+08:00</create-date>
+  <cursor-position>153</cursor-position>
+  <width>450</width>
+  <height>360</height>
+  <x>0</x>
+  <y>0</y>
+  <tags>
+    <tag>system:notebook:Work</tag>
+  </tags>
+  <open-on-startup>False</open-on-startup>
+</note>

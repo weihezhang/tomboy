@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>Install</title>
+  <text xml:space="preserve"><note-content version="0.1">Install
+
+<bold>11.6
+
+</bold>从硬盘安装Ubuntu
+<bold>
+</bold>1、下载最新版本的Grub4DOS
+下载地址： <link:url>http://download.gna.org/grub4dos/grub4dos-0.4.4-2008-08-08.zip</link:url>
+下载并解压缩后，将目录中的grldr （非grldr.mbr），grub.exe两个文件复制到C盘根目
+录下
+
+2、下载好的iso文件中解压出casper文件夹，找到vmlinuz、initrd.gz并复制到C盘根目录
+下。
+
+3、在C盘根目录下建立menu.lst文件，内容为：
+title Install Ubuntu
+root (hd0,0) 
+kernel (hd0,0)/vmlinuz boot=casper iso-scan/filename=/ubuntu-8.10-desktop-i386
+.iso
+initrd (hd0,0)/initrd.gz
+
+4、把c盘根目录下的boot.ini 文件内容末尾加上一行 C:\grldr="GRUB"
+
+
+5、将ubuntu-8.10-desktop-i386.iso放到C盘根目录下。
+
+6、重启电脑，在启动选项中选择grub项即可。
+
+
+(对了，你得首先准备好ubuntu的分区，swap分区和“/”分区。)
+
+<bold>11.7
+
+</bold>1. fictx: apt
+2. fonts
+3. move files from laptop
+4. stardict: WyabdcRealPeopleTTS , OtdRealPeopleTTS
+5. java
+6. <link:internal>matlab</link:internal>, <link:internal>mathematica</link:internal>
+
+字符编码转换工具  convmv、iconv、python-mutagen
+
+<link:url>http://packages.medibuntu.org/</link:url>  w32codecs
+
+Problem: <bold>no sound</bold>
+
+solution:
+	$sudo killall pulseaudio
+	$sudo alsa force-reload
+	and then go to System&gt;Preferences&gt;Sound and change everything to ALSA
+
+sudo tar -xvf WyabdcRealPeopleTTS.tar.bz2 -C<link:url> /usr/share</link:url>
+	-C: change to directory
+
+<bold>11.8
+
+</bold>1. <link:internal>linux</link:internal>-server: expected to support 4G memory
+2. fonts: yahei and xinwei <link:url> /etc/fonts/language-selector.conf</link:url>
+3. fcitx
+<link:url>	/usr/lib/gtk-2.0/2.10.0/immodule-files.d/scim-gtk2-immodule.immodules</link:url>
+change all im to fcitx
+	sudo im-switch -a fcitx
+	im-switch -a fcitx
+in <link:internal>English</link:internal> locale
+	sudo im-switch -s fcitx -z all_ALL
+	im-switch -s fcitx -z all_ALL
+	
+	change the following file
+<link:url>	/usr/lib/gtk-2.0/2.10.0/immodule-files.d/libgtk2.0-0.immodules</link:url>
+	add 'en' in "xim" line
+
+<link:url>	/var/lib/locales/supported.d/zh</link:url>
+zh_SG.UTF-8 UTF-8
+zh_HK.UTF-8 UTF-8
+zh_TW.UTF-8 UTF-8
+zh_CN.UTF-8 UTF-8
+zh_CN.GB2312 GB2312
+zh_CN.GBK GBK
+zh_CN.GB18030 GB18030
+zh_HK.Big5 Big5
+zh_TW.Big5 Big5 
+	sudo locale-gen
+
+
+stardict: OtdRealPeopleTTS
+ <link:internal>matlab</link:internal>, <link:internal>mathematica</link:internal>
+
+<link:internal>matlab</link:internal>: mv license_server.dat license.dat
+	and start installation from $<link:internal>MATLAB</link:internal>$ root diretory
+
+tr A-Z a-z change upper to lower
+
+java: sudo update-alternatives --config java
+
+<link:internal>latex</link:internal>: texlive 
+	<link:internal>latex</link:internal> foo.ins
+	texhash<link:url> ~/texmf</link:url>
+	<link:internal>latex</link:internal>-suite :<link:url> /usr/share/vim/addons/</link:url>
+	<link:url>	~/.vim/ftplugin/latex-suite/texrc</link:url>
+		Tex_FoldedMisc
+
+sbackup, menu
+
+pidgin
+	libfetion.so
+	15850510635
+	221.130.44.193 
+	159159
+</note-content></text>
+  <last-change-date>2008-11-08T15:56:15.1966680+08:00</last-change-date>
+  <last-metadata-change-date>2008-11-08T15:56:15.1966680+08:00</last-metadata-change-date>
+  <create-date>2008-11-06T08:27:15.6301540+08:00</create-date>
+  <cursor-position>2117</cursor-position>
+  <width>447</width>
+  <height>360</height>
+  <x>646</x>
+  <y>27</y>
+  <tags>
+    <tag>system:notebook:日积月累</tag>
+  </tags>
+  <open-on-startup>False</open-on-startup>
+</note>

@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>兰姆波</title>
+  <text xml:space="preserve"><note-content version="0.1"> 兰姆波
+又称板波（Plate wave）P波
+
+	是<highlight>纵向波</highlight>和<highlight>剪切波</highlight>的一种组合，以特定频率被封闭在特定有限空间时产生的制导波（guide Wave）。
+	在工业超声检测中，主要利用兰姆波来检测厚度与波长相当的薄金属板材。兰姆波在薄板中传递时，薄板上下表面层质点沿椭圆形轨迹振动，而薄板中层的质点将以纵波分量或横波分量形式振动，从而构成全板振动，这是兰姆波检测的显著特征。
+	根据薄板中层的质点是以<highlight>纵波分量</highlight>或<highlight>横波分量</highlight>形式振动，可以分为S模式（对称型）和A模式（非对称型）两种模式的兰姆波。
+		<highlight>对称</highlight>族兰姆波 （使板膨胀收缩）s
+		<highlight>反对称</highlight>族兰姆波（又称弯曲波）a
+	多模式
+	声色散（当频率或厚度改变时，K会发生变化）
+<bold>应用</bold>
+<list><list-item dir="ltr">板状构件内部缺陷检测</list-item></list>
+	板波特别适合于板材的探伤，它避免了垂直探伤法中板材表面、底面、内部缺陷<highlight>回波难以分离</highlight>的问题，而且只要在与板波传播方向垂直的方向进行<highlight>一维扫查</highlight>就可以了，便于进行自动探伤。
+<list><list-item dir="ltr">微传感技术（边界物理等条件会引起波速变化）</list-item></list>
+	
+
+
+	在<highlight>细棒</highlight>和<highlight>薄壁管</highlight>中也能激发出兰姆波，此时称为<highlight>扭曲波</highlight>、膨胀波等</note-content></text>
+  <last-change-date>2007-04-20T14:51:29.4568430+08:00</last-change-date>
+  <last-metadata-change-date>2007-04-20T14:51:29.4568430+08:00</last-metadata-change-date>
+  <create-date>2007-04-15T10:28:47.9882940+08:00</create-date>
+  <cursor-position>394</cursor-position>
+  <width>450</width>
+  <height>360</height>
+  <x>8</x>
+  <y>97</y>
+  <open-on-startup>False</open-on-startup>
+</note>

@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.2" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>try</title>
+  <text xml:space="preserve"><note-content version="0.1">try
+<monospace>
+</monospace><list><list-item dir="ltr"><link:internal><monospace>highlight</monospace></link:internal><monospace> <strikethrough>Search</strikethrough></monospace><monospace><highlight> Text</highlight></monospace>
+</list-item><list-item dir="ltr"><monospace>inline spell checking</monospace>
+</list-item><list-item dir="ltr"><link:url><monospace>fairclot@163.com</monospace></link:url><monospace><highlight> <link:url>www.baidu.com</link:url></highlight></monospace><monospace /><monospace> </monospace>
+</list-item><list-item dir="ltr"><link:url><monospace>weihezhangem@gmail.com</monospace></link:url><monospace> </monospace>
+</list-item><list-item dir="ltr">	<size:huge><monospace>中国</monospace></size:huge></list-item></list></note-content></text>
+  <last-change-date>2007-04-08T08:14:12.6548540+08:00</last-change-date>
+  <create-date>2007-04-08T07:42:30.2601280+08:00</create-date>
+  <cursor-position>118</cursor-position>
+  <width>514</width>
+  <height>360</height>
+  <x>365</x>
+  <y>101</y>
+</note>

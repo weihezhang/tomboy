@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>爬波</title>
+  <text xml:space="preserve"><note-content version="0.1">爬波
+
+（Creeping Longitudinal Wave，又称作爬行纵），能够以纵波的速度在介质表面下传递，适合用于检测表面特别粗糙，或者表面存在不锈钢堆焊层等情况下的近表层缺陷检测。
+	爬波是沿工件表面传播的一种纵波，当工件表面有<highlight>障碍物</highlight>时例如残余耦合剂或油层时，表面波会产生散射、反射和衰减，而爬波不会，因此适用于表层部的缺陷。</note-content></text>
+  <last-change-date>2007-04-20T16:57:08.8723660+08:00</last-change-date>
+  <last-metadata-change-date>2007-04-20T16:57:08.8723660+08:00</last-metadata-change-date>
+  <create-date>2007-04-20T11:23:28.7455260+08:00</create-date>
+  <cursor-position>58</cursor-position>
+  <width>450</width>
+  <height>360</height>
+  <x>5</x>
+  <y>49</y>
+  <open-on-startup>False</open-on-startup>
+</note>

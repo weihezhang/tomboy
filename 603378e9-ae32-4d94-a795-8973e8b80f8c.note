@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>Bras</title>
+  <text xml:space="preserve"><note-content version="0.1">Bras
+<link:url>
+/usr/local/sbin/bras</link:url>	gateway<link:url>
+/etc/ppp/chap-secrets</link:url>	Username and passwd<link:url>
+/etc/l2tp/l2tp.conf</link:url>	Username</note-content></text>
+  <last-change-date>2008-09-30T08:58:02.6612050+08:00</last-change-date>
+  <last-metadata-change-date>2008-09-30T08:58:02.6612050+08:00</last-metadata-change-date>
+  <create-date>2008-09-30T08:53:26.5109570+08:00</create-date>
+  <cursor-position>7</cursor-position>
+  <width>450</width>
+  <height>360</height>
+  <x>0</x>
+  <y>0</y>
+  <tags>
+    <tag>system:notebook:日积月累</tag>
+  </tags>
+  <open-on-startup>False</open-on-startup>
+</note>

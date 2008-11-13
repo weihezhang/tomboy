@@ -1,0 +1,234 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>声学基础</title>
+  <text xml:space="preserve"><note-content version="0.1">声学基础
+
+
+P. M. Morse: Theoretical Acoustics (理论声学)
+L. Rayleigh:   Theory of sound	
+
+<bold><size:large>壹</size:large></bold> 9.1 Mon. 3-4
+
+汪德昭：创建中科院声学所、水声
+声 = Sound Wave
+音 = Sound Wave bear information
+大音希声、大象无形
+丹麦技术大学（应用声学）
+HIFU: 高强度聚焦超声 High Focus Ultrasound
+
+<bold>Acoustic Glossary in Foundamentals of Acoustics</bold>
+
+<bold>[Branch of Acoustics]</bold>
+非线性声学：nonlinear Acoustics
+光声学：Photoacoustics
+超声学：Ultrasonics
+生物医学超声：Ultrasonics for biomedicine
+音乐声学：Music Acoustics
+
+<bold>[Definition of Acoustics]</bold>
+声学：mechanic wave: production, propagation, reception
+
+<bold>[Vibration of particle]</bold>
+可听的：audible
+谐波：harmonic wave
+位移：displacement
+幅值：amplitude
+速度：velocity
+相位：<link:internal>phase</link:internal>
+本征频率：intrinsic(OR inherent, characteristic, eigen) frequency
+
+<bold><size:large>贰</size:large></bold> 9.3 Wed. 5-6
+
+Introduction to Acoustics =&gt; Vibration
+
+Newton: 1687, 声传播公式
+L. Rayleigh: 1877, Theory of Sound
+
+<bold>Acoustic Glossary in Foundamentals of Acoustics</bold>
+
+<bold>[Vibration of particle]</bold>
+次声：infrasound
+<link:internal>超声</link:internal>：ultrasound, supersound
+生物声纳：biosonar
+相空间：<link:internal>phase space</link:internal>
+相图：<link:internal>phase</link:internal> portrait
+轨道：orbit
+轨迹：trajectory
+力顺（力容）Cm：mechanical capacitance
+恢复力：restoration
+阻力：resistance
+缓慢变化：slowly varying
+
+<bold>Assignment</bold>1:
+2, 3, 11, 12, 13, 14, 15, 17 	of Chapter 1 (Sum 8)
+
+<bold><size:large>叁</size:large></bold> 9.8 Mon.
+
+Forced Vibration =&gt; displacement, velocity and acceleration resonant
+
+<bold>Advantages of using complex method:</bold> 
+1. can deal with <link:internal>phase</link:internal> in a more convience way 
+2. simplify the differential operation to algebra operation
+
+<bold>Acoustic Glossary in Foundamentals of Acoustics</bold>
+瞬态解：transient solution
+稳态解：steady solution
+齐次方程：homogeneous eqution
+力学阻抗：mechanical impedance
+力学品质因素：mechanical quality
+
+<bold>Assignment2:</bold>
+18, 21, 22, 23, 24 	sum 5 (8+5=13)
+
+<bold><size:large>肆</size:large></bold> 9.10 Wed.
+
+<bold>Progress:</bold>
+Finished the pedologa of Chapter 1
+1. Controlling of vibration: elastic, mechanical resistance and mass controlling region
+2. Utilize superposition to attain the solution forced by non-sinual force.
+
+<bold>Assignment3:</bold>
+收了第一次作业 2, 3, 11, 12, 13, 14, 15, 17, 18, 21, 22, 23, 24
+Today: 25, 27, 33, 35, 36  sum 5 (13+5=18)
+
+<bold>Acoustic Glossary in Foundamentals of Acoustics</bold>
+频率响应：frequency response
+system resonate with drive
+displacement/velocity/acceleration resonance
+Quality factor
+强度：strength
+带宽：bandwidth
+抗：reactance
+感抗：inductive reactance = inductance
+容抗：capacitive reactance = capacity
+阻性运动：decaying motion
+damping
+弹性：elasticity
+高次谐波：superharmonics
+
+9.16
+张哲 20
+徐水竹 12
+
+
+<bold><size:large>伍</size:large></bold> 9.17 Wed.
+
+<bold>Progress:</bold>
+	Chap2 : vibration of string
+
+<bold>Assignment4:</bold>
+	Chap2:  2, 3, 5 (P112)     (sum=18+3=21)
+
+
+<bold>陆 10.2 Thurs.</bold>
+
+1. Longitudinal vibration of combined bar
+	amplify:	S21&gt;1, resonance(1/4 lambda)
+2. Transverse vibration
+	harmonic
+		hyperbolic function, non-harmonic, n^2
+3. Fourier Series Expansion
+	divide time and space
+
+4. Vibration of membrane
+	BesselJ and BesselY
+	BesselI and BesselK
+	work in elastic control region, when k a&lt;&lt;1
+
+<bold>柒 10.4 Sat.</bold>
+
+<bold>Assignment5:</bold>
+	Chap2:  7, 11, 13 (P112)     (sum=21+3=24)
+
+2-3 一点 OR 一根弦
+2-7
+某一振动方式的振幅
+衡微
+
+<bold>捌 10.10 Fri.</bold>
+steady solution and transient solution
+centralization parametric system, distribution system
+
+<bold>玖 10.11 Sat.</bold>
+<bold>Assignment6:</bold>
+	Chap2:  18, 20-24 (P114)     (sum=24+6=30)
+
+<bold>拾 10.18 Sat.</bold>
+
+Assignment7:
+	Chap3:  1-5, 7, 8, 12, 14(P158) (sum=30+9=39)
+
+<bold>拾壹 10.19 Sun.</bold>
+
+到陈嘉艳那拿100张答题纸	
+27号之前出好声基试题，3题（概念，作业，综合）
+
+
+<bold>拾贰 10.24 Fri.</bold>
+
+热传递：热传导、对流和热辐射
+	对流往往自发产生，这是由于温度不均匀性所引起的压力或密度差异的结果
+
+<bold>拾叁 10.25 Sat.</bold>
+
+The calculate of  grad, div, curl
+  
+Bulk modulus: K   = rho*c^2
+Compressibility: Beta
+
+Gauss's law: relationship between volume integral and surface integral
+Kelvin-Stokes theorem: relationship between surface integral and line integral
+
+nabla: Del
+
+Lagrange density
+The Hamilton principle
+The Hamilton density: energy density
+Hamilton mechanics
+Canonical transformation:
+
+surface phenomenon
+
+Snell law
+
+Assignment8:
+Chap4: 1-7 (39+7=46)
+
+<bold>11.1
+
+</bold>半波透声，1/4波长隔声
+三层1/4波长匹配全透射技术
+隔声
+单层墙隔声
+双层薄板隔声，隔声频率
+声驻波
+刚性界面之间的平面声波：驻波模式
+干涉：相同频率，固定相位差；相位相消与增强
+非相干波
+
+<bold>11.2
+
+</bold>Assignment9:
+Chap4: 10-13, 15-19, 21, 23 (46+11=57)
+
+<bold>11.9
+
+</bold>Assignment10:
+Chap4: 26, 28-30
+Chap5: 1, 3, 4, 7-10, 13, 15, 16 (57+14=71)
+
+
+</note-content></text>
+  <last-change-date>2008-11-09T15:50:48.9397220+08:00</last-change-date>
+  <last-metadata-change-date>2008-11-09T15:50:48.9397220+08:00</last-metadata-change-date>
+  <create-date>2008-09-01T14:44:34.4810810+08:00</create-date>
+  <cursor-position>3796</cursor-position>
+  <width>592</width>
+  <height>581</height>
+  <x>0</x>
+  <y>0</y>
+  <tags>
+    <tag>system:notebook:Work</tag>
+  </tags>
+  <open-on-startup>False</open-on-startup>
+</note>

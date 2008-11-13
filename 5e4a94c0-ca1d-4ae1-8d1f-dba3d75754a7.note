@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>血型</title>
+  <text xml:space="preserve"><note-content version="0.1">血型
+
+A 型	2008.6.17</note-content></text>
+  <last-change-date>2008-06-17T18:22:22.9038560+08:00</last-change-date>
+  <last-metadata-change-date>2008-08-26T08:53:07.5756540+08:00</last-metadata-change-date>
+  <create-date>2008-06-17T18:21:31.4804100+08:00</create-date>
+  <cursor-position>4</cursor-position>
+  <width>466</width>
+  <height>360</height>
+  <x>0</x>
+  <y>0</y>
+  <tags>
+    <tag>system:notebook:私有</tag>
+  </tags>
+  <open-on-startup>False</open-on-startup>
+</note>

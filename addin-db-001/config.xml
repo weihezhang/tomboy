@@ -1,0 +1,8 @@
+<Configuration>
+  <AddinStatus>
+    <Addin id="Tomboy.TasqueAddin,0.1" enabled="True" />
+    <Addin id="Tomboy.SshSyncServiceAddin,0.1" enabled="True" />
+    <Addin id="Tomboy.InsertTimestampAddin,0.1" enabled="True" />
+    <Addin id="Tomboy.NoteOfTheDayAddin,0.1" enabled="True" />
+  </AddinStatus>
+</Configuration>

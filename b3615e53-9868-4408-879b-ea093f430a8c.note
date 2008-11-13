@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>Software</title>
+  <text xml:space="preserve"><note-content version="0.1">Software
+
+9.23
+<link:internal>install</link:internal> telnet server
+	xinetd, telnetd
+midnight commander
+	mc
+		cd<link:url> /#ftp:user_name:password@server_address/directory</link:url>
+		cd<link:url> /#sh:user@server_address/directory</link:url>
+
+9.26
+inotify-tools
+	inotifywait and inotifywatch
+
+9.28
+REMOVE
+	abiword evolution eclipse epdfview cmake kchmviewer texmaker tilda
+ codeine exaile exfalso qjackctl  gftp-gtk amule muse quodlibet realplay 
+ azureus bittorrent dillo ekiga eva gftp <link:internal>gnome</link:internal>-btdownload maxima maxima-share
+  maxima-test opera psi wxmaxima xmaxima
+
+9.29
+REMOVE
+	tracker evolution
+10.6
+<link:internal>INSTALL</link:internal>
+	apt-file:	search, update
+		apt-file search gnomeConf.sh
+	libgnome-dev
+
+10.11
+<link:internal>INSTALL</link:internal>
+	abiword 2.6
+
+<bold>11.5
+</bold>mldonkey &lt;-&gt; amule
+server+client(策略+机制)的运行方式，居然可以用 localhost:4080 管理，彻底无语
+结合 <link:internal>firefox</link:internal> addon--vimperator 的强大功能(文本搜索)，强翻了
+看浏览器端的控制界面，真TM专门为程序员整出来的p2p软件
+靠！
+
+
+<bold>11.7
+
+</bold>svn, totem-xine
+sudo apt-get <link:internal>install</link:internal> <link:internal>Fcitx(GirlDog 3.4.3)</link:internal>
+
+<bold>Nov. 11
+
+</bold>git: Perl interface to the Git version control system
+
+
+</note-content></text>
+  <last-change-date>2008-11-11T20:46:10.3410180+08:00</last-change-date>
+  <last-metadata-change-date>2008-11-11T20:46:10.3410180+08:00</last-metadata-change-date>
+  <create-date>2008-09-23T10:50:31.8158360+08:00</create-date>
+  <cursor-position>879</cursor-position>
+  <width>466</width>
+  <height>360</height>
+  <x>0</x>
+  <y>26</y>
+  <tags>
+    <tag>system:notebook:日积月累</tag>
+  </tags>
+  <open-on-startup>False</open-on-startup>
+</note>

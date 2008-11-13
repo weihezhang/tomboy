@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>朗读技巧</title>
+  <text xml:space="preserve"><note-content version="0.1">朗读技巧
+
+点击一:连读
+(一)什么是连读。
+
+在连贯地说话或朗读时,在同一个意群(即短语或从句)中,如果相邻的两个词前者以辅音音素结尾,后者以元音音素开头,就要自然地将辅音和元音相拼,构成一个音节,这就是连读。连读时的音节一般不重读,只需顺其自然地一带而过,不可以加音,也不可以读得太重。如:not at all这个短语。连读时听起来就像是一个单词。注意:连读只发生在句子中的同一个意群中。在两个意群之间即使有两个相邻的辅音和元音出现,也不可连读。如:Please take a look at it.这个句子中take a look at it是同一个意群,那么take与a可连读,look与at可连读,at与it可连读。在There is a book in it.一句中book与in往往不连读,因为book与in分别在两个不同的意群中。
+
+(二)连读的详细情况
+
+1.在同一个意群中,相邻的两个词,前者以辅音音素结尾,后者以元音音素开头,往往要拼在一起连读。如:
+
+He is a student. (is与a要连读)
+
+That is a right answer. (That与is, is和a, right和answer都可以连读)
+
+I'll be back in half an hour. (back和in, half和an, an与hour都可以连读)。
+
+2.在同一个意群中的两个单词,如果前面的单词以r或re结尾,后面的单词以元音音素开头,则r或re要发/r/音,并与其后的元音音素相拼。如: here and there连读时往往读作/。hiEr End `TZE /。a pair of shoes连读时读作/E `pZEr Ev `FU:z/.
+
+点击二:不完全爆破
+
+(一)什么是不完全爆破。
+
+爆破音是指发音器官在口腔中形成阻碍,然后气流冲破阻碍而发出的音。这些音有6个,即/p/, /b/, /t/, /d/,<link:url> /k/和/g/。但在某些情况下,发爆破音时,气流不必冲破阻碍,而只是发音器官在口腔中形成阻碍,并稍做停顿,(也就是说,做好要发出这个爆破音的准备,但不要发出音来),这样的发音过程叫作"不完全爆破</link:url>"。
+
+(二)不完全爆破的详细情况
+
+1. /p/, /b/, /t/, /d/, /k/,<link:url> /g/这6个爆破音中的任何两个音素相邻时,前者发不完全爆破音,后者则要完全地。彻底地进行爆破。如</link:url>:
+
+1) He has a ba(d) col(d) today.
+
+2) You shoul(d) ta(k)e care of the children. Gla(d) to meet you.
+
+2.<link:internal>爆破音</link:internal>/p/, /b/, /t/, /d/, /k/,<link:url> /g/在/tF/</link:url>, /dV/, /W/,<link:url> /T/的前面时不完全爆破。如</link:url>:
+
+1) Have you rea(d) the book abou(t) tha(t) child。
+
+2) The thir(d) chair is broken.
+
+3.<link:internal>爆破音</link:internal>/p/, /b/, /t/, /d/, /k/,<link:url> /g/在/m/</link:url>, /n/, /l/,<link:url> /s/的前面时不完全爆破。如</link:url>:
+
+1) Goo(d) morning, sir.
+
+2) Goo(d) night.
+
+3) They are very frien(d)ly to us.
+
+4) Sy
+
+注意:不完全爆破可以发生在单词。短语或句子中。</note-content></text>
+  <last-change-date>2007-06-02T16:59:49.0069220+08:00</last-change-date>
+  <last-metadata-change-date>2008-09-03T18:49:58.5862290+08:00</last-metadata-change-date>
+  <create-date>2007-06-01T21:54:21.8311579+08:00</create-date>
+  <cursor-position>440</cursor-position>
+  <width>466</width>
+  <height>684</height>
+  <x>0</x>
+  <y>26</y>
+  <tags>
+    <tag>system:notebook:GRE</tag>
+  </tags>
+  <open-on-startup>False</open-on-startup>
+</note>

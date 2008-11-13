@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>mathematica 字体 透明 问题</title>
+  <text xml:space="preserve"><note-content version="0.1">mathematica 字体 透明 问题
+
+<bold><link:internal>Mathematica</link:internal></bold><bold> font bug in Ubuntu 8.04</bold>
+
+在linux有时mathematica会有 字体透明问题，起根本原因是x文件冲突
+解决办法是
+
+I. 在运行 <link:internal>mathematica</link:internal> 之前运行
+export XLIB_SKIP_ARGB_VISUALS=1
+II. <link:internal>mathematica</link:internal> -defaultvisual
+ above two methods allows you to see what u are doing but is a big ugly.
+
+Another workaround is 
+III. sudo apt-get <link:internal>install</link:internal> libqt4-core libqt4-gui
+and then rename a couple of files in the <link:internal>Mathematica</link:internal> distribution as follows
+
+sudo mv<link:url> /usr/local/Wolfram/Mathematica/6.0/SystemFiles/Libraries/Linux/libQtCore.so.4 /usr/local/Wolfram/Mathematica/6.0/SystemFiles/Libraries/Linux/libQtCore.so.4.old</link:url>
+
+sudo mv<link:url> /usr/local/Wolfram/Mathematica/6.0/SystemFiles/Libraries/Linux/libQtGui.so.4 /usr/local/Wolfram/Mathematica/6.0/SystemFiles/Libraries/Linux/libQtGui.so.4.old</link:url>
+
+<bold>Note: the following steps is unnecessary</bold>
+This fixes the <link:internal>Problems</link:internal> but you may get two extra blank windows appear when you run <link:internal>Mathematica</link:internal>. To fix this open up the Option Inspector in <link:internal>Mathematica</link:internal> as follows:
+
+Edit-&gt; Preferences and click on Open Option Inspector
+
+When in the Option Inspector click on Notebook Options and then Window Properties and change the <link:broken>WindowFrame</link:broken> option from “Normal” to “Generic” then click on Apply
+
+<bold>Nov. 12
+
+</bold>Problem: <link:internal>Mathematica</link:internal> 6.0 and Compiz
+<bold>
+</bold>In <link:internal>Mathematica</link:internal>, got to Edit-&gt;Preferences-&gt;Advanced and click on "Open Option Inspector". Under "Notebook Options", select "Window Properties" and change "<link:broken>WindowFrame</link:broken>" to "Generic"
+</note-content></text>
+  <last-change-date>2008-11-12T19:23:49.1382060+08:00</last-change-date>
+  <last-metadata-change-date>2008-11-12T19:23:49.1382060+08:00</last-metadata-change-date>
+  <create-date>2008-08-18T15:30:38.5603880+08:00</create-date>
+  <cursor-position>1196</cursor-position>
+  <width>511</width>
+  <height>446</height>
+  <x>0</x>
+  <y>0</y>
+  <tags>
+    <tag>system:notebook:日积月累</tag>
+  </tags>
+  <open-on-startup>False</open-on-startup>
+</note>

@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>IIR filter design</title>
+  <text xml:space="preserve"><note-content version="0.1">IIR filter design
+
+<list><list-item dir="ltr">用一个因果稳定的离散LTI的系统函数去逼近设计的性能要求。</list-item></list>
+
+<list><list-item dir="ltr"><bold><highlight>幅度平方响应</highlight></bold>：只考虑幅度的逼近，而不考虑相位
+</list-item><list-item dir="ltr"><bold>AF-&gt;DF</bold></list-item></list>
+	冲激响应不变<bold>法
+	</bold>双线<bold>性</bold>变换<bold>法
+</bold>	阶跃响应不变法
+</note-content></text>
+  <last-change-date>2007-05-21T12:09:30.6946660+08:00</last-change-date>
+  <last-metadata-change-date>2007-05-21T12:09:30.6946660+08:00</last-metadata-change-date>
+  <create-date>2007-05-21T10:05:49.5009720+08:00</create-date>
+  <cursor-position>76</cursor-position>
+  <width>482</width>
+  <height>223</height>
+  <x>24</x>
+  <y>49</y>
+  <open-on-startup>False</open-on-startup>
+</note>

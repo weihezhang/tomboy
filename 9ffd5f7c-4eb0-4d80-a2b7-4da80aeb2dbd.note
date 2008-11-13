@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>纵漏表面声波</title>
+  <text xml:space="preserve"><note-content version="0.1">纵漏表面声波
+
+	(Longitudinal Leaky Surface Acoustic Wave, LLSAW)模式，传播速度接近于准纵体声波，传播过程中，粒子做准纵向振动，并向材料体内辐射部分能量。纵漏表面声波又被称为高速伪表面波(High Velocity Pseudo Surface Acoustic Wave, HVPSAW、准纵漏表面波(Quasi-Longitudinal Leaky Surface Acoustic Wave, QLLSAW)文中简称为纵漏波 ，是近年来表面波业界的热点问题之一。人们已经在四硼酸锂(Li2B4O7)材料上找到较为满意的纵漏波传播方向 </note-content></text>
+  <last-change-date>2007-04-19T09:35:30.6716730+08:00</last-change-date>
+  <last-metadata-change-date>2007-04-19T09:35:30.6716730+08:00</last-metadata-change-date>
+  <create-date>2007-04-19T09:35:17.9647710+08:00</create-date>
+  <cursor-position>8</cursor-position>
+  <width>450</width>
+  <height>360</height>
+  <x>0</x>
+  <y>49</y>
+  <open-on-startup>False</open-on-startup>
+</note>

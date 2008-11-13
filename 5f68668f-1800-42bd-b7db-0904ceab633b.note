@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>interrupt</title>
+  <text xml:space="preserve"><note-content version="0.1">interrupt
+
+	•; ISR 不能返回一个值。如果你不懂这个，那么你不会被雇用的。
+	•; ISR 不能传递参数。如果你没有看到这一点，你被雇用的机会等同第一项。
+	•; 在许多的处理器/编译器中，浮点一般都是不可重入的。有些处理器/编译器需要让额处的寄存器入栈，有些处理器/编译器就是不允许在ISR中做浮点运算。此外，ISR应该是短而有效率的，在ISR中做浮点运算是不明智的。
+	•; 与第三点一脉相承，printf()经常有重入和性能上的问题。</note-content></text>
+  <last-change-date>2007-04-15T19:26:22.6261110+08:00</last-change-date>
+  <last-metadata-change-date>2007-04-15T19:26:22.6261110+08:00</last-metadata-change-date>
+  <create-date>2007-04-15T19:24:09.4154240+08:00</create-date>
+  <cursor-position>85</cursor-position>
+  <width>450</width>
+  <height>360</height>
+  <x>0</x>
+  <y>49</y>
+  <open-on-startup>False</open-on-startup>
+</note>

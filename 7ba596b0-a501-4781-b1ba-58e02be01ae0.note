@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>Regular Expression</title>
+  <text xml:space="preserve"><note-content version="0.1">Regular Expression
+
+9.30
+Metacharacters 
+	. \w \d \s 	\t \e
+Qualifiers * + ? {M,N} {,N} {M,}
+Character Ranges [] ^ () $  &amp; |
+String Alternatives
+
+char
+	\u
+
+telephone number
+	(^\d{4}-\d{7}$) | (^\d{3}-\d{8}$) 025-83594133
+date	09/11/2001
+	(\d{2}/){2}\d{4}	\(\d\{2\}\/\)\{2\}\d\{4\}</note-content></text>
+  <last-change-date>2008-10-01T16:28:58.3076970+08:00</last-change-date>
+  <last-metadata-change-date>2008-10-01T16:28:58.3076970+08:00</last-metadata-change-date>
+  <create-date>2008-09-30T21:22:14.7870720+08:00</create-date>
+  <cursor-position>145</cursor-position>
+  <width>477</width>
+  <height>297</height>
+  <x>0</x>
+  <y>0</y>
+  <tags>
+    <tag>system:notebook:日积月累</tag>
+  </tags>
+  <open-on-startup>False</open-on-startup>
+</note>

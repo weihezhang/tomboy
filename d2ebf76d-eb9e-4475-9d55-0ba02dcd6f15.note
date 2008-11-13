@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>Mail</title>
+  <text xml:space="preserve"><note-content version="0.1">Mail
+
+<bold>Nov. 10
+	</bold>mutt + fetchmail + msmtp + maildrop
+	local	pop3	    send		filter
+
+rc: run control file
+
+books: 
+	cathedral-bazaar 《大教堂与市集》
+
+fetchmail
+	.fetchmailrc
+	.fetchmaillog
+
+maildrop
+	.mailfilter
+
+msmtp
+	.msmtprc
+
+	.maildroplog</note-content></text>
+  <last-change-date>2008-11-10T16:18:33.9651940+08:00</last-change-date>
+  <last-metadata-change-date>2008-11-10T16:18:33.9651940+08:00</last-metadata-change-date>
+  <create-date>2008-11-10T15:56:05.3856270+08:00</create-date>
+  <cursor-position>200</cursor-position>
+  <width>450</width>
+  <height>360</height>
+  <x>0</x>
+  <y>0</y>
+  <tags>
+    <tag>system:notebook:日积月累</tag>
+  </tags>
+  <open-on-startup>False</open-on-startup>
+</note>

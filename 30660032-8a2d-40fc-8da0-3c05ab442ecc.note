@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>鼻腔爆破音</title>
+  <text xml:space="preserve"><note-content version="0.1">鼻腔爆破音
+
+	爆破音和鼻辅音[m]与[n]相邻，爆破音形成阻碍，发生不完全爆破，在词末必须通过鼻腔爆破。如爆破音/t, d/后面紧跟着的是鼻辅音[m]与[n]时这种辅音组合在语音学里就叫做鼻腔爆破，换而言之，既发爆破音/t, d/时受后面鼻辅音[m]与[n]的影响爆破部位有所改变，须由口腔爆破改为鼻腔爆破。</note-content></text>
+  <last-change-date>2007-06-02T18:55:44.8063590+08:00</last-change-date>
+  <last-metadata-change-date>2007-06-02T18:55:44.8063590+08:00</last-metadata-change-date>
+  <create-date>2007-06-02T18:54:05.3986490+08:00</create-date>
+  <cursor-position>155</cursor-position>
+  <width>450</width>
+  <height>360</height>
+  <x>472</x>
+  <y>244</y>
+  <open-on-startup>False</open-on-startup>
+</note>

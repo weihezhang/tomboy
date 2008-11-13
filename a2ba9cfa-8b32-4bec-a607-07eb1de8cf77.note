@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>Work 个笔记本模板</title>
+  <text xml:space="preserve"><note-content version="0.1">Work 个笔记本模板
+
+在此描述您的新便笺。</note-content></text>
+  <last-change-date>2008-08-25T15:17:14.5738710+08:00</last-change-date>
+  <last-metadata-change-date>2008-08-25T15:17:14.5738710+08:00</last-metadata-change-date>
+  <create-date>2008-08-25T15:17:14.1511070+08:00</create-date>
+  <cursor-position>23</cursor-position>
+  <width>0</width>
+  <height>0</height>
+  <x>-1</x>
+  <y>-1</y>
+  <tags>
+    <tag>system:notebook:Work</tag>
+    <tag>system:template</tag>
+  </tags>
+  <open-on-startup>False</open-on-startup>
+</note>

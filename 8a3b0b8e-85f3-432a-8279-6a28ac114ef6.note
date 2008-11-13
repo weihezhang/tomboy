@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>GitHub</title>
+  <text xml:space="preserve"><note-content version="0.1">GitHub
+
+<link:url>https://git.com</link:url> pw: 159159
+
+<bold>Nov. 11
+
+</bold>1. create ssh
+	passphrase:159159
+<link:url>	~/.ssh</link:url>
+	ssh-keygen , ssh-agent
+
+<bold>Nov. 13
+
+</bold>git init
+git add files
+git commit
+	fulfill the commit comments
+git remote add origin <link:url>git@github.com:weihezhang/tomboy.git</link:url>
+git push origin master</note-content></text>
+  <last-change-date>2008-11-13T20:21:48.6617310+08:00</last-change-date>
+  <last-metadata-change-date>2008-11-13T20:21:48.6617310+08:00</last-metadata-change-date>
+  <create-date>2008-11-11T16:45:54.5796300+08:00</create-date>
+  <cursor-position>109</cursor-position>
+  <width>596</width>
+  <height>380</height>
+  <x>556</x>
+  <y>25</y>
+  <tags>
+    <tag>system:notebook:日积月累</tag>
+  </tags>
+  <open-on-startup>False</open-on-startup>
+</note>

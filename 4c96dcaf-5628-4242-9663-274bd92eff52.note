@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>NTLDR is missing</title>
+  <text xml:space="preserve"><note-content version="0.1">NTLDR is missing
+
+NT Loader file is not found.
+This can be caused by a U-disk was inserted in, when you start the computer.</note-content></text>
+  <last-change-date>2008-09-01T20:37:53.7289280+08:00</last-change-date>
+  <last-metadata-change-date>2008-09-01T20:37:53.7289280+08:00</last-metadata-change-date>
+  <create-date>2008-09-01T20:35:24.0017850+08:00</create-date>
+  <cursor-position>87</cursor-position>
+  <width>450</width>
+  <height>360</height>
+  <x>0</x>
+  <y>0</y>
+  <tags>
+    <tag>system:notebook:日积月累</tag>
+  </tags>
+  <open-on-startup>False</open-on-startup>
+</note>

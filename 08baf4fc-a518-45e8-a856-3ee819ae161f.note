@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>非线性</title>
+  <text xml:space="preserve"><note-content version="0.1">非线性
+
+<list><list-item dir="ltr">反散射：对称和保守性质
+</list-item><list-item dir="ltr">KAM定理：弱不可积保守系统普遍性质
+</list-item><list-item dir="ltr">Parametric Dissipative Nonlinear Schrodinger(PDNLS) Equation
+</list-item><list-item dir="ltr">Navier-Stokes方程：黏性不可压缩流体动量守恒的运动方程
+</list-item><list-item dir="ltr">长波在前，细波在后的色散现象
+</list-item><list-item dir="ltr">水波分类：重力波（长波），毛细重力波（中波），毛细张力波（短波）
+</list-item><list-item dir="ltr">孤波：非线性演化方程的局域行波解
+</list-item><list-item dir="ltr">周期性回归</list-item></list></note-content></text>
+  <last-change-date>2008-02-22T22:39:14.0564700+08:00</last-change-date>
+  <last-metadata-change-date>2008-02-22T22:39:14.0564700+08:00</last-metadata-change-date>
+  <create-date>2008-02-22T19:22:57.8823000+08:00</create-date>
+  <cursor-position>217</cursor-position>
+  <width>574</width>
+  <height>360</height>
+  <x>0</x>
+  <y>0</y>
+  <open-on-startup>False</open-on-startup>
+</note>

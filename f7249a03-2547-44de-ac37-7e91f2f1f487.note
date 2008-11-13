@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>Thursday, May 17 2007</title>
+  <text xml:space="preserve"><note-content version="0.1"> Thursday, May 17 2007
+
+<size:huge><link:internal>Tasks</link:internal></size:huge>
+<list><list-item dir="ltr"><bold>Word List 42</bold></list-item></list>
+
+<size:huge>Word </size:huge>
+<list><list-item dir="ltr"><bold>Cannes Film Festival</bold></list-item></list>
+<size:huge><link:internal>FIR</link:internal></size:huge>
+<list><list-item dir="ltr">FIRDF 由两部分级联</list-item></list>
+		第一部分为：N节延时单元构成的梳状滤波器
+		第二部分为：N个一阶谐振器并联构成</note-content></text>
+  <last-change-date>2008-02-29T12:30:14.5893099+08:00</last-change-date>
+  <last-metadata-change-date>2008-02-29T12:30:14.5893099+08:00</last-metadata-change-date>
+  <create-date>2007-05-17T09:55:14.8813530+08:00</create-date>
+  <cursor-position>0</cursor-position>
+  <width>452</width>
+  <height>293</height>
+  <x>270</x>
+  <y>331</y>
+  <open-on-startup>False</open-on-startup>
+</note>

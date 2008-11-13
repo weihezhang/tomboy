@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>Saturday, May 12 2007</title>
+  <text xml:space="preserve"><note-content version="0.1">Saturday, May 12 2007
+
+<size:huge><link:internal>Tasks</link:internal></size:huge>
+<list><list-item dir="ltr"><bold>Word List 37</bold></list-item></list>
+
+<size:huge>Word</size:huge>
+<list><list-item dir="ltr"><bold>T&amp;Z </bold></list-item></list>
+<bold>		Temperate Zone</bold>
+<list><list-item dir="ltr"><bold>Sleeping pills</bold>
+</list-item><list-item dir="ltr"><bold>self-reliance</bold>
+</list-item><list-item dir="ltr"><bold>tsunami</bold>
+</list-item><list-item dir="ltr"><bold>Defense Ministry</bold>
+</list-item><list-item dir="ltr"><bold>Prime Minister</bold>
+</list-item><list-item dir="ltr"><bold>Foreign Ministry</bold></list-item></list>
+<size:huge><link:internal>FFT</link:internal></size:huge>
+<size:huge><link:internal>卷积</link:internal></size:huge>
+fix(clock)
+<size:huge>Ubuntustudio
+</size:huge>wget -q <link:url>http://archive.ubuntustudio.org/ubuntustudio.gpg</link:url> -O- | sudo apt-key add - &amp;&amp; sudo apt-get update
+
+</note-content></text>
+  <last-change-date>2008-02-29T12:30:14.6563410+08:00</last-change-date>
+  <last-metadata-change-date>2008-02-29T12:30:14.6563410+08:00</last-metadata-change-date>
+  <create-date>2007-05-12T09:23:00.7812410+08:00</create-date>
+  <cursor-position>7</cursor-position>
+  <width>522</width>
+  <height>388</height>
+  <x>412</x>
+  <y>0</y>
+  <open-on-startup>False</open-on-startup>
+</note>

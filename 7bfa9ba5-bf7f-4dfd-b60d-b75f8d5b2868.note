@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>Bash</title>
+  <text xml:space="preserve"><note-content version="0.1">Bash
+
+1. Create muti-regular folders:
+	<bold>A:</bold> Use bash's brace extension
+			$: mkdir CD{1..4}
+
+2. list=$(ls -l)
+echo $list
+这样echo出来list中的换行就没了，0a被替换成了20，如何防止echo替换换行呢??
+	<bold>A:</bold> Use $ echo "$list"
+
+10.5
+	sudo aptitude -F '%p %20v' search '~ivim'
+
+<bold>10.24
+
+</bold>GNU Readline
+<link:url>	/etc/inputrc</link:url>
+
+<bold>11.2
+
+</bold>vsftpd
+
+<bold>11.8
+
+</bold> du: estimate file space usage</note-content></text>
+  <last-change-date>2008-11-08T16:26:55.9673260+08:00</last-change-date>
+  <last-metadata-change-date>2008-11-08T16:26:55.9673260+08:00</last-metadata-change-date>
+  <create-date>2008-09-09T15:01:56.2558386+08:00</create-date>
+  <cursor-position>285</cursor-position>
+  <width>466</width>
+  <height>360</height>
+  <x>0</x>
+  <y>0</y>
+  <tags>
+    <tag>system:notebook:日积月累</tag>
+  </tags>
+  <open-on-startup>False</open-on-startup>
+</note>

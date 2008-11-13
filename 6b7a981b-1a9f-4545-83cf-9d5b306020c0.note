@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>couses</title>
+  <text xml:space="preserve"><note-content version="0.1">couses
+
+<list><list-item dir="ltr"><bold><link:internal>超声</link:internal></bold></list-item></list>
+	Mon.(5-7)	浦3-211
+<list><list-item dir="ltr"><bold>电声</bold></list-item></list>
+	Wed.(5-7)	浦3-206
+<list><list-item dir="ltr"><bold>理论物理</bold></list-item></list>
+	Tues(单)(5-6)	浦3-213	Thurs.(3-4)	浦3-213
+<list><list-item dir="ltr"><bold>DSP</bold></list-item></list>
+	Thurs.(5-7)	浦3-414
+<list><list-item dir="ltr"><bold>流体力学</bold></list-item></list>
+	Tues.(单)(3-4)	Fri.(3-4)	浦2-102	
+
+</note-content></text>
+  <last-change-date>2007-04-16T10:42:45.0000000+08:00</last-change-date>
+  <last-metadata-change-date>2007-04-16T10:42:45.0000000+08:00</last-metadata-change-date>
+  <create-date>2007-04-16T10:34:52.1869410+08:00</create-date>
+  <cursor-position>37</cursor-position>
+  <width>449</width>
+  <height>360</height>
+  <x>0</x>
+  <y>49</y>
+  <open-on-startup>False</open-on-startup>
+</note>

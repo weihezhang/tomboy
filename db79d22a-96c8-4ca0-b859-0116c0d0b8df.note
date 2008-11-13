@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>Friday, May 11 2007</title>
+  <text xml:space="preserve"><note-content version="0.1">Friday, May 11 2007
+
+<size:huge><link:internal>Tasks</link:internal></size:huge>
+<list><list-item dir="ltr"><bold>Word List 36</bold></list-item></list>
+
+<size:huge>Words</size:huge>
+<list><list-item dir="ltr"><bold>raid :</bold></list-item></list>
+<bold>		an air raid;	make a raid on</bold>
+<list><list-item dir="ltr"><bold>rock and roll,  rap music</bold>
+</list-item><list-item dir="ltr"><bold>reclaim scraps</bold>
+</list-item><list-item dir="ltr"><bold>raw materials</bold></list-item></list>
+<size:huge>Gaim =&gt; Pidgin</size:huge>
+<size:huge>Kaffeine</size:huge> <size:huge>播放 rm 无声音</size:huge>
+<list><list-item dir="ltr">修改~/.xine/catalog.cache文件</list-item></list>
+	找到：/usr/lib/xine/plugins/1.1.4xineplug_decode_real_audio.so
+ 	这一行将底下的decoder_priority从5改到10
+
+
+</note-content></text>
+  <last-change-date>2008-02-29T12:30:14.6587440+08:00</last-change-date>
+  <last-metadata-change-date>2008-02-29T12:30:14.6587440+08:00</last-metadata-change-date>
+  <create-date>2007-05-11T09:14:31.8797690+08:00</create-date>
+  <cursor-position>0</cursor-position>
+  <width>532</width>
+  <height>360</height>
+  <x>336</x>
+  <y>52</y>
+  <open-on-startup>False</open-on-startup>
+</note>

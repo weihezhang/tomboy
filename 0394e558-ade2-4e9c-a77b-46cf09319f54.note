@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>Lyx</title>
+  <text xml:space="preserve"><note-content version="0.1">Lyx
+
+reselect the Standard environment : M-p s
+
+xmodmap
+xkeycaps
+
+Comprehensive TeX Archive Network (CTAN) 
+<size:huge>Short Cut</size:huge>
+<list><list-item dir="ltr">M-s for chang the size of fonts
+</list-item><list-item dir="ltr">Alt-C chang fonts' family</list-item></list>
+
+default font : standard TeX fonts : computer modern(cm)
+
+ERT: Evil Red Text
+aka: also known as
+</note-content></text>
+  <last-change-date>2007-10-12T20:54:12.2426790+08:00</last-change-date>
+  <last-metadata-change-date>2007-10-12T20:54:12.2426790+08:00</last-metadata-change-date>
+  <create-date>2007-09-27T23:27:02.1166240+08:00</create-date>
+  <cursor-position>236</cursor-position>
+  <width>566</width>
+  <height>360</height>
+  <x>448</x>
+  <y>161</y>
+  <open-on-startup>False</open-on-startup>
+</note>

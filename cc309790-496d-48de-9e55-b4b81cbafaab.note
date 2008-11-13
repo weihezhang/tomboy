@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>向量分析</title>
+  <text xml:space="preserve"><note-content version="0.1">向量分析
+
+向量分析中3個重要的運算:
+
+    *<bold> </bold><highlight><link:internal>梯度</link:internal></highlight>: 量度標量場改變的速度與方向；標量場的斜度是個向量。
+    * <highlight><link:internal>旋度</link:internal></highlight><highlight>:</highlight> 量度向量場傾向繞著一個點旋轉的程度；向量的捲曲是個向量場。
+    * <highlight><link:internal>散度</link:internal></highlight>(divergence): 量度向量場傾向源於一點的程度。 
+
+    * Stokes' theorem
+    * 同源理論 
+
+向量分析常常以<highlight>微分幾何</highlight>來表達。 </note-content></text>
+  <last-change-date>2007-04-16T11:40:04.8847530+08:00</last-change-date>
+  <last-metadata-change-date>2007-04-16T11:40:04.8847530+08:00</last-metadata-change-date>
+  <create-date>2007-04-16T11:24:44.2489450+08:00</create-date>
+  <cursor-position>158</cursor-position>
+  <width>450</width>
+  <height>360</height>
+  <x>376</x>
+  <y>68</y>
+  <open-on-startup>False</open-on-startup>
+</note>

@@ -1,0 +1,237 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>Unix Power Tools</title>
+  <text xml:space="preserve"><note-content version="0.1">Unix Power Tools
+
+壹<bold> 10.24
+
+</bold>classic Unix pipes and filters
+the programming power of the shell
+
+tr
+
+dig: DNS lookup utility
+dig g.cn mx in
+dig -x 202.119.32.6
+
+^: <link:internal>history</link:internal> substitution
+!: <link:internal>history</link:internal> match, event find
+
+for <italic>variable </italic>in ...
+do 
+	...
+done
+
+echo -n "Press RETURN to see $file--"
+
+whatis, apropos(more)
+
+whereis: 
+type: (which version), in-built, more precise than which(extern)
+
+ls -li `which man` `which apropos` `which whatis`
+
+write a man page
+<link:url>
+/etc/services</link:url> Every common port
+netstat -rn
+traceroute
+mtr
+
+贰 <bold>10.25
+
+</bold>rc: runcom files, run commands
+
+Perl, Python, Tcl
+
+sed
+	-e(execute)	;(separator)	-f(file)
+	-n
+	d(delete)
+	<link:url>	/^$/d</link:url> :delete blank line
+		2,\$d: leave the first line
+		2,5\!d: preserve lines 2~5
+
+checksed, runsed
+
+叁 <bold>10.26
+
+</bold>$HISTSIZE = 500,	<link:internal>history</link:internal>
+
+command substitution: ` `
+variable substitution: $varname
+!!, !$, !! &amp;, !! | less
+!:
+	!:s/xy/yx
+!?so?
+
+!:0  selects only the command name
+!:3	selects the third argument
+!:2-4	gives the second throught the fourth argument
+!:-3
+!^	the same as !:1
+!$	the last argument 
+!*	first through the last argument
+!:2*
+!:2-
+!?fn?%
+!?ec?^
+!!:g&amp;
+
+fc: <link:internal>history</link:internal> editing
+
+ rm !$
+
+ !:0 -n !:1-
+
+<bold>肆 10.27</bold>
+
+!*
+!:n*
+
+!-2
+
+&amp;&amp; (two ampersands)
+Running a Series of Commands: alias d 'set f="\!*"; co -l "$f" &amp;&amp; vi "$f" &amp;&amp; ci "$f"'
+
+check the <link:internal>history</link:internal> First with :p(print)
+
+
+<bold>伍 10.28</bold>
+
+:h gives the head of a  pathname
+:r returns the root of a filename
+:g makes the operation global if you have more than one name
+
+on the fly: something created when needed
+	copying a CD-ROM from a CD-ROM drive to a CD-Writer drive.
+
+
+Next command, N, creates a multiline pattern space by reading a new line of input and appending it to the contents of the pattern space.
+
+either use the backslash to escape the newline
+
+	s/Owner and Operator\nGuide /<link:broken>Installation</link:broken> Guide\
+	/
+or use the \(..\) operators (Section 34.11) to keep the newline: 
+	s/Owner and Operator\(\n\)Guide /<link:broken>Installation</link:broken> Guide\1/
+
+<bold>陆 10.29</bold>
+
+Newlines in a sed Replacement
+
+whois g.cn
+dig g.cn ns
+dig g.cn mx
+
+citrix
+
+tee
+
+subshell operators: ()
+
+<bold>陆 10.30</bold>
+
+X 	event 	.Xdefaults
+xmodmap  loadkeys  keysym<link:url>
+/usr/share/keymaps
+/etc/console-tools/remap</link:url>
+xev
+
+Resource variables
+xrdb
+!: comment
+-xrm,  -name
+xrdb -load .Xresources
+xrdb -query
+xrdb -merge new.values
+xrdb -edit
+
+appres
+
+mkdir -p
+mkdir -m 755
+
+ls -t : sort by modification time
+ls -u: sort by access time
+ls -d 
+
+<bold>柒 10.31</bold>
+
+ispell +dict file
+ispell -a
+aspell: improved from ispell
+	aspell -c dic.txt -l en
+uniq
+look<link:url> /usr/share/dict/words</link:url>  <link:url> /etc/dictionaries-common/words</link:url>
+
+gawk
+
+<bold>捌 11.2
+</bold>
+"named" buffer
+"f4yy	"fp
+. repeat, current line
+.+	the next line
+m	move
+g!
+
+<italic>vi </italic>delete-to-<italic>pattern</italic>: d/while
+
+Keymapping
+
+<bold>玖 11.4
+
+</bold>fmt
+
+<bold>拾 11.5</bold>
+
+@-function
+	0lcwH3^[$T/cwH3^[    @a
+	0lcwH4^[$T/cwH4^[    @b
+
+
+<bold>拾壹 11.8</bold>
+
+upper to low
+	tr A-Z a-z
+
+<bold>拾贰 11.11</bold>
+
+m: mark up
+	mx 'x `x `` ''
+
+<bold>拾叁 11.12</bold>
+<link:url>
+/var/run/utmp</link:url>
+	utmp: login records<link:url>
+/var/log/wtmp</link:url>
+	last
+
+Debugging Shell Scripts  
+	#!/bin/sh -xv
+
+^G
+
+Using vi Abbreviations as Commands (Cut and Paste Between vi's)
+
+vi Line Commands Versus Character Commands
+	_ 	^
+
+Neatening Lines
+	5!!fmt  		5 lines
+	:%!fmt    		all text
+	!}fmt		a paragraph
+
+
+</note-content></text>
+  <last-change-date>2008-11-13T11:14:44.4021210+08:00</last-change-date>
+  <last-metadata-change-date>2008-11-13T11:14:44.4021210+08:00</last-metadata-change-date>
+  <create-date>2008-10-24T08:37:24.7443170+08:00</create-date>
+  <cursor-position>3105</cursor-position>
+  <width>553</width>
+  <height>381</height>
+  <x>0</x>
+  <y>27</y>
+  <open-on-startup>False</open-on-startup>
+</note>

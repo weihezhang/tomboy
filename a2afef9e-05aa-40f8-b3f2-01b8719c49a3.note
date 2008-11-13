@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>Excellent Website</title>
+  <text xml:space="preserve"><note-content version="0.1">Excellent Website
+
+<bold>I. E-book</bold>
+<link:url>www.scribd.com</link:url>  San Francisco March 2007 iPaper</note-content></text>
+  <last-change-date>2008-09-03T18:51:15.8927530+08:00</last-change-date>
+  <last-metadata-change-date>2008-09-03T18:51:15.8927530+08:00</last-metadata-change-date>
+  <create-date>2008-09-03T18:16:00.1637480+08:00</create-date>
+  <cursor-position>76</cursor-position>
+  <width>466</width>
+  <height>360</height>
+  <x>0</x>
+  <y>0</y>
+  <tags>
+    <tag>system:notebook:日积月累</tag>
+  </tags>
+  <open-on-startup>False</open-on-startup>
+</note>

@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>LaTeX Package</title>
+  <text xml:space="preserve"><note-content version="0.1"><link:internal>LaTeX</link:internal> Package
+
+10.11
+lastpage
+soul
+wrapfig
+
+BoundingBox:  refers to the smallest upright rectangle which entirely encloses the figures on a page</note-content></text>
+  <last-change-date>2008-10-19T19:35:24.9670540+08:00</last-change-date>
+  <last-metadata-change-date>2008-10-19T19:35:24.9670540+08:00</last-metadata-change-date>
+  <create-date>2008-10-11T14:14:24.5965150+08:00</create-date>
+  <cursor-position>85</cursor-position>
+  <width>450</width>
+  <height>302</height>
+  <x>0</x>
+  <y>0</y>
+  <tags>
+    <tag>system:notebook:日积月累</tag>
+  </tags>
+  <open-on-startup>False</open-on-startup>
+</note>

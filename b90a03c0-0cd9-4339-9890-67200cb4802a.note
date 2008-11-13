@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>Network of 309</title>
+  <text xml:space="preserve"><note-content version="0.1">Network of 309
+
+
+Route: DCS 1016
+
+
+   Name					ip			port
+Me									  3
+Drinking-water machine				  4	
+Host(dell530): 			172.16.30.87	 11
+						23			10
+Yu						*			13
+Yadong					70
+Wanglin					119
+
+9.21
+SSH: 
+<link:url>	/etc/ssh/ssh_config</link:url>   GSSAPIAuthentication no
+
+ubuntu远程登录windows 
+	rdesktop , tsclient, VMware
+
+server: F-Secure SSH
+ELRP-LKVZ-JGND-EP2G-CN3T
+
+9.22
+<bold>rdesktop</bold>
+TightVNC
+<bold>tsclient</bold>
+远程桌面web连接
+CodeWeaver 公司的CrossOver Office Professional
+
+
+rdesktop -u zwh -p zwh -r sound:local 172.16.30.70
+
+<bold>10.14
+</bold>shut down DHCP
+	dhcpcd -x eth0
+
+<bold>10.19
+</bold>ssh+vnc
+ssh+X server
+nx: access a remote <link:internal>linux</link:internal> from windows
+
+装一个 vncserver
+然后用VNC的客户端登录
+<link:internal>Linux</link:internal> 下可用 krdc, win 下可用 vncviewer
+
+直接打开IE输入IP和端口号，就可以了
+<link:url>http://server_ip:5801</link:url>
+
+
+
+
+
+</note-content></text>
+  <last-change-date>2008-11-10T15:10:58.4236410+08:00</last-change-date>
+  <last-metadata-change-date>2008-11-10T15:10:58.4236410+08:00</last-metadata-change-date>
+  <create-date>2008-09-07T21:49:40.1218989+08:00</create-date>
+  <cursor-position>701</cursor-position>
+  <width>466</width>
+  <height>360</height>
+  <x>0</x>
+  <y>0</y>
+  <tags>
+    <tag>system:notebook:Work</tag>
+  </tags>
+  <open-on-startup>False</open-on-startup>
+</note>

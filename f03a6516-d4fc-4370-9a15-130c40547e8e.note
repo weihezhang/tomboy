@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>2007 年 9 月 27 日 星期四</title>
+  <text xml:space="preserve"><note-content version="0.1"> 2007 年 9 月 27 日 星期四
+
+dvi: device independent
+
+function [L] = cholesky(A)
+
+% first check 
+[m, n] = size(A);
+if m ~= n
+    disp('matrix should be equal');
+    return;
+end
+
+% second init
+L = zeros(n);
+
+%main
+for j=1:n
+    for i=j:n
+        L(i, j) = A(i, j) - L(i, 1:j-1) * L(j, 1:j-1)';
+         if i == j
+             if L(i, j) &lt;= 0
+                 disp('matrix must be positive definite');
+                 L = []; return
+             end
+            L(i, j) = sqrt(L(i, j));
+         else
+             L(i, j) = L(i, j) / L(j, j);
+        end
+    end
+end
+
+
+</note-content></text>
+  <last-change-date>2007-09-28T10:09:03.0620700+08:00</last-change-date>
+  <last-metadata-change-date>2007-09-28T10:09:03.0620700+08:00</last-metadata-change-date>
+  <create-date>2007-09-27T15:24:48.8663450+08:00</create-date>
+  <cursor-position>239</cursor-position>
+  <width>537</width>
+  <height>360</height>
+  <x>474</x>
+  <y>69</y>
+  <open-on-startup>False</open-on-startup>
+</note>

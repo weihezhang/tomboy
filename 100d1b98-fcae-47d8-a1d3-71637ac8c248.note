@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>beryl</title>
+  <text xml:space="preserve"><note-content version="0.1">beryl
+
+compiz是一个新的composite manager（特效管理器）+window manager（窗体管理器），管理很多的新的特效插件（诸如立方体桌面，窗体的弹性效果等），一般compiz还带有一个新的window decorator（窗体样式管理器），管理窗体样式（诸如颜色、透明、按钮等）
+Beryl是compiz的一个平行的分支，包括Beryl（红宝石）这个composite manager（特效管理器）+window manager（窗体管理器）、Emerald（绿宝石）这个window decorator（窗体样式管理器）。
+Beryl和Emerald是构建在新的X服务上的（Beryl is not dependent on any single xserver architecture），这些新的X服务就是XGL和AIGLX。
+XGL是novell开发的全新的X服务层，AIGLX是FC/redhat开发的对原有X服务的一个扩展。
+所有的显卡的驱动都是为X服务提供支持用的，单安装好了驱动，没有新的X服务层是无法直接使用Beryl/compiz的。但是很多朋友都会说 zaiEDGY里面不用装AIGLx啊。但是要知道，新的ubuntu6.10、FC6、Ma2007都是使用xorg7.1的，已经带有AIGLX； SUSE10.1自带xgl的，所以不用手动安装而已......</note-content></text>
+  <last-change-date>2007-04-28T15:01:59.0207369+08:00</last-change-date>
+  <last-metadata-change-date>2007-04-28T15:01:59.0207369+08:00</last-metadata-change-date>
+  <create-date>2007-04-28T14:52:25.1396380+08:00</create-date>
+  <cursor-position>90</cursor-position>
+  <width>1024</width>
+  <height>689</height>
+  <x>0</x>
+  <y>53</y>
+  <open-on-startup>False</open-on-startup>
+</note>

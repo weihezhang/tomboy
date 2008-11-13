@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>Monday, May 14 2007</title>
+  <text xml:space="preserve"><note-content version="0.1"> Monday, May 14 2007
+
+<size:huge><link:internal>Tasks</link:internal></size:huge>
+<list><list-item dir="ltr"><bold>Word List 39</bold></list-item></list>
+
+<size:huge>Word</size:huge>
+<list><list-item dir="ltr"><bold>scout around/about</bold>
+</list-item><list-item dir="ltr"><bold>catchphrase</bold></list-item></list>
+
+<size:huge>Learn</size:huge>
+<list><list-item dir="ltr">自动启动</list-item></list>
+	kcontrol -&gt; <link:internal>KDE</link:internal> Component -&gt; Sessioon manage
+<link:url>	~/.kde/Autostart/</link:url>
+<size:huge><link:internal>Software</link:internal></size:huge>
+<list><list-item dir="ltr"><bold>Kaffeine</bold></list-item></list>
+<bold>		caffeine for your desktop!</bold>
+<list><list-item dir="ltr"><bold>Amarok</bold></list-item></list>
+<bold>		rediscover your music</bold>
+<list><list-item dir="ltr"><bold>last.fm</bold></list-item></list>
+<bold>		the social music revolution</bold>
+<list><list-item dir="ltr"><bold><link:internal>install</link:internal></bold><bold> Pidgin(Gaim)2.0</bold></list-item></list>
+<size:huge><link:internal>KDE</link:internal></size:huge>
+	1996年10月，图形排版工具Lyx的开发者、一位名为		Matthias Ettrich的德国人发起了KDE（Kool Desktop Environment）项目
+<size:huge><link:internal>GNOME</link:internal></size:huge>
+<size:huge><link:internal>DRM</link:internal></size:huge></note-content></text>
+  <last-change-date>2008-11-06T08:27:29.3057450+08:00</last-change-date>
+  <last-metadata-change-date>2008-11-06T08:27:29.3057450+08:00</last-metadata-change-date>
+  <create-date>2007-05-14T09:13:15.0450409+08:00</create-date>
+  <cursor-position>405</cursor-position>
+  <width>511</width>
+  <height>322</height>
+  <x>383</x>
+  <y>26</y>
+  <open-on-startup>False</open-on-startup>
+</note>

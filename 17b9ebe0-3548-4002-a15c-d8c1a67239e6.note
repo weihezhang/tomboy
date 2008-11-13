@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>Discrete Mathematics</title>
+  <text xml:space="preserve"><note-content version="0.1">Discrete Mathematics
+
+10.10 Fri.
+Combinatorial Tools
+	Mathematic Induction, Principle of Induction
+		n = 1, base case
+		induction hypothesis, i. e., true for 'n-1'
+		inherit
+
+n(n+1)/2 is the number of handshakes among n+1 people
+
+identity
+
+Carl Friedrich Gauss(1777-1855)
+
+set and subset
+
+bi fo mathematical jargon: the last piece of the argument established
+	 a one-to-one correspondence between those subsets of S
+
+<bold>10.24
+
+</bold>Graph<bold>
+</bold>segment
+V: node(point, vertex(pl vertices)) 
+E: edge
+G=(V,E)
+<italic>multigraphs: </italic>parrel edge, loop
+<italic>simple graphs</italic>
+<italic>adjacent, neighbors</italic>, <italic>degree
+
+</italic>Theorem1: <italic>In every graph, the number of nodes with odd degree is even.
+</italic>Theorem2: <italic>The sum of degrees of all nodes in a graph is twice the number of edges.
+
+</italic>a 'relation' between certain objects is defined
+bonds, molecule
+a single <link:internal>phase</link:internal> of work
+
+<italic>edgeless graph, complete graph(clique)</italic> Kn, <italic>complement </italic>of G, <italic>star, path(consecutive, n-1, endpoints), cycle(circuit), length, k-</italic>cycle, <italic>subgraph
+
+connected </italic>graph: every two nodes of the graph are connected by a path in G
+
+common node
+
+<italic>walk: </italic>path with repetition; a path is a walk without repetition
+
+<italic>closed walk: </italic>first and last nodes are the same
+
+maximal subgraph: <italic>connected component</italic>
+</note-content></text>
+  <last-change-date>2008-10-24T11:11:51.9803000+08:00</last-change-date>
+  <last-metadata-change-date>2008-10-24T11:11:51.9803000+08:00</last-metadata-change-date>
+  <create-date>2008-10-10T16:46:49.3257389+08:00</create-date>
+  <cursor-position>1162</cursor-position>
+  <width>466</width>
+  <height>360</height>
+  <x>0</x>
+  <y>0</y>
+  <tags>
+    <tag>system:notebook:Work</tag>
+  </tags>
+  <open-on-startup>False</open-on-startup>
+</note>

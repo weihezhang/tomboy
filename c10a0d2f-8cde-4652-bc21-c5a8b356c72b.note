@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>Friday, April 13 2007</title>
+  <text xml:space="preserve"><note-content version="0.1"> Friday, April 13 2007
+
+
+
+<size:huge><link:internal>Tasks</link:internal></size:huge>
+<list><list-item dir="ltr"><bold>Word List 4</bold></list-item></list>
+
+<size:huge>Appointments</size:huge>
+<list><list-item dir="ltr">go to <bold>zhujiang road afternoon</bold></list-item></list>
+<size:huge>Word</size:huge>
+<list><list-item dir="ltr"><bold><highlight>chopstick</highlight></bold>
+</list-item><list-item dir="ltr"><bold><highlight>banquet</highlight></bold>
+</list-item><list-item dir="ltr"><bold><highlight>barbecue</highlight></bold>
+</list-item><list-item dir="ltr"><bold><highlight>bachelor</highlight></bold></list-item></list>
+<size:huge>Learn</size:huge>
+<list><list-item dir="ltr"><link:internal>BRAS</link:internal> (Broadband Remote Access Server) </list-item></list>
+
+
+
+</note-content></text>
+  <last-change-date>2008-09-30T08:53:31.9027390+08:00</last-change-date>
+  <last-metadata-change-date>2008-09-30T08:53:31.9027390+08:00</last-metadata-change-date>
+  <create-date>2007-04-13T07:26:51.3730220+08:00</create-date>
+  <cursor-position>187</cursor-position>
+  <width>450</width>
+  <height>360</height>
+  <x>0</x>
+  <y>25</y>
+  <open-on-startup>False</open-on-startup>
+</note>

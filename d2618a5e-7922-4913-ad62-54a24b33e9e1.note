@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>Numerical calculation of PDE</title>
+  <text xml:space="preserve"><note-content version="0.1">Numerical calculation of PDE
+
+<bold>壹 9.19 Fri. </bold>
+
+II-106 	1,2
+以后改为 教220 	5,6
+
+A. 流程：离散-&gt;稳定性分析-&gt;编程
+B. review 数理
+	1. <link:internal>Problems</link:internal>
+		三类问题：抛物、双曲、椭园
+		三类边界条件：I、II、III
+		nonstationary <link:internal>problems</link:internal>, stationary <link:internal>problems</link:internal>(Laplace, Poisson)
+	2. Solutions
+		分离变量: 常系数
+		积分变换：FT, LT
+		格林函数
+
+<bold>贰 9.22 Fri. </bold>
+
+<bold>叁 9.26 Fri. </bold>
+
+finite differencing
+finite element
+Monte Carlo
+spectral
+
+parabolic
+
+Classification:
+	1. initial value(time evolution) or Cauchy problem		stability
+	2. boundary value(static solution)						efficiency
+
+tridiagonal with fringes
+relaxation method
+
+<bold>肆 10.6 Mon. </bold>
+norm	1, 2, infinity
+compatibility
+equivalent
+
+stability, step size
+
+flux-conservative, advective equation, FTCS(Forward Time Centered Space)
+single-level
+von Neumann Stability analysis(simple, non-rigor) eigenmode
+	amplification factor
+	FTCS: unconditionally unstable, Lax Method
+	end effect
+	Courant condition
+	numerical viscosity
+	spurious decrease, increase
+	wave packet
+	amplitude error(stability), <link:internal>phase</link:internal> error(accuracy), nonlinear (error)instability
+	propagation error, transport error
+	dt = dx/v
+	nonlinear effection: energy transfer from low freq to high freq
+	upwind difference
+	swamp
+	
+10.10
+    偏微分方程数值解法/苏煜城,吴启光编
+	本书主要讨论抛物,双曲、椭圆三种类型方程定解问题的差分解法,古典的Ritz-Galerkin方法和有限元法,介绍建立高精度差分格式的Hermite方法及解Poisson方程的直接方法等。
+
+<bold>10.14
+</bold>differencing PDEs
+FTCS scheme 	Forward Time Centered Space
+Lax scheme: add a diffusion term to FTCS(Numeric dissipative term)
+	Courant condition: dt/dx &lt;= 1/v, i.e., the stepsize theorem
+
+This admits a solution only if the determinant of the matrix on the left vanishes.
+
+wave packet
+
+linear: the unknown quantity and its derivation all are <bold>one </bold>order
+
+wave equation: propagation errors
+advective equation: transport errors
+	<italic>upwind differencing</italic>
+	staggered leapfrog: no amplitude dissipation
+
+<italic>Two-Step Lax-Wendroff </italic>scheme
+centered expression
+numerical dissipation
+mesh drifting
+fidelity, pragmatic
+decouple
+be cast in <italic>flux-conservative </italic>form
+
+<bold>10.20
+
+</bold>1. Lax equal theorem: stability &lt;=&gt; convergence
+2. Operator
+3. 
+</note-content></text>
+  <last-change-date>2008-10-20T17:04:03.1348710+08:00</last-change-date>
+  <last-metadata-change-date>2008-10-20T17:04:03.1348710+08:00</last-metadata-change-date>
+  <create-date>2008-09-19T10:59:30.4218760+08:00</create-date>
+  <cursor-position>1913</cursor-position>
+  <width>526</width>
+  <height>292</height>
+  <x>0</x>
+  <y>0</y>
+  <tags>
+    <tag>system:notebook:Work</tag>
+  </tags>
+  <open-on-startup>False</open-on-startup>
+</note>

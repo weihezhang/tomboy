@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>爆破音</title>
+  <text xml:space="preserve"><note-content version="0.1">爆破音
+
+<size:huge>1.</size:huge>	 发爆破音时气流在通路上开始完全阻塞（成阻），随后气流有力、急促地冲开这种阻碍而发出爆破声（除阻）。单独发爆破音必须经过成阻、持阻和除阻三个阶段。发爆破音时，时间不可延长，一发即逝。爆破音有清浊三对，每对的发音部位相同，它们是：
+1．通常读／p／和／b／的字母和字母组合有：
+	／p／和／b／的读音练习：
+pack——back
+park——bark
+pull——bull
+rope——robe
+a blank sheet of <link:internal>paper</link:internal>
+a beautiful picture
+put a big book on the table
+
+2．通常读/t/和/d/的字母和字母组合有：
+<link:url>	/t/和/d/的读音练习</link:url>：
+bat——bad
+town——down
+mate——made
+latter——ladder
+twice a day
+in two days
+the day after tomorrow
+
+3．通常读／k／和／g／的字母和字母组合有：
+<link:url>	/k/和/g/的读音练习</link:url>：
+back——bag
+cap——gap
+<size:huge>2.</size:huge>	<bold><highlight>音位变体</highlight></bold>
+	这些音位变体的主要形式我们已经接触过。例如，什么时侯爆破音会<highlight>失去爆破</highlight>：take them；<highlight>鼻腔爆破音</highlight>应怎么发：garden；<highlight>旁流爆破音</highlight>应怎么发：people；在<highlight>辅音连缀</highlight>中，当/p t k/出现在/s/之后，“送气”会减弱，如speak, sky, star。</note-content></text>
+  <last-change-date>2008-02-22T22:27:12.5110330+08:00</last-change-date>
+  <last-metadata-change-date>2008-09-03T18:50:07.5112730+08:00</last-metadata-change-date>
+  <create-date>2007-06-02T16:59:48.9898540+08:00</create-date>
+  <cursor-position>514</cursor-position>
+  <width>466</width>
+  <height>360</height>
+  <x>310</x>
+  <y>102</y>
+  <tags>
+    <tag>system:notebook:GRE</tag>
+  </tags>
+  <open-on-startup>False</open-on-startup>
+</note>

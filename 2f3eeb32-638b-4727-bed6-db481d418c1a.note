@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>卷积</title>
+  <text xml:space="preserve"><note-content version="0.1">卷积
+
+<list><list-item dir="ltr"><highlight>循环卷积</highlight>是<highlight>线性卷积</highlight>的混叠
+</list-item><list-item dir="ltr"><highlight>块卷积</highlight>（批处理）</list-item></list>
+		<highlight>重叠保留法
+<link:internal>MATLAB</link:internal></highlight> 中使用filter函数实现conv
+若使用fft 称之为<highlight>快速卷积
+</highlight>若使用 基2<link:internal>FFT</link:internal>，则称为<highlight>高速卷积</highlight></note-content></text>
+  <last-change-date>2008-09-10T20:44:38.8452860+08:00</last-change-date>
+  <last-metadata-change-date>2008-09-10T20:44:38.8452860+08:00</last-metadata-change-date>
+  <create-date>2007-05-10T09:32:26.4265940+08:00</create-date>
+  <cursor-position>44</cursor-position>
+  <width>511</width>
+  <height>360</height>
+  <x>405</x>
+  <y>49</y>
+  <open-on-startup>False</open-on-startup>
+</note>

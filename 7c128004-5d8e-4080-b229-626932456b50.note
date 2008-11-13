@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>Google desktop</title>
+  <text xml:space="preserve"><note-content version="0.1">Google desktop
+
+让Google desktop For <link:internal>linux</link:internal> v1.2.0.0088使用Firefox3.0b5的方法
+
+先将/opt/google/desktop/plugin/<link:internal>firefox</link:internal> 软链接到使用帐户目录下
+
+
+like: ln -s<link:url> /opt/google/desktop/plugin/<link:internal>firefox</link:internal></link:url><link:url> ~/.mozilla/<link:internal>firefox</link:internal></link:url><link:url>/x3av73t9.default/extensions/desktop\@google.com</link:url>
+
+<link:url>然后进入desktop\@google.com目录下，编辑install.rdf</link:url>。
+
+找到关于firefox版本的那串数字，（like 2.0.0.*) 改为3.0.b5,然后保存！
+
+之后进入/opt/google/desktop/bin，编辑xdg-open ! 找到第408行，将＝符号前加个！符号（意为不等于ok?)</note-content></text>
+  <last-change-date>2008-09-29T20:38:27.6069470+08:00</last-change-date>
+  <last-metadata-change-date>2008-09-29T20:38:27.6069470+08:00</last-metadata-change-date>
+  <create-date>2008-09-29T20:37:31.2223300+08:00</create-date>
+  <cursor-position>329</cursor-position>
+  <width>450</width>
+  <height>360</height>
+  <x>0</x>
+  <y>0</y>
+  <tags>
+    <tag>system:notebook:日积月累</tag>
+  </tags>
+  <open-on-startup>False</open-on-startup>
+</note>

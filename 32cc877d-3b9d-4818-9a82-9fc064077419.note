@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>Gnuplot</title>
+  <text xml:space="preserve"><note-content version="0.1">Gnuplot
+
+<bold>Nov. 10</bold>
+
+I. Gnuplot Interactive Environment
+	plot(2D), splot(3D)
+1. plot functions
+	plot [-50:50] sin(x) + sin(1.1*x)
+	set samples 1000
+	replot
+2. plot data, separate by blank or tab
+	# Some data    "data.txt"
+	1   1
+	1.5 2
+	2.1 2.5
+	3   2.3
+	3.2 2.1
+   2.1 reset: set all variables to default values
+        plot "data.txt"
+        plot "data.txt" with linespoints
+	set style data linespoints
+	replot
+	help style
+  2.2 curve fit
+	y(x) = a*x**2 + b*x + c
+	fit y(x) "data.txt" via a,b,c
+	plot "data.txt", y(x)
+	set key right bottom
+	set xlabel "t"
+	set ylabel "A"
+	set title "A Dumb Figure"
+
+II. Gnuplot Scripting
+
+1. save file as 'eps'
+	set term post eps
+	set output "test.eps"
+	replot
+2. enhanced termianl
+	set term postscript eps color enhanced
+	set title "x^2 Against {/Symbol b}"
+	Gnuplot 源码包中附带的 ps_guide.ps
+
+III. example
+1. set logscale xy
+y1(x) = A1*x**b1
+ y2(x) = A2*x**b2
+ fit [0.01:0.3] y1(x) "real.txt" via A1,b1
+ fit [3:30] y2(x) "real.txt" via A2,b2
+plot "real.txt", y1(x), y2(x)
+
+
+
+
+
+
+</note-content></text>
+  <last-change-date>2008-11-10T19:28:14.4440970+08:00</last-change-date>
+  <last-metadata-change-date>2008-11-10T19:28:14.4440970+08:00</last-metadata-change-date>
+  <create-date>2008-11-10T15:16:51.8794940+08:00</create-date>
+  <cursor-position>1001</cursor-position>
+  <width>489</width>
+  <height>385</height>
+  <x>4</x>
+  <y>54</y>
+  <tags>
+    <tag>system:notebook:日积月累</tag>
+  </tags>
+  <open-on-startup>False</open-on-startup>
+</note>

@@ -1,0 +1,312 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>Vim</title>
+  <text xml:space="preserve"><note-content version="0.1">Vim
+
+9.30
+:4,10w ex2.txt
+
+:set noincsearch
+
+10.5	vim-latexsuite
+
+1. <link:internal>install</link:internal>
+%%set runtimepath+=/usr/share/vim/addons/
+locate <link:internal>latex</link:internal>-suite
+'sudo apt-get <link:internal>install</link:internal> vim-addon-manager'
+'sudo vim-addons -w <link:internal>install</link:internal> <link:internal>latex</link:internal>-suite'
+
+2. use
+	templates, 
+	package(F5), autocompletion 
+	Placeholder&lt;C-j&gt;, 
+	environment
+	mathType: `p(\pi), ==( &amp;=&amp; ), `/(\frac{}{}), `8(\infty)
+	\rf, za
+
+	Compile: \ll, View DVI: \lv, \ls
+		forward search in dvi: :let g:Tex_CompileRule_dvi = '<link:internal>latex</link:internal> -src-specials 					-interaction=nonstopmode $*'
+				:TCTarget dvi
+
+<bold>11.8
+
+</bold>helptags 
+
+<bold>Nov. 10
+
+</bold>
+新一篇: Gentoo - Portage | 旧一篇: awk笔记
+
+
+=============================
+help
+=============================
+                             PREPEND
+Visual mode commands            v_
+Insert mode commands            i_
+Command-line commands           :
+Command-line editing            c_
+Options                         '   // :help 'textwidth'
+
+=============================
+editing
+=============================
+:g+//+s/foobar/barfoo/g     // g[lobal]默认作用范围是整个文件
+:g/./,/^$/join
+
+!5Gsort&lt;Enter&gt;
+!{motion}{filter}
+!!{filter}
+
+set virtualedit=all
+set virtualedit=
+
+=============================
+motion
+=============================
+:map &lt;Space&gt; W
+g前缀使命令不是linewise的，常在wrap时和原命令有所区别
+
+; Repeat latest f, t, F or T [count] times.
+, Repeat latest f, t, F or T in opposite direction [count] times.
+
+word WORD  w W
+sentences  ( )
+paragraph  { }
+section ]]  ][  [[  [] // 函数"{"须在第一列
+]} [{ ]) [( ]/ [/
+
+// Text object selection
+// can only be used while in Visual mode or after an operator
+The commands that start with "a" select "a"n object including white space, the
+commands starting with "i" select an "inner" object without white space, or
+just the white space.
+
+aw aW as ap a] a[ a) a( a&gt; a&lt; a} a{ // s for sentence &amp;&amp; p for paragraph
+iw iW is ip i] i[ i) i( i&gt; i&lt; i} i{ // excluding ] [ ) ( &gt; &lt; } {
+
+:set guioptions+=b  // 显示滚动条
+
+ze  when 'wrap' off scroll horizontally to position the cursor at the end (right side) of the screen.
+zh  when 'wrap' off scroll screen N characters to the right.
+zl  when 'wrap' off scroll screen N characters to the left.
+zs  when 'wrap' off scroll horizontally to position the cursor at the start (left side) of the screen.
+
+=============================
+motion-II
+=============================
+CTRL-O Go to [count] Older cursor position in jump list (not a motion command). 
+CTRL-I Go to [count] newer cursor position in jump list (not a motion command). 
+
+=============================
+programming
+=============================
+:tags   // 显示tag stack
+:tag {tagname} // 缺省时至stack的top
+CTRL-]
+:ptag tagname // preview
+CTRL-W }
+:pclose
+:pedit
+:psearch
+:stag tagname
+CTRL-W ]
+CTRL-T
+
+:set tags=./tags,./../tags,./*/tags
+:set tags=./*/tags
+:!ctags -R *
+
+:tnext
+:tselect tagname
+:tag /block 再按tab补齐
+
+[i  // 第一个匹配项
+[I  // [&lt;Tab&gt; 跳转到[I找到的第一条匹配项
+]I  // start at the current cursor position
+[D  // 宏定义
+
+:set path+=d:\mingw\include\*
+:checkpath
+
+=============================
+text formatting
+=============================
+:set cindent shiftwidth=4
+gg=G
+:set textwidth=80
+
+&lt;CTRL-V&gt; // &lt;CTRL-Q&gt; for Windows
+Istring&lt;Esc&gt;
+cstring&lt;Esc&gt;
+
+:center // :{range}center [width]
+:right
+
+=============================
+map     command     autocmd
+=============================
+:omap &lt;F7&gt; a{
+:map &lt;F3&gt; oDate: &lt;Esc&gt;:read !date&lt;CR&gt;kJ
+   
+:command -nargs=* DoIt :call AFunction(&lt;f-args&gt;)
+
+:autocmd [group] {events} {file_pattern} [nested] {command}
+
+:augroup cprograms
+: autocmd BufReadPost *.c,*.h :set sw=4 sts=4
+: autocmd BufReadPost *.cpp :set sw=3 sts=3
+:augroup END
+
+:autocmd! cprograms   //删除
+
+
+=============================
+vim-script
+=============================
+b:name    buffer variable
+w:name    window variable
+g:name    global variable (also in a function)
+v:name    variable predefined by Vim
+s:name    script variable
+l:name    local variable
+a:name    function argument
+
+$NAME     environment variable
+&amp;name     option
+@r        register
+
+:execute "tag " . tag_name // . for cancatenate
+---&gt; :tag tag_name
+:normal gg=G
+:execute "normal " . normal_commands
+:execute "normal Inew text \&lt;Esc&gt;"
+
+=============================
+useful links for VIM scripts
+=============================
+c.vim              <link:url>http://vim.sourceforge.net/scripts/script.php?script_id=213</link:url>
+        -------
+        Setting
+        -------
+        see doc
+        -------
+        Usage
+        -------
+        &lt;A-F9&gt; save and compile
+        &lt;F9&gt;   link
+        &lt;C-F9&gt; run
+
+taglist.vim        <link:url>http://vim.sourceforge.net/scripts/script.php?script_id=273</link:url>
+        -------
+        Notes
+        -------
+        noremap &lt;silent&gt; &lt;F11&gt;  &lt;Esc&gt;&lt;Esc&gt;:Tlist&lt;CR&gt;
+        inoremap &lt;silent&gt; &lt;F11&gt;  &lt;Esc&gt;&lt;Esc&gt;:Tlist&lt;CR&gt;
+        -------
+        Usage
+        -------
+        &lt;CR&gt;          Jump to the location where the tag under cursor is
+                       defined.
+         o             Jump to the location where the tag under cursor is
+                       defined in a new window.
+         p             Display the tag definition in the file window and
+                       keep the cursor in the taglist window itself.
+         &lt;Space&gt;       Display the prototype of the tag under the cursor.
+         u             Update the tags listed in the taglist window
+         s             Change the sort order of the tags (by name or by order)
+         d             Remove the tags for the file under the cursor
+         x             Zoom-in or Zoom-out the taglist window
+         +             Open a fold
+         -             Close a fold
+         *             Open all folds
+         =             Close all folds
+         [[            Jump to the beginning of the previous file
+         &lt;Backspace&gt;   Jump to the beginning of the previous file
+         ]]            Jump to the beginning of the next file
+         &lt;Tab&gt;         Jump to the beginning of the next file
+
+EnhCommentify.vim  <link:url>http://vim.sourceforge.net/scripts/script.php?script_id=23</link:url>
+        -------
+        Setting
+        -------
+        let g:EnhCommentifyRespectIndent = 'yes'
+        let g:EnhCommentifyPretty        = 'yes'
+        let g:EnhCommentifyAlignRight    = 'yes'
+        -------
+        Usage
+        -------
+        \x  \c
+
+bufexplorer.zip    <link:url>http://vim.sourceforge.net/scripts/script.php?script_id=42</link:url>
+        -------
+        Notes
+        -------
+        Needed by winmanager
+        -------
+        Usage
+        -------
+        \be \bs
+
+winmanager         <link:url>http://vim.sourceforge.net/scripts/script.php?script_id=95</link:url>
+        -------
+        Notes
+        -------
+        noremap &lt;silent&gt; &lt;F4&gt;  &lt;Esc&gt;&lt;Esc&gt;:WMToggle&lt;CR&gt;
+        inoremap &lt;silent&gt; &lt;F4&gt;  &lt;Esc&gt;&lt;Esc&gt;:WMToggle&lt;CR&gt;
+        -------
+        Usage
+        -------
+        :WManager :WMClose :WMToggle
+
+        1: File Explorer Area
+        &lt;tab&gt; : open the file or directory in a new window in the FileEditing area.
+        c : change the pwd to the directory currently displayed
+        C : change the currently displayed directory to pwd (converse of c)
+        s : select sort field (size, date, name)
+        r : reverse direction of sort
+        R : rename file
+        D : delete file
+        - : move up one level
+       
+
+cppcomplete        <link:url>http://vim.sourceforge.net/scripts/script.php?script_id=527</link:url>
+        -------
+        Notes
+        -------
+        default mapping of &lt;F9&gt; conflicts with c.vim
+        &lt;F8&gt; &lt;F9&gt; --&gt; &lt;F7&gt; &lt;F8&gt;
+        -------
+        Usage
+        -------
+        &lt;A-j&gt; &lt;A-l&gt; &lt;F7&gt; &lt;F8&gt; &lt;F5&gt;
+
+a.vim              <link:url>http://vim.sourceforge.net/scripts/script.php?script_id=31</link:url>
+        -------
+        Usage
+        -------
+        :A :AS :AV
+
+borland.vim        <link:url>http://vim.sourceforge.net/scripts/script.php?script_id=92</link:url>
+        -------
+        Usage
+        -------
+        :colorscheme borland
+
+xmledit            <link:url>http://vim.sourceforge.net/scripts/script.php?script_id=301</link:url>
+cvsmenu.vim        <link:url>http://vim.sourceforge.net/scripts/script.php?script_id=58</link:url>
+project.tar.gz     <link:url>http://vim.sourceforge.net/scripts/script.php?script_id=69</link:url>
+grep.vim           <link:url>http://vim.sourceforge.net/scripts/script.php?script_id=311</link:url></note-content></text>
+  <last-change-date>2008-11-10T20:40:10.2624600+08:00</last-change-date>
+  <last-metadata-change-date>2008-11-10T20:40:10.2624600+08:00</last-metadata-change-date>
+  <create-date>2008-09-30T21:27:26.9134260+08:00</create-date>
+  <cursor-position>549</cursor-position>
+  <width>466</width>
+  <height>360</height>
+  <x>295</x>
+  <y>191</y>
+  <tags>
+    <tag>system:notebook:日积月累</tag>
+  </tags>
+  <open-on-startup>False</open-on-startup>
+</note>

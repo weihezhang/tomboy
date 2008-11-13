@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>中频谷点</title>
+  <text xml:space="preserve"><note-content version="0.1">中频谷点
+
+	它由折环在中频区<highlight>共振</highlight>并与锥盆振动<highlight>相位相反</highlight>、声波相消所造成的。中频谷点不仅影响整个声压频响不均匀度，且产生较大失真，更因它位于人耳较灵敏的<highlight>中频区</highlight>，故对音质有很大影响。一般扬声器的口径越大，谷点频率也越低。</note-content></text>
+  <last-change-date>2007-04-16T17:15:25.5887420+08:00</last-change-date>
+  <last-metadata-change-date>2007-04-16T17:15:25.5887420+08:00</last-metadata-change-date>
+  <create-date>2007-04-16T17:14:09.6896240+08:00</create-date>
+  <cursor-position>83</cursor-position>
+  <width>450</width>
+  <height>360</height>
+  <x>0</x>
+  <y>49</y>
+  <open-on-startup>False</open-on-startup>
+</note>

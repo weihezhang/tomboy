@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>欧拉角</title>
+  <text xml:space="preserve"><note-content version="0.1">欧拉角
+
+	用来确定定点转动刚体位置的3个一组独立角参量，由<highlight>章动角θ、旋进角（即进动角）ψ和自转角j</highlight>组成。为欧拉首先提出而得名。它们有多种取法，下面是常见的一种。如图所示，由定点O作出固定坐标系Oxyz和固连于刚体的动坐标系Ox′y′z′。以轴Oz和Oz′为基本轴，其垂直面Oxy和Ox′y′为基本平面。由轴Oz量到Oz′的角θ称章动角。平面zOz′的垂线ON称节线，它又是基本平面Ox′y′和Oxy的交线。在右手坐标系中，由ON的正端看，角θ 应按逆时针方向计量。由固定轴Ox量到节线ON的角ψ称旋进角；由节线ON量到动轴Ox′的角j称自转角。由轴Oz和Oz′正端看，角ψ和j也都按逆时针方向计量。若令Ox′y′z′的初始位置与Oxyz重合，经过相继绕Oz、ON和Oz′的三次转动后，刚体将转到图示的任意位置。如果刚体绕通过定点O的某一轴线以角速度ω转动，而ω在动坐标系Ox′y′z′上的投影为ωx′、ωy′、ωz′，则它们可用欧拉角及其微商表示如下：ωx′＝sinθsinj ＋cosj，ωy′＝ sinθcosj－sinj，ωz′＝cosθ＋。如果已知ψ、θ、j和时间的关系，则可用上式计算ω在动坐标轴上的3个分量；反之，如已知任一瞬时t的 ω各个分量，也可利用上式求出ψ、θ、j和时间t的关系，因而也就决定了刚体的运动。上式通常被称为欧拉运动学方程。</note-content></text>
+  <last-change-date>2007-04-15T12:10:14.1063930+08:00</last-change-date>
+  <last-metadata-change-date>2007-04-15T12:10:14.1063930+08:00</last-metadata-change-date>
+  <create-date>2007-04-15T12:08:52.7037110+08:00</create-date>
+  <cursor-position>227</cursor-position>
+  <width>450</width>
+  <height>360</height>
+  <x>345</x>
+  <y>25</y>
+  <open-on-startup>False</open-on-startup>
+</note>

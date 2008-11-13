@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>漏表面声波</title>
+  <text xml:space="preserve"><note-content version="0.1">漏表面声波
+
+	(Leaky Surface Acoustic Wave, LSAW)又称为伪表面声波(Pseudo Surface Acoustic Wave, PSAW)，简称为漏波。其传播速度界于同一传播方向的准慢切变体波和准快切变体波之间，但漏波在传播时要不断向体内辐射一定数量体声波才能保证表面边界条件的满足。漏波正是因为在传播过程中的能量泄漏而被称为“漏”波，目前商用高频表面声波器件有相当大部分都是工作在漏波模式； </note-content></text>
+  <last-change-date>2007-04-19T09:34:40.9325930+08:00</last-change-date>
+  <last-metadata-change-date>2007-04-19T09:34:40.9325930+08:00</last-metadata-change-date>
+  <create-date>2007-04-19T09:34:26.3123449+08:00</create-date>
+  <cursor-position>7</cursor-position>
+  <width>450</width>
+  <height>360</height>
+  <x>0</x>
+  <y>49</y>
+  <open-on-startup>False</open-on-startup>
+</note>

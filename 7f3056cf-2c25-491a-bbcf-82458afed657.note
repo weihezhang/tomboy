@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>DFT</title>
+  <text xml:space="preserve"><note-content version="0.1">DFT
+DFS 
+<list><list-item dir="ltr">系数周期共轭对称 （速度和计算量都省了一半）</list-item></list>
+
+
+<bold>由DFT得出DTFT的方式</bold>
+<list><list-item dir="ltr">在一个有限序列后<bold><highlight>补零</highlight></bold>，给出了一种<highlight>高密度的谱</highlight></list-item></list>
+特点：	使频谱曲线更光滑
+		不是高分辨率的谱（没有给出任何新的信息，因为只是添加了零）
+<list><list-item dir="ltr">使用内插公式</list-item></list></note-content></text>
+  <last-change-date>2008-09-17T20:43:13.8484020+08:00</last-change-date>
+  <last-metadata-change-date>2008-09-17T20:43:13.8484020+08:00</last-metadata-change-date>
+  <create-date>2007-05-09T20:29:38.6849730+08:00</create-date>
+  <cursor-position>118</cursor-position>
+  <width>573</width>
+  <height>342</height>
+  <x>0</x>
+  <y>52</y>
+  <open-on-startup>False</open-on-startup>
+</note>

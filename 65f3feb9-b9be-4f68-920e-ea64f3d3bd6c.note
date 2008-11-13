@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>离散数学</title>
+  <text xml:space="preserve"><note-content version="0.1">离散数学
+
+壹 9.19 Fri.
+
+第五章 1-25 电子版
+
+<bold>10.29</bold>
+
+集合、测度、连续统、Lebesgue积分，以及初等数论、群
+
+正交性  Cauchy－Riemann方程  保角变换、Laplace方程、调和函数、Poisson方程
+
+无源性  Cauchy积分定理  大型力学计算   无源电阻网络  无源而且无损的网络
+
+ 最大熵和最小熵  能量在系统中分布的均匀程度
+
+距离和相似性  Kullback-Leibler型距离  Bhattacharyya距离  差离度，divergence  
+
+<link:internal>卷积</link:internal>  将x(t)平移一个时间量τ成为x(t-τ)，乘在τ处的函数值h(τ)，取遍定义h(τ)的所有τ，将乘积累积起来，就得到卷积的结果。  叠加原理
+
+SVD表达式表明，用若干个可分图像按奇异值进行强度加权后叠加在一起，可以逼近原图像。
+
+同伦是数学中的一个概念。一个拓扑流形或函数如果能够通过连续变形变成另一个拓扑流形或函数，我们就说这两个拓扑流形或函数彼此同伦。
+
+紧集（Compact set）“有限维闭区间” 有界性和可分性
+
+Hausdorff空间
+
+</note-content></text>
+  <last-change-date>2008-10-29T18:53:44.0329780+08:00</last-change-date>
+  <last-metadata-change-date>2008-10-29T18:53:44.0329780+08:00</last-metadata-change-date>
+  <create-date>2008-09-19T15:55:06.1920790+08:00</create-date>
+  <cursor-position>1972</cursor-position>
+  <width>466</width>
+  <height>360</height>
+  <x>0</x>
+  <y>0</y>
+  <tags>
+    <tag>system:notebook:Work</tag>
+  </tags>
+  <open-on-startup>False</open-on-startup>
+</note>

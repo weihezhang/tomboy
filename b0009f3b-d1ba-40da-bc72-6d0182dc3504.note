@@ -1,0 +1,178 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>Problems</title>
+  <text xml:space="preserve"><note-content version="0.1">Problems
+
+<list><list-item dir="ltr"><size:large>买黑布</size:large>
+</list-item><list-item dir="ltr">快门时间</list-item></list>
+
+2008.9.4
+	1. How to use tags in <link:internal>vim</link:internal>?              <bold>OK</bold>
+	2. How to change the space between picture and the next text?
+		begin{figure}{h|t|b} ...
+	3. Why not need to calculate the potential of spring, when the mass of spring is unignorable?
+
+9.6
+	1. The <link:internal>pronunciation</link:internal> of  'ch' 
+	2. Things need to prepared for matriculation
+	3. shed weight ???
+
+9.7
+	1. Can't connect to internet?? Network problem. <bold>Solved</bold>
+		a. can't ping gateway   1
+		b. can't ping the host   19
+		c. can't ping compute of Yadong  23
+
+		d. can ping myself 76
+9.8
+	1. How to add legend in a <link:internal>Mathematica</link:internal> figure??
+	2. How to draw a dotted line in <link:internal>Mathematica</link:internal> figure??
+		<bold>A:</bold>  PlotStyle -&gt; {Red, Green, Dashed}
+ 	3. How to Add a frame??
+		<bold>A:</bold> Frame-&gt;True
+
+9.13
+	<link:internal>Install</link:internal> a .bin/cue in <link:internal>linux</link:internal>?
+		A: <link:internal>install</link:internal> bchunk(convert .bin/cue to .iso file)
+
+9.16
+	Ipx 139 1392 6007
+			512MB (1x512) NECC DDR2 533MHz SDRAM Memory
+			Necc: 非Ecc和服务器的ecc分开
+		ProMOS  	V916764K24QCFW-F5  	512 MB  ddr2-667-cl5
+		makway 70
+		samsung (so-dimm) 60  
+	Dell 530:  CPXY31X  2002/4/30   2007/4/30  5years
+			1.0GB (4x256) PC800 ECC RDRAM Memory
+		800 858 0960
+
+		800 858 2222-0720 白小姐
+
+		主机    3n384 PWA,PLN,COLUSA,JT,PWS530
+                           4J979  1.0GB (4x256) PC800 ECC RDRAM Memory
+	程建春那还有一台，two，梁斌在用
+
+9.18
+	TeamSpeak 导致 COMSOL singular matrix
+
+9.20
+	kingston 1G 指示灯3,4亮 主板问题
+	适 用 于:台式机,容　　量:1 GB,主　　频:667 MHz,类　　型:DDR2,颗粒封装:FBGA,接口类型:240 pin,电　　压:1.8 V,传输标准:PC 5300
+
+9.30
+风扇响	液态轴承		专用脂  	锂基低黏度的润滑剂（合成锂基脂）
+
+<bold>10.17
+</bold>Read-only filesystem
+	dosfsck -a -v<link:url> /dev/sdb1</link:url>
+
+<bold>10.22
+
+</bold>tsclient:
+	X Error of failed request:  BadAtom (invalid Atom parameter)
+  Major opcode of failed request:  23 (X_GetSelectionOwner)
+  Atom id in failed request:  0x0
+<bold>restart</bold> the compute can solve this problem, now I use <link:internal>GNOME</link:internal>-rdp instead.
+
+cat<link:url> /etc/lsb-release</link:url>
+dpkg -l | grep tsclient
+
+<bold>10.28</bold>
+1. xerox workcentre 518 卡纸 c4
+以下几点有助于预防和减少“卡纸”：
+
+定期保养：对复印机进行全面的清洁保养是保证复印效果，减少“卡纸”率的最有效的手段。定期保养应是复印机保修单位的基本职责。
+选用最近的纸盒：离感光鼓越近的纸张，在复印过程越短，“卡纸”的机会越少。
+均匀使用纸盒：听起来与第二条矛盾。但如果两个纸盒紧挨着，轮换使用可以避免一个纸路的搓纸系统过度磨损。
+选好复印纸：复印纸的好坏对复印机的“卡纸率”及至其使用寿命都起着至关重要的影响作用。
+
+不要选用有以下现象的纸张：
+1、同一包纸厚薄不均，尺寸不一，甚至有缺损。
+2、纸的边缘有毛茬。
+3、纸毛太多，在干净的桌面上抖过后会留下一层白屑。纸毛太多的复印纸会搓纸轮太滑，以至搓不上纸，加速感光鼓、定影辊的磨损等。
+· 抖纸：在清洁的桌面上将纸抖松，然后反复搓齐，这样可以减少纸毛。
+· 防潮、防静电：受潮的纸张在复印机内热后会变形，造成“卡纸”，双面复印时尤为严重。 秋、冬两季天气干燥，易产生静电，复印纸经常两三张粘在一起，造成“卡纸”。建议在复印机附近放置一台加湿器。
+· 自做清洁：如果经常发生复印纸搓不上来的“卡纸”现象，则可以用一块的脱脂棉（不要蘸水太多）擦拭搓纸轮。
+· 消 边：在复印底色较深的原稿时， 常会造成复印件呈扇状卡在复印机出纸口。使用复印机的消边功能，可以减少“卡纸”概率。
+
+如果发生“卡纸”，在取纸时请注意以下几点：
+1、取“卡纸”时，只可扳动复印机说明书上允许动的部件。
+2、尽可能一次将整纸取出，注意不要把破碎的纸片留在机器内。
+3、不要接触至感光鼓，以免将鼓划伤。
+4、若确信所有“卡纸”均被清除，但“卡纸”信号仍不消失时，可重新关一次前盖，或开关一次机器。
+
+<bold>11.4
+
+</bold>4G内存 highmem
+big memory mode
+rebuilding the kernel with 64GB RAM support
+將桌上型版本改為伺服器版本 ubuntu server edition
+mtrr
+PM965系列芯片组
+
+There is actually a hack in the <link:internal>linux</link:internal> kernel (at least in version 2.6.22 with gentoo patches) that allows taking advantage of more then 4 GB (up to 64 GB) with a 32-bit processor. 
+
+	CONFIG_HIGHMEM64G: 
+This selection turns Intel PAE (Physical Address Extension) mode on. PAE implements 3-level paging on IA32 processors. PAE is fully supported by <link:internal>Linux</link:internal>, PAE mode is implemented on all recent Intel processors (Pentium Pro and better).
+(PAE also has the advantage that you don't have to reinstall Ubuntu as you can just <link:internal>install</link:internal> the PAE kernel on your existing 32bit <link:internal>install</link:internal>.)
+PAE can only access 64 GB of memory if all 36 address pins are properly wired up on the motherboard.
+
+bios：  BIOS for a setting to enable PAE
+get into the grub menu, check if the memtest sees all 4gb
+
+Ubuntu default kernels have been enabling this process at least since version 6.10, and so have Fedora 7's.
+
+If the total memory is 885, then no high memory is enabled on your system 
+if the result shows over 1 gigabyte but less than 4GB when you know you have more, then the 4GB parameter is enabled, but not the 64GB one.
+
+apt-cache search 686-bigmem
+
+    * Make sure that CONFIG_NOHIGHMEM is not set.
+    * Set either CONFIG_HIGHMEM4G or CONFIG_HIGHMEM64G to yes, using whichever one is appropriate for the RAM in your system. If you have Note that you should use the 4 gigabyte parameter for less than 4 gigabytes of RAM, and the 64 gigabyte parameter for 4 or more gigabytes (4 gigabytes of RAM, remember is actually slightly more than that).
+    * Set CONFIG_HIGHMEM to yes.
+    * Optionally, set CONFIG_DEBUG_HIGHMEM to yes if you want to log error messages. Since many generic kernels turn this option off, you can probably do without it, especially if you do not delete other kernels from your boot manager's menu, so that you can still start your computer if your newly compiled kernel is unusable.
+
+sudo apt-get <link:internal>install</link:internal> <link:internal>linux</link:internal>-server <link:internal>linux</link:internal>-headers-server
+
+In that case, I noticed you haven't tried the "enable-pae" option through GRUB; simple append 'enable-pae' to the end of your GRUB line, see if that helps.
+
+cat<link:url> /proc/cpuinfo</link:url> | grep 'pae'
+
+
+<bold>11.7
+
+</bold>busybox
+can't recognize local disk
+the SAMSUNG display moniter's panel can't be controlled
+
+<bold>Nov. 10
+
+</bold>$ lspci |grep 9600
+	01:00.0 VGA compatible controller: nVidia Corporation G94 [<link:broken>GeForce</link:broken> 9600 GT] (rev a1)
+$ jockey-gtk -l
+
+<bold>Nov. 12
+
+</bold>01:00.0 VGA compatible controller: nVidia Corporation G94 [<link:broken>GeForce</link:broken> 9600 GT] (rev a1)
+
+NVIDIA-<link:internal>Linux</link:internal>-x86-177.80-pkg1.run
+
+prerequisation:
+	sudo apt-get <link:internal>install</link:internal> <link:internal>linux</link:internal>-headers-`uname -r`
+
+<bold>
+
+</bold></note-content></text>
+  <last-change-date>2008-11-12T10:17:58.1388090+08:00</last-change-date>
+  <last-metadata-change-date>2008-11-12T10:17:58.1388090+08:00</last-metadata-change-date>
+  <create-date>2008-02-24T17:09:27.3433100+08:00</create-date>
+  <cursor-position>5256</cursor-position>
+  <width>502</width>
+  <height>419</height>
+  <x>484</x>
+  <y>82</y>
+  <tags>
+    <tag>system:notebook:Work</tag>
+  </tags>
+  <open-on-startup>False</open-on-startup>
+</note>

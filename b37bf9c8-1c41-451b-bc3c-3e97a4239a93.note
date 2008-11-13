@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>Monday, May 7 2007</title>
+  <text xml:space="preserve"><note-content version="0.1"> Monday, May 7 2007
+
+<size:huge><link:internal>Tasks</link:internal></size:huge>
+<list><list-item dir="ltr"><bold>Word List 30</bold></list-item></list>
+
+<size:huge>Wi-Fi</size:huge>
+<list><list-item dir="ltr"><bold>Wi</bold>reless <bold>Fi</bold>delity (also called 802.11b)</list-item></list>
+<size:huge>Hi-Fi</size:huge>
+<list><list-item dir="ltr"><bold>Hi</bold>gh<bold> Fi</bold>delity</list-item></list>
+<size:huge>Sci-fi</size:huge>
+<list><list-item dir="ltr"><bold>sci</bold>ence <bold>fi</bold>ction</list-item></list>
+<size:huge>共轭对称序列</size:huge>
+<list><list-item dir="ltr">实部偶对称，虚部奇对称</list-item></list>
+</note-content></text>
+  <last-change-date>2008-02-29T12:30:14.6912620+08:00</last-change-date>
+  <last-metadata-change-date>2008-02-29T12:30:14.6912620+08:00</last-metadata-change-date>
+  <create-date>2007-05-07T10:45:00.4493000+08:00</create-date>
+  <cursor-position>0</cursor-position>
+  <width>450</width>
+  <height>360</height>
+  <x>429</x>
+  <y>98</y>
+  <open-on-startup>False</open-on-startup>
+</note>

@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>KDE</title>
+  <text xml:space="preserve"><note-content version="0.1">KDE
+
+	1996年10月，图形排版工具Lyx的开发者、一位名为		Matthias Ettrich的德国人发起了KDE（Kool Desktop Environment）项目</note-content></text>
+  <last-change-date>2007-05-14T18:01:46.8816550+08:00</last-change-date>
+  <last-metadata-change-date>2007-05-14T18:01:46.8816550+08:00</last-metadata-change-date>
+  <create-date>2007-05-14T18:01:29.8255680+08:00</create-date>
+  <cursor-position>5</cursor-position>
+  <width>450</width>
+  <height>360</height>
+  <x>566</x>
+  <y>330</y>
+  <open-on-startup>False</open-on-startup>
+</note>

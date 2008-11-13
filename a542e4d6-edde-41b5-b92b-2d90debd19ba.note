@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>typecast</title>
+  <text xml:space="preserve"><note-content version="0.1">typecast
+
+		int *ptr;
+		ptr = (int *)0x67a9;
+		*ptr = 0xaa55;</note-content></text>
+  <last-change-date>2007-04-15T19:21:41.9898460+08:00</last-change-date>
+  <last-metadata-change-date>2007-04-15T19:21:41.9898460+08:00</last-metadata-change-date>
+  <create-date>2007-04-15T19:21:06.5289560+08:00</create-date>
+  <cursor-position>61</cursor-position>
+  <width>450</width>
+  <height>360</height>
+  <x>0</x>
+  <y>49</y>
+  <open-on-startup>False</open-on-startup>
+</note>

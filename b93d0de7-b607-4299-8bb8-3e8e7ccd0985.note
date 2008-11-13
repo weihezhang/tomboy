@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>乐甫波</title>
+  <text xml:space="preserve"><note-content version="0.1">乐甫波
+
+乐甫波 Love wave
+
+	一种常见的界面弹性波。在弹性介质界面上存在一层<highlight>低波速弹性覆盖层</highlight>时，在该覆盖层内部和界面上可能出现的介质所有质点沿水平方向振动的横波 。因 A.E.H. 乐甫建立这种波的数学模型而得名。其波速不仅与材料性质有关，而且与频率有关，这种现象叫做<highlight>频散</highlight>。波长很长的乐甫波的波速接近于下层介质中横波的波速；波长很短的乐甫波的波速接近于上面低波速覆盖层中横波的波速。在有频散时，扰动不是以各单色波的波速（即相速）传播，而是以各单色波叠加后的调制振幅的传播速度 （即群速）传播 。地震波通过岩石-土壤时会出现乐甫波，对其研究在地震学中有重要意义。 </note-content></text>
+  <last-change-date>2007-04-20T09:47:00.9962690+08:00</last-change-date>
+  <last-metadata-change-date>2007-04-20T09:47:00.9962690+08:00</last-metadata-change-date>
+  <create-date>2007-04-20T09:45:29.4369980+08:00</create-date>
+  <cursor-position>236</cursor-position>
+  <width>450</width>
+  <height>360</height>
+  <x>451</x>
+  <y>173</y>
+  <open-on-startup>False</open-on-startup>
+</note>

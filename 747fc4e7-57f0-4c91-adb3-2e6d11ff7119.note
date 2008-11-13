@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>ToDoList</title>
+  <text xml:space="preserve"><note-content version="0.1">ToDoList
+
+2008.7.23
+	Solitary Wave in Water Trough P64-72
+
+2008.8.7
+	Nonlinear waves, Japan, P321/W98
+
+9.9
+	平坦色散曲线与太密度之间的关系
+
+<bold>11.8
+	</bold>category the Dell server's disk</note-content></text>
+  <last-change-date>2008-11-08T14:30:28.6204900+08:00</last-change-date>
+  <last-metadata-change-date>2008-11-08T14:30:28.6204900+08:00</last-metadata-change-date>
+  <create-date>2008-07-23T16:46:57.9264130+08:00</create-date>
+  <cursor-position>131</cursor-position>
+  <width>466</width>
+  <height>360</height>
+  <x>0</x>
+  <y>0</y>
+  <tags>
+    <tag>system:notebook:计划</tag>
+  </tags>
+  <open-on-startup>False</open-on-startup>
+</note>

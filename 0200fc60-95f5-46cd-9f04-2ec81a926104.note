@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>Swim</title>
+  <text xml:space="preserve"><note-content version="0.1">Swim
+
+<list><list-item dir="ltr"><bold>breast stroke (蛙泳）</bold>
+</list-item><list-item dir="ltr"><bold>free style</bold>
+</list-item><list-item dir="ltr"><bold>butterfly style</bold>
+</list-item><list-item dir="ltr"><bold>back stroke</bold>
+</list-item><list-item dir="ltr"><bold>doggy paddle</bold></list-item></list></note-content></text>
+  <last-change-date>2007-05-21T18:13:11.7947750+08:00</last-change-date>
+  <last-metadata-change-date>2007-05-21T18:13:11.7947750+08:00</last-metadata-change-date>
+  <create-date>2007-05-21T18:06:18.9386920+08:00</create-date>
+  <cursor-position>89</cursor-position>
+  <width>450</width>
+  <height>360</height>
+  <x>138</x>
+  <y>380</y>
+  <open-on-startup>False</open-on-startup>
+</note>

@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>超声</title>
+  <text xml:space="preserve"><note-content version="0.1">超声
+
+<bold>Apr 15 , 2007
+	</bold>本课程的内容简介
+	第一章 绪论
+	第二章 波动方程及其解
+	    第一节 液体中的波动方程
+	    第二节 固体中的波动方程
+	    第三节 声波在界面上的反射和透射
+	    第四节 声波的衰减和吸收
+	    第五节 表面波
+	    第六节 <link:internal>兰姆波</link:internal>
+	第三章  超声换能器
+	第四章 声显微镜
+	第五章  超声电子学
+	第六章  激光超声
+<bold>Apr 19, 2007</bold>
+<list><list-item dir="ltr"><bold>半波透声片</bold>
+</list-item><list-item dir="ltr"><bold>1／4波片匹配全透射</bold></list-item></list>
+<bold>Apr 20, 2007</bold>
+<list><list-item dir="ltr">在超声波检测中利用超声波在界面上的<highlight>折射</highlight>特性主要用于达到<highlight>波型转换</highlight>的目的
+</list-item><list-item dir="ltr">在超声波检测中利用超声波的<highlight>反射</highlight>特性主要用于<highlight>探测材料中的缺陷</highlight></list-item></list>
+</note-content></text>
+  <last-change-date>2007-04-20T10:41:38.3238329+08:00</last-change-date>
+  <last-metadata-change-date>2007-04-20T10:41:38.3238329+08:00</last-metadata-change-date>
+  <create-date>2007-04-15T10:08:55.3754070+08:00</create-date>
+  <cursor-position>22</cursor-position>
+  <width>574</width>
+  <height>360</height>
+  <x>457</x>
+  <y>92</y>
+  <open-on-startup>False</open-on-startup>
+</note>

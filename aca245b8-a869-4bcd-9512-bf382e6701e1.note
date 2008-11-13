@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>Today: Thursday, November 13 2008</title>
+  <text xml:space="preserve"><note-content version="0.1">Today: Thursday, November 13 2008
+
+
+
+<size:huge>Tasks</size:huge>
+move disk and disc-driver from DELL530
+
+$ dmidecode
+	memorary
+DMI: Desktop Management Interface
+SMBIOS, aka System Management BIOS
+DMTF: Desktop Management Task Force
+
+<size:huge>Appointments</size:huge>
+
+
+</note-content></text>
+  <last-change-date>2008-11-13T12:56:07.9531560+08:00</last-change-date>
+  <last-metadata-change-date>2008-11-13T12:56:07.9531560+08:00</last-metadata-change-date>
+  <create-date>2008-11-13T07:57:34.4319920+08:00</create-date>
+  <cursor-position>180</cursor-position>
+  <width>450</width>
+  <height>360</height>
+  <x>80</x>
+  <y>56</y>
+  <tags>
+    <tag>system:NoteOfTheDay</tag>
+  </tags>
+  <open-on-startup>False</open-on-startup>
+</note>

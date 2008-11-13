@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>English pronunciation</title>
+  <text xml:space="preserve"><note-content version="0.1">English pronunciation
+
+ch: 
+	/F/ machine 
+	/k/ school
+	/tF/ much, chance
+
+4
+c ,   /s/   e/y/i   city, decide
+       /k/  cut, cook
+g    /dV/    e/y/i    age
+      /g/    game, gate
+s,    /s/  snow, snake, class, sky, maps, crass （轻辅音前后，双写）
+     /z/   is, these
+<bold>special</bold>, delicious, sure, measure, pleasure
+
+x, /ks/ box, except （词尾，或轻辅音前）
+
+<bold>不发音</bold>
+b: 词尾，t前
+climb, doubt, 
+h:
+hour, honor
+w:
+write, 
+k:
+know, 
+
+<bold>字母组合</bold>
+元音组合 
+
+	</note-content></text>
+  <last-change-date>2008-09-11T10:44:45.8314190+08:00</last-change-date>
+  <last-metadata-change-date>2008-09-11T10:44:45.8314190+08:00</last-metadata-change-date>
+  <create-date>2008-09-11T10:25:10.4146839+08:00</create-date>
+  <cursor-position>389</cursor-position>
+  <width>466</width>
+  <height>360</height>
+  <x>0</x>
+  <y>0</y>
+  <tags>
+    <tag>system:notebook:GRE</tag>
+  </tags>
+  <open-on-startup>False</open-on-startup>
+</note>

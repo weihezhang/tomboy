@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>Account 账本</title>
+  <text xml:space="preserve"><note-content version="0.1">Account 账本
+
+2008.9.4
++ 98 
+
+9.6
++ 692
+
+9.14
++ 150
+
+10.28
+-200 remain 18
+
+<bold>10.31
+</bold>10.12办了信用卡</note-content></text>
+  <last-change-date>2008-10-31T16:38:23.1438530+08:00</last-change-date>
+  <last-metadata-change-date>2008-10-31T16:38:23.1438530+08:00</last-metadata-change-date>
+  <create-date>2008-09-04T19:58:13.7764480+08:00</create-date>
+  <cursor-position>71</cursor-position>
+  <width>450</width>
+  <height>360</height>
+  <x>0</x>
+  <y>0</y>
+  <tags>
+    <tag>system:notebook:私有</tag>
+  </tags>
+  <open-on-startup>False</open-on-startup>
+</note>

@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>Monday, April 9 2007</title>
+  <text xml:space="preserve"><note-content version="0.1"> Monday, April 9 2007
+<size:huge><link:internal>Tasks</link:internal></size:huge>
+<list><list-item dir="ltr">learn <bold>Euler angle</bold>
+</list-item><list-item dir="ltr"><highlight>Surface Acoustics Wave</highlight> （107~109Hz）<highlight>
+</highlight></list-item><list-item dir="ltr"><bold><highlight>波导</highlight></bold>
+</list-item><list-item dir="ltr"><highlight>叉指换能器</highlight></list-item></list>
+
+
+<size:huge>Appointments</size:huge>
+<list><list-item dir="ltr"><bold>RTT: R</bold>ound-<bold>T</bold>rip <bold>T</bold>ime （网络延迟时间）
+</list-item><list-item dir="ltr"><bold>TTL: T</bold>ime <bold>T</bold>o <bold>L</bold>ive
+</list-item><list-item dir="ltr"><bold>MDEV: M</bold>ean<bold> Dev</bold>iation （算术平均偏差）</list-item></list>
+
+
+</note-content></text>
+  <last-change-date>2008-02-29T12:30:14.8055880+08:00</last-change-date>
+  <last-metadata-change-date>2008-02-29T12:30:14.8055880+08:00</last-metadata-change-date>
+  <create-date>2007-04-09T07:41:23.8333960+08:00</create-date>
+  <cursor-position>0</cursor-position>
+  <width>450</width>
+  <height>360</height>
+  <x>519</x>
+  <y>55</y>
+  <open-on-startup>False</open-on-startup>
+</note>

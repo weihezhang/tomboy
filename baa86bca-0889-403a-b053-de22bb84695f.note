@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>GRE单词</title>
+  <text xml:space="preserve"><note-content version="0.1">GRE单词
+
+单词
+	花 5 天，一天10个 List 把单词过第一遍
+		听俞敏洪词汇串讲
+	17天背单词
+
+
+一定要每次都大量地背
+
+背字典！背字典的时候，按开头字母(Z,Y,X,Q,J,K,U)(V,W,N,O,L)(FG,IT,HM,BDE,R)(C,P,S,A)的顺序背，其中C,P,S,A每个都要分三部分背。
+
+瞎听, 狂看, 乱说
+
+联想，联想，联想，背单词的第一个动作是什么？端详一下它的外貌。第二第三个动作呢？看看它的内涵和发音。而第四个动作，就应该是联想，再联想。 
+
+复习。想它的读音(因为英语是象声的)
+
+观察 记生词时不要上来就盲目地拼记。最好先用几分钟时间仔细观察该词的结构，找出其特点。这样做表面上看似乎浪费时间，但实际上对记单词大有帮助。 
+
+<bold>
+<size:large>发音</size:large></bold>
+读音：
+
+1.  如果重音在最前头，就是重音在e上， 这时候发（e)的音
+如果重音在下一个音节上，e就发（i)的音。补充一下 exhibition -- 这个词其实有2个重音b后面是比较重的重音，e是比较轻的重音因为是重音，所以e也发（e)的音
+
+2. 元音字母有五个半，a,e,i(y),o,u。他们单独组成音节的核心时，重读有两种发音，开音节中念它们的名称音（长音--包括双元音）：cake, these, bike, type, note, student,闭音节中念短音：back, them, bit, gym, not, study。轻读时，a,o,u发[倒e],e,i,y发[i],如about, October,difficult...
+为什么会这样呢？其实你只要试一试将这些字母在重读时的发音慢慢地轻下来，就得到了这样的发音了。其实这两个轻音有时候听下去差不多的，a,e轻读时，也发对方的音的如village. student
+记住一个发音要领：重音要准，轻音要滚。轻音你含糊着念过去就行了，如interesting中的第二个e
+ex-的中e的发音，正如楼上所说，如果重读或次重读，要读作['e] [,e],轻读则为[i],不可能读着[e]的
+
+3. @@@@ex-在词首有三种发音，〔igz〕，〔iks〕或者〔eks〕。规律如下：
+
+1）一般说来，以“ex”开头的单词，其后为元音音素，且重音落在第二个音节上的，“ex”发〔igz〕。如：example,examine,exist,examination,exhibit,exhaust（“h”不发音），exact,exactly,etc.
+
+2）以“ex”开头的单词，其后为辅音音素，且重音落在第二个音节上的，“ek”发〔iks〕。如：excha nge,experiment,expect,except,excuse,expense,extraordinary,etc.
+
+3）以“ex”开头的单词，不管其后为何音素，只要第一个音节为重读或次重读的，“ex”发〔eks〕。如 ：extra,expert,exercise,excellent,exhibition,expeditionary,etc.
+
+
+
+9.13
+picturedictionary.blogspot.com</note-content></text>
+  <last-change-date>2008-09-13T09:24:56.9863890+08:00</last-change-date>
+  <last-metadata-change-date>2008-09-13T09:24:56.9863890+08:00</last-metadata-change-date>
+  <create-date>2008-07-16T16:00:54.2440900+08:00</create-date>
+  <cursor-position>1490</cursor-position>
+  <width>450</width>
+  <height>360</height>
+  <x>0</x>
+  <y>0</y>
+  <tags>
+    <tag>system:notebook:GRE</tag>
+  </tags>
+  <open-on-startup>False</open-on-startup>
+</note>

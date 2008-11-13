@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>超声探伤</title>
+  <text xml:space="preserve"><note-content version="0.1">超声探伤
+
+<bold>ultrasonic inspection</bold>
+　　利用材料及其缺陷的<highlight>声学性能差异</highlight>对超声波传播的影响来检验材料内部缺陷的无损检验方法。现在广泛采用的是观测声脉冲在材料中反射情况的超声脉冲<highlight>反射法</highlight>，此外还有观测穿过材料后的入射声波振幅变化的穿透法等。常用的频率在0.5～5MHz之间。
+
+	<bold><highlight>超声波探伤</highlight></bold>是利用超声能透入金属材料的深处，并由一截面进入另一截面时，在界面边缘发生反射的特点来检查零件缺陷的一种方法，当超声波束自零件表面由探头通至金属内部，遇到缺陷与零件底面时就分别发生反射波来，在萤光屏上形成脉冲波形，根据这些脉冲波形来判断缺陷位置和大小。
+	超声波在介质中传播时有多种波型，检验中最常用的为纵波、<link:internal>横波</link:internal>、表面波和板波。用纵波可探测金属铸锭、坯料、中厚板、大型锻件和形状比较简单的制件中所存在的夹杂物、裂缝、缩管、白点、分层等缺陷；用横波可探测管材中的周向和轴向裂缝、划伤、焊缝中的气孔、夹渣、裂缝、未焊透等缺陷；用表面波可探测形状简单的制件上的表面缺陷；用板波可探测薄板中的缺陷。
+　　在A型探伤仪的基础上发展而成的 B型、C型探伤仪，可得到不同方向反射面的信号，也可将B型、C型显示组合以得到材料的内部反射面的三维显示图。
+	
+	<bold><highlight>脉冲反射式超声波法</highlight></bold>同其他无损检验方法相比，主要优点是：①<highlight>穿透能力强</highlight>，探测深度可达数米；②<highlight>灵敏度高</highlight>，可发现与直径约十分之几毫米的空气隙反射能力相当的反射体；③在确定内部反射体的位向、大小、形状及性质等方面<highlight>较为准确</highlight>；④<highlight>仅须从一面</highlight>接近被检验的物体；⑤可<highlight>立即</highlight>提供缺陷检验结果;⑥操作安全,设备轻便。主要缺点是：①要由有经验的人员谨慎操作；②对粗糙、形状不规则、小、薄或非均质材料难以检查；③对所发现缺陷作十分准确的定性、定量表征仍有困难。</note-content></text>
+  <last-change-date>2007-04-20T15:05:08.5002540+08:00</last-change-date>
+  <last-metadata-change-date>2007-04-20T15:05:08.5002540+08:00</last-metadata-change-date>
+  <create-date>2007-04-20T14:54:30.4336700+08:00</create-date>
+  <cursor-position>699</cursor-position>
+  <width>450</width>
+  <height>360</height>
+  <x>0</x>
+  <y>49</y>
+  <open-on-startup>False</open-on-startup>
+</note>

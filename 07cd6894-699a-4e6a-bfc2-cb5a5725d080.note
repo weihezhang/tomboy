@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>Today: Monday, April 16 2007</title>
+  <text xml:space="preserve"><note-content version="0.1">Monday, April 16 2007
+
+
+
+<size:huge><link:internal>Tasks</link:internal></size:huge>
+<list><list-item dir="ltr"><bold>Word List 7</bold></list-item></list>
+
+<size:huge>Appointments</size:huge>
+<size:huge>
+Word</size:huge><bold>
+</bold><list><list-item dir="ltr"><bold>amiable</bold>
+</list-item><list-item dir="ltr"><bold>anguish</bold>
+</list-item><list-item dir="ltr"><bold>appal</bold>
+</list-item><list-item dir="ltr"><bold>arrogant</bold>
+</list-item><list-item dir="ltr"><bold>assassinate</bold>
+</list-item><list-item dir="ltr"><bold>bald</bold>
+</list-item><list-item dir="ltr">canvas
+</list-item><list-item dir="ltr">cargo
+</list-item><list-item dir="ltr">cereal
+</list-item><list-item dir="ltr">cherish
+</list-item><list-item dir="ltr">chill</list-item></list>
+<size:huge>Learn</size:huge>
+<list><list-item dir="ltr"><bold><highlight><link:internal>向量分析</link:internal></highlight></bold></list-item></list>
+<size:huge><link:internal>EletroAcoustics</link:internal></size:huge>
+<list><list-item dir="ltr">一般认为<highlight>拾音器</highlight>和<highlight>放大器</highlight>部分对音质的影响分别占上风30%和20%左右,而<highlight>声箱</highlight>所占的比重高达50%
+</list-item><list-item dir="ltr"><link:internal>中频谷点</link:internal>
+</list-item><list-item dir="ltr"><link:internal>分频点</link:internal></list-item></list>
+
+
+</note-content></text>
+  <last-change-date>2008-02-29T12:30:14.7711980+08:00</last-change-date>
+  <last-metadata-change-date>2008-02-29T12:30:14.7711980+08:00</last-metadata-change-date>
+  <create-date>2007-04-16T08:57:34.9467680+08:00</create-date>
+  <cursor-position>0</cursor-position>
+  <width>514</width>
+  <height>360</height>
+  <x>406</x>
+  <y>76</y>
+  <open-on-startup>False</open-on-startup>
+</note>
