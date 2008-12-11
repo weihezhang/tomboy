@@ -49,15 +49,18 @@ Piecewise function
 </bold>	MathID: 	7112-63943-07269
 	Passwd: 9078-734-891:251:10
 
-</note-content></text>
-  <last-change-date>2008-11-07T22:23:46.1511450+08:00</last-change-date>
-  <last-metadata-change-date>2008-11-07T22:23:46.1511450+08:00</last-metadata-change-date>
+<bold>Nov. 15
+
+</bold>Function, Hold, <link:broken>ReleaseHold</link:broken>, Simplify, <link:broken>FullSimplify</link:broken>
+<link:broken>TrigReduce</link:broken></note-content></text>
+  <last-change-date>2008-11-15T15:30:28.9280860+08:00</last-change-date>
+  <last-metadata-change-date>2008-11-15T15:30:28.9280860+08:00</last-metadata-change-date>
   <create-date>2008-09-09T16:35:41.7736420+08:00</create-date>
-  <cursor-position>5</cursor-position>
+  <cursor-position>936</cursor-position>
   <width>466</width>
   <height>360</height>
   <x>0</x>
-  <y>0</y>
+  <y>25</y>
   <tags>
     <tag>system:notebook:日积月累</tag>
   </tags>

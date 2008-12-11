@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>Today: Thursday, December 4 2008</title>
+  <text xml:space="preserve"><note-content version="0.1">Today: Thursday, December 4 2008
+
+
+
+<size:huge>Tasks</size:huge>
+twelve physical-science monographs of the century
+<list><list-item dir="ltr">Dirac on quantum mechanics,
+</list-item><list-item dir="ltr"> Einstein on relativity, 
+</list-item><list-item dir="ltr">Mandelbrot on fractals, 
+</list-item><list-item dir="ltr">Pauling on the chemical bond, 
+</list-item><list-item dir="ltr">Russell and Whitehead on foundations of mathematics, 
+</list-item><list-item dir="ltr">von Neumann and Morgenstern on game theory, 
+</list-item><list-item dir="ltr">Wiener on cybernetics, 
+</list-item><list-item dir="ltr">Woodward and Hoffmann on orbital symmetry, 
+</list-item><list-item dir="ltr">Feynman on quantum electrodynamics, 
+</list-item><list-item dir="ltr">Smith on the search for structure, 
+</list-item><list-item dir="ltr">Einstein's collected papers. </list-item></list>
+
+
+
+<size:huge>Appointments</size:huge>
+
+
+</note-content></text>
+  <last-change-date>2008-12-04T20:17:02.7044270+08:00</last-change-date>
+  <last-metadata-change-date>2008-12-04T20:17:02.7044270+08:00</last-metadata-change-date>
+  <create-date>2008-12-04T08:09:39.7935840+08:00</create-date>
+  <cursor-position>491</cursor-position>
+  <width>450</width>
+  <height>360</height>
+  <x>0</x>
+  <y>0</y>
+  <tags>
+    <tag>system:NoteOfTheDay</tag>
+  </tags>
+  <open-on-startup>False</open-on-startup>
+</note>

@@ -3,7 +3,7 @@
   <title>mathematica 字体 透明 问题</title>
   <text xml:space="preserve"><note-content version="0.1">mathematica 字体 透明 问题
 
-<bold><link:internal>Mathematica</link:internal></bold><bold> font bug in Ubuntu 8.04</bold>
+<bold><link:internal>Mathematica</link:internal></bold><bold> font bug in <link:internal>Ubuntu</link:internal></bold><bold> 8.04</bold>
 
 在linux有时mathematica会有 字体透明问题，起根本原因是x文件冲突
 解决办法是
@@ -33,11 +33,15 @@ When in the Option Inspector click on Notebook Options and then Window Propertie
 </bold>Problem: <link:internal>Mathematica</link:internal> 6.0 and Compiz
 <bold>
 </bold>In <link:internal>Mathematica</link:internal>, got to Edit-&gt;Preferences-&gt;Advanced and click on "Open Option Inspector". Under "Notebook Options", select "Window Properties" and change "<link:broken>WindowFrame</link:broken>" to "Generic"
+
+<bold>Dec. 5
+
+</bold><link:broken>HoldForm</link:broken>
 </note-content></text>
-  <last-change-date>2008-11-12T19:23:49.1382060+08:00</last-change-date>
-  <last-metadata-change-date>2008-11-12T19:23:49.1382060+08:00</last-metadata-change-date>
+  <last-change-date>2008-12-05T13:46:47.3111930+08:00</last-change-date>
+  <last-metadata-change-date>2008-12-05T13:46:47.3111930+08:00</last-metadata-change-date>
   <create-date>2008-08-18T15:30:38.5603880+08:00</create-date>
-  <cursor-position>1196</cursor-position>
+  <cursor-position>1406</cursor-position>
   <width>511</width>
   <height>446</height>
   <x>0</x>

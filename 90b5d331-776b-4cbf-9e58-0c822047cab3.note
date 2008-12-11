@@ -3,25 +3,51 @@
   <title>Linux</title>
   <text xml:space="preserve"><note-content version="0.1">Linux
 
-LiveCD on-the-fly =&gt; AutoBootU Liveflashkey
+LiveCD on-the-fly =&gt; <link:broken>AutoBootU</link:broken> Liveflashkey
 readonly				R &amp; W
 USB 3.0 4800Mbps
 
 
 <bold>10.24
 
-</bold>Books
+</bold><link:internal>Books</link:internal>
 	Running Linux 5th edtion
 	<link:internal>Unix Power Tools</link:internal>
 	man, info, google
 
+<bold>Dec. 6
+</bold>
+在Linux中阅读超星PDG格式文件的别类方法：
+主要思路：通过超星“图书”→“打印”把电子书打印到一个PDF文件中。
+
+<link:broken>BooXViewer</link:broken>
+
+<bold>Dec. 9
+
+</bold><list><list-item dir="ltr">把系统完整地迁移到另一台电脑上</list-item></list>
+用live cd启动目标机器，
+配好网络，然后把目标机器硬盘分区，并挂载到/mnt/mp下面。
+然后执行：
+rsync -av host_ip:/<link:url> /mnt/mp</link:url> --exclude /dev --exclude /proc --exclude /sys
+然后cd<link:url> /mnt/mp</link:url>
+mkdir sys
+mkdir proc
+mkdir dev
+
+然后修改/mnt/mp/boot/grub/menu.lst里面的root分区参数
+以及/mnt/etc/fstab里面的文件系统位置
+然后用grub写下mbr重启即可
+
+ OR
+scp<link:url> /dev/xxx</link:url> user@dest_ip:/dev/xxx
+
 </note-content></text>
-  <last-change-date>2008-10-24T08:37:24.9140440+08:00</last-change-date>
-  <last-metadata-change-date>2008-10-24T08:37:24.9140440+08:00</last-metadata-change-date>
+  <last-change-date>2008-12-09T10:00:10.8404680+08:00</last-change-date>
+  <last-metadata-change-date>2008-12-09T10:00:10.8404680+08:00</last-metadata-change-date>
   <create-date>2008-09-05T11:00:04.3110859+08:00</create-date>
-  <cursor-position>128</cursor-position>
-  <width>466</width>
-  <height>260</height>
+  <cursor-position>529</cursor-position>
+  <width>615</width>
+  <height>369</height>
   <x>0</x>
   <y>0</y>
   <tags>

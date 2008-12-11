@@ -50,11 +50,15 @@ common node
 <italic>closed walk: </italic>first and last nodes are the same
 
 maximal subgraph: <italic>connected component</italic>
+
+<bold>Dec. 5
+
+</bold>congruence
 </note-content></text>
-  <last-change-date>2008-10-24T11:11:51.9803000+08:00</last-change-date>
-  <last-metadata-change-date>2008-10-24T11:11:51.9803000+08:00</last-metadata-change-date>
+  <last-change-date>2008-12-05T16:09:43.5779760+08:00</last-change-date>
+  <last-metadata-change-date>2008-12-05T16:09:43.5779760+08:00</last-metadata-change-date>
   <create-date>2008-10-10T16:46:49.3257389+08:00</create-date>
-  <cursor-position>1162</cursor-position>
+  <cursor-position>1192</cursor-position>
   <width>466</width>
   <height>360</height>
   <x>0</x>

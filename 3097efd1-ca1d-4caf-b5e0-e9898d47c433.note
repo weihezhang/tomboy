@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>Books</title>
+  <text xml:space="preserve"><note-content version="0.1">Books
+
+<bold>Dec. 2
+
+</bold><list><list-item dir="ltr">The <link:broken>TeXbook</link:broken>, Donald E. Knuth 1984, Addison-Wesley
+</list-item><list-item dir="ltr"><link:internal>Matrix Theory</link:internal>,  Joel N. Franklin 1968 <link:broken>CalTech</link:broken>, Prentice-Hall
+</list-item><list-item dir="ltr"><link:internal>Numerical Recipes</link:internal> in C, William H. Press etc. 1992, Cambridge University Press
+</list-item><list-item dir="ltr">Algorithms for Statistical Signal Processing, John G. Proakis etc. 2002, Prentice Hall
+</list-item><list-item dir="ltr"><link:internal>Discrete Mathematics</link:internal>, L. Lovasz etc. 2003, Springer
+</list-item><list-item dir="ltr"><link:internal>UNIX Power Tools</link:internal>, Shelley Powers etc. 2002, O'Reilly
+</list-item><list-item dir="ltr">Theoretical Acoustics, P. M. Morse 1968 MIT, McGraw-Hill</list-item></list>
+
+<bold>Dec. 4
+
+</bold><list><list-item dir="ltr"><link:internal>Special Functions</link:internal>, George E. Andrews etc. 2000, Cambridge University Press</list-item></list>
+
+<bold>Dec. 5
+
+</bold><list><list-item dir="ltr"><link:internal>The Art of Computer Programming v1</link:internal> -- fundamental algorithms, Donald E. Knuth 1962 Stanford, Addison-Wesley</list-item></list>
+
+
+<bold>Dec. 8</bold>
+<list><list-item dir="ltr"><link:internal>The Art of Computer Programming v2</link:internal> -- seminumerical algorithms, Donald E. Knuth 1969, Addison-Wesley
+</list-item><list-item dir="ltr"><link:internal>The METAFONTbook</link:internal>, Donald E. Knuth 1986, Addison-Wesley</list-item></list>
+
+<bold>Dec. 10</bold>
+<list><list-item dir="ltr">The Art of Computer Programming v3 -- Sorting and Searching, Donald E. Knuth 1973, Addison-Wesley
+</list-item><list-item dir="ltr">Algorithms for Statistical Signal Processing, John G. Proakis etc. 2002, Prentice Hall<bold>
+</bold></list-item><list-item dir="ltr">Concrete Mathematics, Ronald L. Graham, Donald E. Knuth and Oren Patashnik 1989, Addison-Wesley</list-item></list>
+
+<bold>Dec. 11</bold>
+<list><list-item dir="ltr">Vibration &amp; Sound, Philip M. Morse 1936 1948, McGraw-Hill
+</list-item><list-item dir="ltr"><link:internal>The Theory of Sound</link:internal>, John William Strutt, Baron Rayleigh, Trinity college Cambridge 1877</list-item></list>
+
+</note-content></text>
+  <last-change-date>2008-12-11T20:48:46.1176020+08:00</last-change-date>
+  <last-metadata-change-date>2008-12-11T20:48:46.1176020+08:00</last-metadata-change-date>
+  <create-date>2008-12-02T10:59:58.4127830+08:00</create-date>
+  <cursor-position>1228</cursor-position>
+  <width>450</width>
+  <height>360</height>
+  <x>0</x>
+  <y>0</y>
+  <tags>
+    <tag>system:notebook:日积月累</tag>
+  </tags>
+  <open-on-startup>False</open-on-startup>
+</note>

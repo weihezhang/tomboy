@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>LaTeX 中度量单位</title>
+  <text xml:space="preserve"><note-content version="0.1">LaTeX
+
+
+<bold>度量单位</bold>
+1in = 2.4cm
+1in = 72.27pt
+1pc = 12pt
+
+\textwidth = 11.6cm
+
+<bold>Integrated platform</bold>
+winefish
+
+<bold>Q:</bold> <bold>Unmatch {},[],() in different line</bold>
+A: Use arbitrary scale
+
+<bold>Q: </bold>
+\begin{figure}
+	\begin{center}
+		main content, figure{..}, caption{...}, ...
+	\end{center}
+\end{figure}
+</note-content></text>
+  <last-change-date>2008-11-14T09:31:33.4746280+08:00</last-change-date>
+  <last-metadata-change-date>2008-11-14T09:31:33.4746280+08:00</last-metadata-change-date>
+  <create-date>2008-05-20T10:54:50.5979499+08:00</create-date>
+  <cursor-position>101</cursor-position>
+  <width>466</width>
+  <height>360</height>
+  <x>479</x>
+  <y>87</y>
+  <tags>
+    <tag>system:notebook:日积月累</tag>
+  </tags>
+  <open-on-startup>False</open-on-startup>
+</note>

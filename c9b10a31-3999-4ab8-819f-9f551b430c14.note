@@ -1,0 +1,241 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>TeX</title>
+  <text xml:space="preserve"><note-content version="0.1">TeX
+The TeX project was started in 1978 by D Knuth, while revising the second volume of his Art of Computer Programming.
+
+An important boost to that popularity came in 1985 with the introduction of <link:internal>LaTeX</link:internal>.
+
+1978-1982(44)-2008(70) 427bugs $327.68
+
+<bold>Nov. 15
+
+</bold>Donald E. Knuth, Stanford University
+	January 10, 1938 (1938-01-10) 70
+
+technology, art, TeX
+
+high-quality technical manuscripts
+	art and technology
+kilter
+
+<link:broken>TeXpert</link:broken>, <link:broken>TeXaker</link:broken>
+
+<bold>Nov. 17
+
+</bold>\/ : correction
+\relax: do nothing
+
+ERROR:
+	Overfull box
+		can't adjust the space in some range
+	[]
+		paragraph indentation or complex struction
+	|
+		overfull bar
+	badness
+		&lt;200, \hbadness=1000
+\tolerance=1600
+\tolerance=10000, infinite tolerance
+	&lt;100, delete n chars
+	I\vskip
+	E
+
+<bold>Nov. 18
+
+</bold>upgreek package: "non-italic" Greek mu
+	\upmu 
+256 chars per font
+definition -&gt; macros -&gt; format
+\char\`b
+
+<bold>Nov. 19
+
+</bold>Boxes: 2-D
+<italic>italic correction</italic>:
+black box: rule
+glue: natural space, strech, shrink
+Modes: vertical, internal vertical, horizontal restricted horizontal, math, display math mode
+\approx, \mapsto
+\bye: \vfill\eject\end
+~: ties(same as space, and TeX don't break here) 
+	 <link:broken>TeXnical</link:broken> typist -&gt; <link:broken>TeXnician</link:broken>
+\slash
+demerit, offense
+\smallskip, \medskip, \bigskip
+$$: mathematics is supposedly expensive
+\choose
+\atop
+\quad
+\ldots, \cdots, \dots
+\mid
+\bigm|
+\Bigg \big
+\cases
+\matrix, \pmatrix
+\bmod
+\hfil, \hfill
+|, \|
+\halign, \vcenter
+\eqalign: a vertically centered box
+\lceil, \rceil
+\eqalignno
+\gcd
+
+<bold>Nov. 20
+
+</bold>never\footnote*{...}
+\topinsert
+\vsize: caution
+\hoffset, \voffset
+\nopagenumbers
+<italic>primitive operations
+</italic>six modes:v, internal v, h, restricted h, m, display m
+space factors
+assignment command
+three-pronged "atoms": 13
+atom have three fields: nucleus, subscript, superscript
+Math symbol: family number and position number
+
+<bold>Nov. 22
+
+</bold>\relax, \tracingcommands=1
+
+<bold>Nov. 25
+
+</bold>\show
+\number
+\romannumeral
+Active character: behave like control sequence, but not prefixed by an escape
+\raise
+\lower
+\setbox
+\showbox
+\string
+\csname
+\message
+\count0~255  2^31
+\dimen0~255
+\skip0~255
+\muskip0~255
+\advance\count0 by 1
+
+900 = 300 + 600
+token lists
+
+<bold>Nov. 26
+
+</bold>hss: horizontal stretch or shrink
+\hfilneg
+
+输出中文年月日---------------------------------
+\makeatletter
+\newcounter{tempa}
+\newcounter{tempb}
+\newcounter{tempc}
+\newcounter{tempd}
+
+\setcounter{tempa}{\the\year}
+\setcounter{tempb}{\thetempa}
+\divide\c@tempa by 1000
+\addtocounter{tempb}{-\thetempa000}
+\setcounter{tempc}{\thetempb}
+\divide\c@tempb by 100
+\addtocounter{tempc}{-\thetempb00}
+\setcounter{tempd}{\thetempc}
+\divide\c@tempc by 10
+\addtocounter{tempd}{-\thetempc0}
+
+\def\zhnum#1{%
+  \ifcase#1 零\or
+  一\or 二\or 三\or 四\or 五\or
+  六\or 七\or 八\or 九\or 十\or
+  十一\or 十二\or 十三\or 十四\or 十五\or
+  十六\or 十七\or 十八\or 十九\or 二十\or
+  二十一\or 二十二\or 二十三\or 二十四\or 二十五\or
+  二十六\or 二十七\or 二十八\or 二十九\or 三十\or
+  三十一\fi}
+
+\usepackage{eukdate}
+\addtocounter{euk@date}{-1}
+\ifnum\theeuk@date&lt;1
+  \addtocounter{euk@date}{7}
+\fi
+
+\edef\today{%
+  \zhnum\thetempa\zhnum\thetempb%
+  \zhnum\thetempc\zhnum\thetempd 年%
+  \zhnum{\number\month}月%
+  \zhnum{\number\day}日%
+  星期\zhnum\theeuk@date} 
+-----------------------------------------------------------------
+
+\showthe
+\the
+
+<bold>Nov. 29
+
+</bold>\epsfbox
+\input epsf
+cases默认为行内公式
+ht, dp, wd
+2\wd3: twice width of \box3
+\tracingall
+
+<bold>Nov. 30
+
+</bold>caps and lower cases
+
+<bold>Dec. 3
+
+</bold>\rlap: right overlap
+\llap: left overlap
+
+<bold>Dec. 4
+
+</bold>\special
+
+Knuth tells us that he uses nothing but <link:internal>MetaPost</link:internal> for diagrams in text that he is <link:internal>writing</link:internal>.
+
+<bold>Dec. 7
+
+</bold>\phantom
+\vcenter
+\openup
+\eqno
+\jot
+line up
+
+<bold>Dec. 10
+
+</bold>\narrower
+\midinsert
+\insert 	handle float object
+\leaders	contents
+\font\sc=cmcsc10
+\folio
+\botmark
+\mark
+
+relative length
+	em: a ``quad" in current font for horizontal
+	ex: the ``x-height" for vertical
+
+Ctrl-T: \forall
+Ctrl-U: \exists
+Ctrl-F: \ni
+mu: math unit
+</note-content></text>
+  <last-change-date>2008-12-10T22:24:58.9494030+08:00</last-change-date>
+  <last-metadata-change-date>2008-12-10T22:24:58.9494030+08:00</last-metadata-change-date>
+  <create-date>2008-11-15T22:53:13.2473560+08:00</create-date>
+  <cursor-position>3728</cursor-position>
+  <width>496</width>
+  <height>362</height>
+  <x>531</x>
+  <y>35</y>
+  <tags>
+    <tag>system:notebook:日积月累</tag>
+  </tags>
+  <open-on-startup>False</open-on-startup>
+</note>

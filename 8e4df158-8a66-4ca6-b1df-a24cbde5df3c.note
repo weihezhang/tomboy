@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>Special Functions</title>
+  <text xml:space="preserve"><note-content version="0.1">Special Functions
+	useful functions
+
+<bold>Dec. 3
+
+</bold>Gamma(x): Euler extend the domain of the factorial function
+	an infinite integral or a limit of a finite product
+
+Beta(x): as a class of integrals(can be evaluated in <link:internal>terms</link:internal> of gamma)
+
+Euler Reflection Formula:
+	Gamma(x)*Gamma(1-x)=pi/sin(pi*x)
+
+Hurwitz and Riemann Zeta function
+
+Hypergeometric Functions
+
+Selberg Intergral: extend Beta integral
+
+Whittaker equation
+
+Hypergeometric Function: elementary functions(Gauss), minimum of computation(Riemann), contour integrals(E. W. Barnes)
+
+multidimensional gamma and beta integrals:Selberg's integral
+
+q-Series: extend binomial theorem
+	q-extensions of the gamma function and beta integrals thhypergeometric differential equationat are very fundamental because they lead to basic hypergeometric functions and series
+
+hypergeometric differential equation:second-order linear ODE with three regular singular points
+
+Confluent hypergeometric function, 1F1, also known as the Kummer function
+
+geometric series is a series with a constant ratio between successive <link:internal>terms</link:internal>.
+
+basic hypergeometric series, also sometimes called the hypergeometric q-series
+
+pure mathematics:Analysis(continuity, limits, differentiation and integration), Abstract algebra, Geometry, Number theory
+
+arithmetic-geometric mean: elliptic integral
+
+quadratic transformation
+
+</note-content></text>
+  <last-change-date>2008-12-03T22:39:05.4987930+08:00</last-change-date>
+  <last-metadata-change-date>2008-12-03T22:39:05.4987930+08:00</last-metadata-change-date>
+  <create-date>2008-12-03T11:17:01.1992880+08:00</create-date>
+  <cursor-position>1219</cursor-position>
+  <width>450</width>
+  <height>360</height>
+  <x>0</x>
+  <y>0</y>
+  <tags>
+    <tag>system:notebook:日积月累</tag>
+  </tags>
+  <open-on-startup>False</open-on-startup>
+</note>

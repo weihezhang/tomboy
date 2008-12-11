@@ -1,11 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
   <title>Celebrities in Acoustics</title>
-  <text xml:space="preserve"><note-content version="0.1">Celebrities in Acoustics
+  <text xml:space="preserve"><note-content version="0.1"><link:internal>Celebrities</link:internal> in Acoustics
 
-L. Rayleigh
+<list><list-item dir="ltr">L. Rayleigh (John William Strutt, 3rd Baron Rayleigh), England, 	<link:internal>the theory of sound</link:internal>(1842.11.12--1919.6.30)</list-item></list>
+Nobel Prize for Physics in 1904
 
-Philip McCord Morse (1903-1985)
+<list><list-item dir="ltr">Friedrich Wilhelm Bessel(1784.7 - 1846.3) German
+</list-item><list-item dir="ltr">Hermann Hankel(1839.2.14--1873.8.29) German</list-item></list>
+
+<list><list-item dir="ltr">Philip McCord Morse (1903-1985)</list-item></list>
 	B.S. Physics, 1926, Case Institute; Ph.D. Physics, 1929, Princeton University. 	Faculty member at MIT, 1931-1969.
 
 9.18
@@ -18,10 +22,10 @@ Marith
 <bold>10.18
 </bold>郝柏林 nonlinear
 </note-content></text>
-  <last-change-date>2008-10-18T12:09:00.1730330+08:00</last-change-date>
-  <last-metadata-change-date>2008-10-18T12:09:00.1730330+08:00</last-metadata-change-date>
+  <last-change-date>2008-12-11T20:48:46.1305100+08:00</last-change-date>
+  <last-metadata-change-date>2008-12-11T20:48:46.1305100+08:00</last-metadata-change-date>
   <create-date>2008-09-04T21:41:24.6697809+08:00</create-date>
-  <cursor-position>238</cursor-position>
+  <cursor-position>207</cursor-position>
   <width>466</width>
   <height>360</height>
   <x>0</x>

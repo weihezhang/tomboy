@@ -13,15 +13,41 @@
     &amp; =f+g^2
   \end{aligned}
 \end{eqnarray}
+
+<bold>度量单位</bold>
+1in = 2.4cm
+1in = 72.27pt
+1pc = 12pt
+
+\textwidth = 11.6cm
+
+<bold>Integrated platform</bold>
+winefish
+
+<bold>Q:</bold> <bold>Unmatch {},[],() in different line</bold>
+A: Use arbitrary scale
+
+<bold>Q: </bold>
+\begin{figure}
+	\begin{center}
+		main content, figure{..}, caption{...}, ...
+	\end{center}
+\end{figure}
+
+<bold>Nov. 14
+
+</bold><link:broken>ChiTeX</link:broken>, CTEXLive
+<link:url>ftp://ftp.ffii.org/pub/cjk</link:url>
+
 </note-content></text>
-  <last-change-date>2008-10-19T19:36:01.0921280+08:00</last-change-date>
-  <last-metadata-change-date>2008-10-19T19:36:01.0921280+08:00</last-metadata-change-date>
+  <last-change-date>2008-11-14T10:57:42.2161040+08:00</last-change-date>
+  <last-metadata-change-date>2008-11-14T10:57:42.2161040+08:00</last-metadata-change-date>
   <create-date>2008-10-19T19:35:14.7670490+08:00</create-date>
-  <cursor-position>13</cursor-position>
+  <cursor-position>400</cursor-position>
   <width>450</width>
   <height>360</height>
-  <x>0</x>
-  <y>0</y>
+  <x>10</x>
+  <y>77</y>
   <tags>
     <tag>system:notebook:日积月累</tag>
   </tags>

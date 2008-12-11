@@ -280,16 +280,89 @@ Large and noisy data sets can be easily and quickly transformed by the discrete 
 	variable: sumsin
 	wavemenu
 	
+<bold>Nov. 14
 
+</bold>pwelch: window is 'hamming' and we can only change the length
+
+length of pwelch, pburg and pyulear is 129 for all the cases
+	yulear, and burg become more appropriate when the order is 
+		high and order should less than N, and when high the 
+		blur occur
+
+<bold>Nov. 16
+
+</bold>Barlett Method -&gt; Welch Method -&gt; Blackman and Tukey Method
+Nonparametric PSE
+order-recursive, least-squares lattice method
+
+<bold>Nov. 18
+
+</bold>autocorrelation function
+a single realization of the random process
+time-average autocorrelation function &lt;-&gt; power density spectrum
+first and second moments(mean and autocorrelation function)
+asymptotically unbiased
+consistent estimate
+periodogram
+Schuster(1898) hidden periodicities
+spectral leakage problem: caused by the finite data
+periodogram is not a consistent estimate of the true pds
+Bartlett window
+reduce freq resolution -&gt; decrease variance
+Bartlett Method: segment
+Welch: overlap and add window
+Nonparametric PSE:
+	inherent assumption: Rxx(m)=0, for |m|&gt;N
+		limit freq resolution
+	aka, data is periodic with N
+	df &gt;= Fs/N
+
+short data records due to time-variant or transient phenomena
+ARMA(autoregressive moving average), MA, AR
+AR is popular, for
+	resonances(narrow peak)
+	very simple linear equation
+decomposition theorem(Wold 1938): AR &lt;-&gt; ARMA &lt;-&gt; MA
+
+<bold>Nov. 19
+
+</bold>MLS: Maximum Length Sequence
+<link:internal>fir</link:internal>1
+Pade Approximation
+Prony
+Wiener-Hopf equations
+equalizer
+
+<bold>Nov. 21
+
+</bold>Assignment of Ch5
+<bold>
+</bold>一个五阶MA线性系统模型参数为
+ 0.0101    0.0770    0.1484    0.0770    0.0101
+1.设计程序，用基于MA模型的标准最小二乘法估计该系统参数，输入信号取高斯白噪声，序列长度根据系统辨识的效果自行调整。
+2.设计归一化截止频率分别为0.1,0.3,0.5,0.7的低通滤波器，并利用这一系列低通滤波器产生带限噪声信号作为系统辨识的输入信号，观察辨识结果的误差情况并给出基本的解释。
+
+<bold>Nov. 26
+
+</bold>最小平方逆滤波(lifter)
+补零让窄带变宽带
+同态系统去卷积
+numel
+filter(built-in), conv(construct from filter)
+zf: filter delays
+Wiener filter
+wiener2
+firwiener
+正交原理
 </note-content></text>
-  <last-change-date>2008-11-12T19:55:51.9286190+08:00</last-change-date>
-  <last-metadata-change-date>2008-11-12T19:55:51.9286190+08:00</last-metadata-change-date>
+  <last-change-date>2008-11-26T19:59:54.2073910+08:00</last-change-date>
+  <last-metadata-change-date>2008-11-26T19:59:54.2073910+08:00</last-metadata-change-date>
   <create-date>2008-09-17T16:07:43.9655470+08:00</create-date>
-  <cursor-position>7342</cursor-position>
+  <cursor-position>9087</cursor-position>
   <width>538</width>
-  <height>530</height>
-  <x>16</x>
-  <y>75</y>
+  <height>379</height>
+  <x>44</x>
+  <y>434</y>
   <tags>
     <tag>system:notebook:Work</tag>
   </tags>

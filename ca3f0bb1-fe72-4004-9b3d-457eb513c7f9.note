@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>ipv6</title>
+  <text xml:space="preserve"><note-content version="0.1">ipv6
+
+<bold>Dec. 8
+
+</bold>在wget里面优先使用ipv6 
+</note-content></text>
+  <last-change-date>2008-12-08T13:09:35.9068180+08:00</last-change-date>
+  <last-metadata-change-date>2008-12-08T13:09:35.9068180+08:00</last-metadata-change-date>
+  <create-date>2008-12-08T13:09:13.7551850+08:00</create-date>
+  <cursor-position>34</cursor-position>
+  <width>450</width>
+  <height>360</height>
+  <x>0</x>
+  <y>0</y>
+  <tags>
+    <tag>system:notebook:日积月累</tag>
+  </tags>
+  <open-on-startup>False</open-on-startup>
+</note>

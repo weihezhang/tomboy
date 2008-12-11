@@ -26,15 +26,16 @@ echo $list
 
 <bold>11.8
 
-</bold> du: estimate file space usage</note-content></text>
-  <last-change-date>2008-11-08T16:26:55.9673260+08:00</last-change-date>
-  <last-metadata-change-date>2008-11-08T16:26:55.9673260+08:00</last-metadata-change-date>
+</bold> du: estimate file space usage
+ df:  report file system disk space usage</note-content></text>
+  <last-change-date>2008-11-13T22:45:18.5021950+08:00</last-change-date>
+  <last-metadata-change-date>2008-11-13T22:45:18.5021950+08:00</last-metadata-change-date>
   <create-date>2008-09-09T15:01:56.2558386+08:00</create-date>
-  <cursor-position>285</cursor-position>
+  <cursor-position>323</cursor-position>
   <width>466</width>
   <height>360</height>
   <x>0</x>
-  <y>0</y>
+  <y>25</y>
   <tags>
     <tag>system:notebook:日积月累</tag>
   </tags>

@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>The Art of Computer Programming v1</title>
+  <text xml:space="preserve"><note-content version="0.1">The Art of Computer Programming v1
+Fundamental Algorithm
+	1962(24)-1967
+
+<bold>Dec. 5
+
+</bold><list><list-item dir="ltr">permutation and factorial</list-item></list>
+
+10! = 3,628,800 = 3.5million 
+	represent an approximate dividing line between things which are practical to compute and things which are not
+
+n! ~= sqrt(2*pi*n)(n/e)^n
+
+<list><list-item dir="ltr">Binomial Coefficient</list-item></list>
+Stirling number
+
+Harmonic numbers
+Fibonacci Numbers(1202)
+
+<list><list-item dir="ltr">Generating Functions</list-item></list>
+
+
+</note-content></text>
+  <last-change-date>2008-12-08T17:01:14.4945430+08:00</last-change-date>
+  <last-metadata-change-date>2008-12-08T17:01:14.4945430+08:00</last-metadata-change-date>
+  <create-date>2008-12-05T10:56:05.3640640+08:00</create-date>
+  <cursor-position>71</cursor-position>
+  <width>450</width>
+  <height>360</height>
+  <x>0</x>
+  <y>0</y>
+  <tags>
+    <tag>system:notebook:日积月累</tag>
+  </tags>
+  <open-on-startup>False</open-on-startup>
+</note>

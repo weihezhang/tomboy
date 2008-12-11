@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
   <title>Back up your system in Ubuntu</title>
-  <text xml:space="preserve"><note-content version="0.1">Back up your system in Ubuntu
+  <text xml:space="preserve"><note-content version="0.1">Back up your system in <link:internal>Ubuntu</link:internal>
 
 <bold>Nov. 8
 
@@ -21,8 +21,8 @@ change z to j
 SBackup
 
 </note-content></text>
-  <last-change-date>2008-11-08T15:03:14.1382680+08:00</last-change-date>
-  <last-metadata-change-date>2008-11-08T15:03:14.1382680+08:00</last-metadata-change-date>
+  <last-change-date>2008-11-13T21:39:56.8538340+08:00</last-change-date>
+  <last-metadata-change-date>2008-11-13T21:39:56.8538340+08:00</last-metadata-change-date>
   <create-date>2008-11-08T14:53:05.3275140+08:00</create-date>
   <cursor-position>380</cursor-position>
   <width>450</width>

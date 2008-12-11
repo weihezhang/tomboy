@@ -25,7 +25,7 @@ locate <link:internal>latex</link:internal>-suite
 	\rf, za
 
 	Compile: \ll, View DVI: \lv, \ls
-		forward search in dvi: :let g:Tex_CompileRule_dvi = '<link:internal>latex</link:internal> -src-specials 					-interaction=nonstopmode $*'
+		forward search in dvi: :let g:<link:internal>Tex</link:internal>_CompileRule_dvi = '<link:internal>latex</link:internal> -src-specials 					-interaction=nonstopmode $*'
 				:TCTarget dvi
 
 <bold>11.8
@@ -296,13 +296,149 @@ borland.vim        <link:url>http://vim.sourceforge.net/scripts/script.php?scrip
 xmledit            <link:url>http://vim.sourceforge.net/scripts/script.php?script_id=301</link:url>
 cvsmenu.vim        <link:url>http://vim.sourceforge.net/scripts/script.php?script_id=58</link:url>
 project.tar.gz     <link:url>http://vim.sourceforge.net/scripts/script.php?script_id=69</link:url>
-grep.vim           <link:url>http://vim.sourceforge.net/scripts/script.php?script_id=311</link:url></note-content></text>
-  <last-change-date>2008-11-10T20:40:10.2624600+08:00</last-change-date>
-  <last-metadata-change-date>2008-11-10T20:40:10.2624600+08:00</last-metadata-change-date>
+grep.vim           <link:url>http://vim.sourceforge.net/scripts/script.php?script_id=311</link:url>
+
+<bold>Nov. 28
+
+</bold>*, #
+`` '' `.
+@
+&lt;&lt; &gt;&gt;
+&lt;10&lt; &gt;10&gt; 
+, ;
+Commands in vi/vim are meant to be combined
+ '.' command repeats the last complete, combined editing command 
+'AHello&lt;Esc&gt;' . . .
+'ceHello&lt;Esc&gt;&gt;' ...
+The vi command architecture was key here, together with the fact that &lt;backspace&gt; is as part of the editing sequence as regular typing, and the editing operations being pretty repetitive. 
+c%
+'di&gt;': "delete inner angle-block"
+da), da&gt;, da{
+H, M, L and zt, zz, zb
+']]' and the likes to navigate by functions
+
+since you are thinking 90% of the time, and editing 10%, the productivity gain might be there, but it's useless anyway
+
+ indenting a block
+'&gt;aB' ("indent a Block")
+Powerful asterisk!
+Lovely upper case:gU
+
+<bold>Dec. 1
+
+</bold>i_CTRL-X
+i_CTRL-Y
+i_CTRL-E
+/^\n\{3} : 匹配3个连续的空行
+gf
+&lt;C-X&gt;&lt;C-L&gt;
+/&lt;C-R&gt;&lt;C-W&gt; : 把单个&lt;cword&gt;单词放入搜索或者命令行
+/&lt;C-R&gt;&lt;C-A&gt; : 把字符串中有的单词&lt;cword&gt;放入搜索或者命令行
+:h regexp&lt;C-D&gt; : 按ctrl+d得到包含regexp的列表(按tab自动补齐)
+:lcd %:p:h : 改变路径到当前编辑的文件
+:Sex(plore) : 分割窗口浏览文件
+
+▼转换大小写
+guu : 将整行的字母转换成小写
+gUU : 将整行的字母转换成大写
+Vu : 转换选中的行（小写）
+VU : 转换选中的行（大写）
+g~~ : 反向转换
+vEU : 转换词大写，v表示进入可视模式，E表示覆盖到词的末尾，U表示大写。
+vE~ : 反向转换词
+ggguG : 将当前编辑文件内容全部转换成小写
+
+▼几个彩蛋，有意思
+:h 42 : (还有 <link:url>http://www.google.com/search?q=42</link:url>)
+:h holy-grail
+:h!
+
+ga : 显示当前光标下单个字的ascii码，十进制，十六进制……
+▼标记 &amp; 移动
+'. : 跳回最后编辑的行 (超有用)
+`. : 同上，但是定位编辑点
+g; : 跳转到比较旧的编辑位置（如果有的话） (vim6.3后的新功能)
+g, : 这个是较新的位置 (同上)
+:changes : 打出改变列表
+:h changelist : 查看“改变表跳转”的帮助
+&lt;C-O&gt; : 依次沿着你的跳转记录向回跳 (从最近的一次开始)
+&lt;C-I&gt; : 依次沿着你的跳转记录向前跳
+:ju(mps) : 列出跳转轨迹
+:help jump-motions
+:<link:internal>history</link:internal> : 列出历史记录
+:his c : 命令行历史
+:his s : 搜索历史
+q/ : 搜索命令历史的窗口
+q: : 命令行命令历史的窗口
+:&lt;C-F&gt; : 历史窗口
+
+<bold>Dec. 2
+
+</bold>:buffers
+:bp
+:bn
+▼把对象送到命令行或者搜索行
+&lt;C-R&gt;&lt;C-W&gt; : 执行当前光标下的单个单词
+&lt;C-R&gt;&lt;C-A&gt; : 执行当前光标下尽可能多的单词
+&lt;C-R&gt;- : 送至一个小型寄存器（同样使用于插入模式）
+&lt;C-R&gt;[0-9a-z] : 送至一个命名寄存器 (括弧同上)
+&lt;C-R&gt;% : 送至文件名(#也行) (同上)
+&lt;C-R&gt;=somevar : 送至一个变量 (例如 :let sray="ray[0-9]")
+
+<bold>Dec. 3
+
+</bold>1. GBK locale下写utf8文档的简便方法: 
+in .vimrc, add:
+set encoding=prc
+set fileencoding=utf-8
+
+2. in vi, add 2 spaces before the lines of 12-35
+:12,35s/^/ / 
+
+3. When openning a file, always jump to the last cursor position:
+in .vimrc, add:
+autocmd <link:broken>BufReadPost</link:broken> * if line("'\"") &amp;&amp; line("'\"") &lt;= line("$") | exe "normal
+ `\"" | endif
+
+5. automatically update the updating time in html:
+in .vimrc, add:
+"""""""""""""""""""""""""""""""""""""""""""""""""""
+"time
+" Let F7 insert current time to current location.
+" map &lt;F7&gt; i&lt;C-R&gt;=strftime("%Y-%m-%d %H:%M:%S")&lt;RETURN&gt;&lt;ESC&gt;
+map! &lt;F7&gt; &lt;C-R&gt;=strftime("%Y-%m-%d %H:%M:%S")&lt;RETURN&gt;
+                                                                              
+  
+fun! <link:broken>UpdateTimestamp</link:broken>()
+    if &amp;modified
+        normal mnHmm`n
+        silent :%s/\(\(\([Tt]ime-\=[Ss]tamp\)\|\([Ll]ast[- ]\=[Uu]pdate\)\): [
+^A-Za-z0-9: -"']\=[&lt;"'][^&lt;&gt;A-Za-z0-9: -"']\=\)[0-9: -]*\([^&lt;&gt;A-Za-z0-9: -"']\=
+[&gt;"'][^A-Za-z0-9: "']\=\)/\=submatch(1) . strftime("%Y-%m-%d %H:%M:%S") . subm
+atch(5)/e
+        normal 'mzt`n
+    endif
+endfunction
+
+  autocmd <link:broken>BufWritePre</link:broken>,<link:broken>FileWritePre</link:broken>,<link:broken>FileAppendPre</link:broken> * call <link:broken>UpdateTimestamp</link:broken>()
+"""""""""""""""""""""""""""""""""""""""""""""""""""
+in html, add the time formated as:
+Last Update: &lt;****-**-** **:**:**&gt;
+
+<bold>
+
+</bold>
+
+
+
+
+</note-content></text>
+  <last-change-date>2008-12-03T08:21:15.6647650+08:00</last-change-date>
+  <last-metadata-change-date>2008-12-03T08:21:15.6647650+08:00</last-metadata-change-date>
   <create-date>2008-09-30T21:27:26.9134260+08:00</create-date>
-  <cursor-position>549</cursor-position>
-  <width>466</width>
-  <height>360</height>
+  <cursor-position>9754</cursor-position>
+  <width>504</width>
+  <height>382</height>
   <x>295</x>
   <y>191</y>
   <tags>

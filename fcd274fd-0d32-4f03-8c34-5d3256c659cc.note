@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>SSH</title>
+  <text xml:space="preserve"><note-content version="0.1">SSH
+
+<bold>Nov. 15
+
+</bold>一个小技巧，用ssh作代理<bold>
+
+</bold>ssh -D localhost:port user@school
+port随便找个不用的端口，比如8888
+user@school是在学校的SSH服务器
+
+用这个命令连上后，直接在本地浏览器中设置socks代理为
+127.0.0.1:port
+就可以将school这台机器作为代理服务器了
+
+我一直这样用ssh做代理翻墙
+主机用美国的，dreamhost，hostmonster都挺便宜的
+
+
+
+</note-content></text>
+  <last-change-date>2008-11-15T09:27:41.3377660+08:00</last-change-date>
+  <last-metadata-change-date>2008-11-15T09:27:41.3377660+08:00</last-metadata-change-date>
+  <create-date>2008-11-15T09:25:20.4844740+08:00</create-date>
+  <cursor-position>219</cursor-position>
+  <width>450</width>
+  <height>360</height>
+  <x>768</x>
+  <y>376</y>
+  <tags>
+    <tag>system:notebook:日积月累</tag>
+  </tags>
+  <open-on-startup>False</open-on-startup>
+</note>

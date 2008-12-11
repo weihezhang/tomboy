@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>The Art of Computer Programming v2</title>
+  <text xml:space="preserve"><note-content version="0.1"><link:internal>The Art of Computer Programming</link:internal> v2
+Seminumerical Algorithms
+Edition 1: 1969
+1981 <link:internal>TeX</link:internal><link:broken>78</link:broken> (Edition 2)
+
+<bold>Dec. 8
+
+</bold>The linear congruential method for generating uniform random numbers.
+
+``Chi-square" tests
+the Kolmogorov-Smirnov test
+dice throwing
+empirical distribution
+``a priori tests", aka ``theoretical tests"
+potency
+``The spectral test": empirical and theoretical
+
+</note-content></text>
+  <last-change-date>2008-12-08T16:58:42.8247980+08:00</last-change-date>
+  <last-metadata-change-date>2008-12-08T16:58:42.8247980+08:00</last-metadata-change-date>
+  <create-date>2008-12-05T12:31:22.1675590+08:00</create-date>
+  <cursor-position>336</cursor-position>
+  <width>450</width>
+  <height>360</height>
+  <x>0</x>
+  <y>0</y>
+  <tags>
+    <tag>system:notebook:日积月累</tag>
+  </tags>
+  <open-on-startup>False</open-on-startup>
+</note>

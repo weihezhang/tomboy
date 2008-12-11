@@ -1,0 +1,208 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>The METAFONTbook</title>
+  <text xml:space="preserve"><note-content version="0.1">The METAFONTbook
+
+<bold>Dec. 8
+
+</bold>generation of letterforms by mathematical means
+
+META- : indicates that we are interested in making high-level descriptions that transcend any of the individual fonts being described
+
+metapsychology, metahistory, metamathematics, metafiction, metaphysics, metalanguage
+
+explain how to draw something in a sufficiently general manner
+
+	design -&gt; meta-design
+arithmetic   -&gt; elementary algebra
+
+<list><list-item dir="ltr">2 Coordinates</list-item></list>
+hex symbol
+pen
+
+draw z1 .. z6
+top z1 = (0,b); bot z4 = (0,0);
+
+1/2[x1, x2]
+
+<list><list-item dir="ltr">3 Curves</list-item></list>
+
+
+``ruler and compass"
+ad infinitum
+convex hull
+
+draw z5 .. z4 .. z1 .. z3 .. z6 .. z5
+draw z5 .. z4 .. z1 .. z3 .. z6 .. cycle
+draw z5 .. z4 .. z1 .. tension 1.2 .. z3 .. z6 .. cycle
+
+<list><list-item dir="ltr">4 Pens</list-item></list>
+
+.4pt is the standard thickness of a ruled line
+	pickup pencircle scaled .4pt;
+
+fill z5 .. z4 .. z1 .. z3 .. z6 .. cycle
+fill z1 -- z2 -- z3 -- cycle
+unfill 
+
+.. connect the points with a nice curve
+-- connect the points with a straight line
+
+<list><list-item dir="ltr">5 Running METAFONT</list-item></list>
+
+2602gf: ``generic font at 2602 pixels per inch"
+
+<list><list-item dir="ltr">6 How METAFONT Reads What You Type</list-item></list>
+
+atomic element: token
+token: string, numeric, symbolic
+1/65536, 2^16
+
+<list><list-item dir="ltr">7 Variables</list-item></list>
+
+eight types: numeric, boolean, string, path, pen, picture,
+	transform, pair
+
+coordinates
+em#: physical machine-independent distances
+em: machine-dependent distances in units of pixels
+
+symbolic tokens
+	<italic>spark</italic>: primitive operations, macros
+	<italic>tag</italic>: otherwise(used to designate variables)
+
+<list><list-item dir="ltr">8 Algebraic Expressions</list-item></list>
+
+algebra: variable and constant
+expression: operator and operand
+
+subscript, suffixed variable
+x[k]		x.k
+
+path-valued expressions
+(0,0)..(x,y)
+
+four levels of precedence
+	1		2	    3		4		
+2x sqrt(b)	  --   * /   --   + -   --  .. &lt;
+
+<list><list-item dir="ltr">9 Equations</list-item></list>
+
+translate intuitive design concepts into formal equations
+translate formal equations into intuitive design concepts
+
+<bold>Dec. 9
+
+</bold><list><list-item dir="ltr">10 Assignments</list-item></list>
+
+<list><list-item dir="ltr">11 Magnification and Resolution</list-item></list>
+``modes"
+device
+
+<list><list-item dir="ltr">12 Boxes</list-item></list>
+``sharped" quantities
+modes for new devices
+beginchar(width, height, depth), reverse alphabetical order
+
+<list><list-item dir="ltr">13 Drawing, Filling, and Erasing</list-item></list>
+erase draw
+
+<list><list-item dir="ltr">14 Paths</list-item></list>
+draw fullcircle scaled D shifted (x,y)
+draw fullcircle xscaled A yscaled B: ellipse
+
+.. 	free curve
+... 	bounded curve
+--	straight line
+---	``tense" line
+&amp;	splice
+
+flex
+
+<list><list-item dir="ltr">15 Transformations</list-item></list>
+slanted
+zscaled
+
+transform, transformed
+
+indentity
+
+<list><list-item dir="ltr">16 Calligraphic Effects</list-item></list>
+currentpen
+top, bot, lft, rt
+savepen
+
+<list><list-item dir="ltr">17 Grouping</list-item></list>
+&lt;compound&gt;
+points, paths, pens and pictures
+declaration
+save
+interim
+
+<list><list-item dir="ltr">18 Definitions</list-item></list>
+rotatedaround
+primarydef, secondarydef, tertiarydef
+
+<list><list-item dir="ltr">19 Conditions and Loops</list-item></list>
+if : 	elseif :	else	fi
+for :	endfor
+for step until: endfor
+for <italic>i:=1 </italic>upto 100: endfor
+forsuffixes : endfor
+forever: endfor
+
+<list><list-item dir="ltr">20 More About Macros</list-item></list>
+vardef
+
+<list><list-item dir="ltr">21 Random Numbers</list-item></list>
+uniformdeviate <italic>t
+</italic>normaldeviate <italic>x
+</italic>randomseed
+
+<list><list-item dir="ltr">22 Strings</list-item></list>
+ditto
+&lt;title&gt;
+
+<list><list-item dir="ltr">23 Online Displays</list-item></list>
+showit
+screenchars
+screenstrokes
+
+<list><list-item dir="ltr">24 Discreteness and Discretion</list-item></list>
+produce satisfactory shapes even when the resolution is rather coarse
+
+<list><list-item dir="ltr">25 Summary of Expressions</list-item></list>
+four-fold hierarchy: primary, secondary, tertiary, expression
+
+eight types variable and ``vacuous"
+
+<list><list-item dir="ltr">26 Summary of the Language</list-item></list>
+``gullet" regurgitation
+
+conditions and loops are handled by the expanion mechanism
+
+gastro-intestinal tract
+
+expressions are evaluated, equations are solved, variables are declared, and commands are executed
+
+<list><list-item dir="ltr">27 Recovery from Errors</list-item></list>
+mellow mood
+
+
+
+
+
+
+
+
+</note-content></text>
+  <last-change-date>2008-12-09T21:37:50.7724160+08:00</last-change-date>
+  <last-metadata-change-date>2008-12-09T21:37:50.7724160+08:00</last-metadata-change-date>
+  <create-date>2008-12-08T17:03:01.8642820+08:00</create-date>
+  <cursor-position>3375</cursor-position>
+  <width>475</width>
+  <height>421</height>
+  <x>0</x>
+  <y>0</y>
+  <open-on-startup>False</open-on-startup>
+</note>

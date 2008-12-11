@@ -8,18 +8,18 @@ reselect the Standard environment : M-p s
 xmodmap
 xkeycaps
 
-Comprehensive TeX Archive Network (CTAN) 
+Comprehensive <link:internal>TeX</link:internal> Archive Network (CTAN) 
 <size:huge>Short Cut</size:huge>
 <list><list-item dir="ltr">M-s for chang the size of fonts
 </list-item><list-item dir="ltr">Alt-C chang fonts' family</list-item></list>
 
-default font : standard TeX fonts : computer modern(cm)
+default font : standard <link:internal>TeX</link:internal> fonts : computer modern(cm)
 
 ERT: Evil Red Text
 aka: also known as
 </note-content></text>
-  <last-change-date>2007-10-12T20:54:12.2426790+08:00</last-change-date>
-  <last-metadata-change-date>2007-10-12T20:54:12.2426790+08:00</last-metadata-change-date>
+  <last-change-date>2008-11-15T22:53:21.5373200+08:00</last-change-date>
+  <last-metadata-change-date>2008-11-15T22:53:21.5373200+08:00</last-metadata-change-date>
   <create-date>2007-09-27T23:27:02.1166240+08:00</create-date>
   <cursor-position>236</cursor-position>
   <width>566</width>

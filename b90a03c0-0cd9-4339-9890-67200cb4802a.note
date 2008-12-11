@@ -9,21 +9,21 @@ Route: DCS 1016
 
    Name					ip			port
 Me									  3
-Drinking-water machine				  4	
-Host(dell530): 			172.16.30.87	 11
+Drinking-water machine				         4	
+Host(dell530): 			172.16.30.87	        11
 						23			10
 Yu						*			13
 Yadong					70
 Wanglin					119
 
 9.21
-SSH: 
+<link:internal>SSH</link:internal>: 
 <link:url>	/etc/ssh/ssh_config</link:url>   GSSAPIAuthentication no
 
 ubuntu远程登录windows 
 	rdesktop , tsclient, VMware
 
-server: F-Secure SSH
+server: F-Secure <link:internal>SSH</link:internal>
 ELRP-LKVZ-JGND-EP2G-CN3T
 
 9.22
@@ -41,8 +41,8 @@ rdesktop -u zwh -p zwh -r sound:local 172.16.30.70
 	dhcpcd -x eth0
 
 <bold>10.19
-</bold>ssh+vnc
-ssh+X server
+</bold><link:internal>ssh</link:internal>+vnc
+<link:internal>ssh</link:internal>+X server
 nx: access a remote <link:internal>linux</link:internal> from windows
 
 装一个 vncserver
@@ -57,10 +57,10 @@ nx: access a remote <link:internal>linux</link:internal> from windows
 
 
 </note-content></text>
-  <last-change-date>2008-11-10T15:10:58.4236410+08:00</last-change-date>
-  <last-metadata-change-date>2008-11-10T15:10:58.4236410+08:00</last-metadata-change-date>
+  <last-change-date>2008-11-28T10:59:21.8996660+08:00</last-change-date>
+  <last-metadata-change-date>2008-11-28T10:59:21.8996660+08:00</last-metadata-change-date>
   <create-date>2008-09-07T21:49:40.1218989+08:00</create-date>
-  <cursor-position>701</cursor-position>
+  <cursor-position>210</cursor-position>
   <width>466</width>
   <height>360</height>
   <x>0</x>

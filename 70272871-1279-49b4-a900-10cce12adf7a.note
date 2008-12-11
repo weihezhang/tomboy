@@ -16,9 +16,9 @@
 下。
 
 3、在C盘根目录下建立menu.lst文件，内容为：
-title Install Ubuntu
+title Install <link:internal>Ubuntu</link:internal>
 root (hd0,0) 
-kernel (hd0,0)/vmlinuz boot=casper iso-scan/filename=/ubuntu-8.10-desktop-i386
+kernel (hd0,0)/vmlinuz boot=casper iso-scan/filename=/<link:internal>ubuntu</link:internal>-8.10-desktop-i386
 .iso
 initrd (hd0,0)/initrd.gz
 
@@ -100,7 +100,7 @@ java: sudo update-alternatives --config java
 	texhash<link:url> ~/texmf</link:url>
 	<link:internal>latex</link:internal>-suite :<link:url> /usr/share/vim/addons/</link:url>
 	<link:url>	~/.vim/ftplugin/latex-suite/texrc</link:url>
-		Tex_FoldedMisc
+		<link:internal>Tex</link:internal>_FoldedMisc
 
 sbackup, menu
 
@@ -109,11 +109,22 @@ pidgin
 	15850510635
 	221.130.44.193 
 	159159
+
+<bold>Nov. 18
+
+</bold>利用ubuntu的live CD进linux，在terminal下修复grub：
+terminal 情况：
+**$sudo grub
+【一句话经验】：一定以root身份运行此命令，否则会无效！
+grub&gt;root ('tab''tab')
+此时会有好多分区列出来，这是选择原来boot启动文件所在的分区
+号码即可，‘tab’可以自动搜寻补全——这是linux CLI环境下一条偷懒与加速命令输入的很有用的技巧。
+grub&gt;setup ()(比如setup (hd0))
 </note-content></text>
-  <last-change-date>2008-11-08T15:56:15.1966680+08:00</last-change-date>
-  <last-metadata-change-date>2008-11-08T15:56:15.1966680+08:00</last-metadata-change-date>
+  <last-change-date>2008-11-18T12:49:59.9689990+08:00</last-change-date>
+  <last-metadata-change-date>2008-11-18T12:49:59.9689990+08:00</last-metadata-change-date>
   <create-date>2008-11-06T08:27:15.6301540+08:00</create-date>
-  <cursor-position>2117</cursor-position>
+  <cursor-position>2334</cursor-position>
   <width>447</width>
   <height>360</height>
   <x>646</x>

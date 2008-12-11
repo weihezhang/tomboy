@@ -3,7 +3,7 @@
   <title>让Gmail成为Firefox3.0默认邮件客户端</title>
   <text xml:space="preserve"><note-content version="0.1">让Gmail成为Firefox3.0默认邮件客户端
 
-set gmail as default <link:internal>mail</link:internal> client in Ubuntu
+set gmail as default <link:internal>mail</link:internal> client in <link:internal>Ubuntu</link:internal>
 
 
 System \ Preferences \ Preferred Applications
@@ -23,8 +23,8 @@ OR
 
 <link:url>weihezhangem@gmail.com</link:url>
 <link:url>liuhuee@gmail.com</link:url></note-content></text>
-  <last-change-date>2008-11-10T15:56:14.2104030+08:00</last-change-date>
-  <last-metadata-change-date>2008-11-10T15:56:14.2104030+08:00</last-metadata-change-date>
+  <last-change-date>2008-11-13T21:39:56.8373380+08:00</last-change-date>
+  <last-metadata-change-date>2008-11-13T21:39:56.8373380+08:00</last-metadata-change-date>
   <create-date>2008-10-01T10:38:16.0160260+08:00</create-date>
   <cursor-position>685</cursor-position>
   <width>777</width>

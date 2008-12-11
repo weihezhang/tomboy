@@ -217,16 +217,52 @@ Chap4: 10-13, 15-19, 21, 23 (46+11=57)
 Chap4: 26, 28-30
 Chap5: 1, 3, 4, 7-10, 13, 15, 16 (57+14=71)
 
+<bold>Nov. 15
 
-</note-content></text>
-  <last-change-date>2008-11-09T15:50:48.9397220+08:00</last-change-date>
-  <last-metadata-change-date>2008-11-09T15:50:48.9397220+08:00</last-metadata-change-date>
+</bold>动力学粘滞系数 nu, 边界层厚度 b
+简正模式，截止频率
+声能够辐射出去
+两维非刚性声波导
+
+<link:broken>ColorFunction</link:broken>: Red Yellow Blue
+
+Assignment11:
+Chap5: 17-21 (71+5=76)
+
+<bold>Nov. 23
+
+</bold>Assignment12:
+Chap5: 22-24, 26, 28, 29, 31 (76+7=83)
+
+incident: 入射
+
+<bold>Nov. 29
+
+</bold>球面互易参量
+电源强度
+格林函数的互易性
+ka &lt;&lt; 1 时，指向性都近似为圆
+Hankel 变换
+Fourier-Bessel 积分
+声压的积分解
+Gauss 声场
+Bessel 声场
+
+Assignment13:
+Chap6: 1-3, 7-17, 19, 20 (83+16=99)
+
+<bold>Dec. 6
+
+</bold>Assignment14:
+Chap6: 21-23, 25, 27, 29 (99+6=105)</note-content></text>
+  <last-change-date>2008-12-06T21:49:22.7441130+08:00</last-change-date>
+  <last-metadata-change-date>2008-12-06T21:49:22.7441130+08:00</last-metadata-change-date>
   <create-date>2008-09-01T14:44:34.4810810+08:00</create-date>
-  <cursor-position>3796</cursor-position>
-  <width>592</width>
-  <height>581</height>
-  <x>0</x>
-  <y>0</y>
+  <cursor-position>4263</cursor-position>
+  <width>574</width>
+  <height>460</height>
+  <x>20</x>
+  <y>55</y>
   <tags>
     <tag>system:notebook:Work</tag>
   </tags>

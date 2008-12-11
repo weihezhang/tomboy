@@ -2,6 +2,7 @@
 <note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
   <title>XeTeX</title>
   <text xml:space="preserve"><note-content version="0.1">XeTeX
+2004-
 
 <bold>Nov. 10
 
@@ -41,15 +42,55 @@
 \end{split}
 \]
 
+<bold>Nov. 14
+
+</bold>UTF-8: a variable-length sequence of 8-bit bytes
+zhspacing
+
+[Mapping=<link:internal>tex</link:internal>-text] should be added	to the declarations, for compatibility with <link:internal>TEX</link:internal> typing conventions.
+
+fontspec: a	powerful	interface	to	fonts
+xunicode	for	compatibility
+
+<bold>Nov. 1</bold>5
+
+<link:internal>XeLaTeX</link:internal>+zhspacing/XeCJK或者ConTeXt MKIV
+Ctex: weihezhang, 159159
+
+<bold>Nov. 24
+
+</bold>\<link:broken>XeTeXlinebreaklocale</link:broken> "zh"
+\<link:broken>XeTeXlinebreakskip</link:broken> 0pt plus 2pt
+\<link:broken>XeTeXpicfile</link:broken> "unicode-book.jpg"
+
+<bold>Dec. 9
+
+</bold>\defaultfontfeatures{Mapping=<link:internal>tex</link:internal>-text}
+\<link:broken>XeTeXpdffile</link:broken>, \<link:broken>XeTeXpicfile</link:broken>
+
+<bold>Dec. 10
+
+</bold>\<link:broken>XeTeXcharclass</link:broken> CJK spacing
+\tracingonline=1
+\pdfpagewidth=6in
+
+\<link:broken>XeTeXinterchartokenstate</link:broken>=1
+\<link:broken>XeTeXinterchartoks</link:broken> 0 1 = {\bgroup\zh}
+\<link:broken>XeTeXinterchartoks</link:broken> 1 0 = {\egroup}
+\<link:broken>XeTeXinterchartoks</link:broken> 255 1 = {\bgroup\zh}
+\<link:broken>XeTeXinterchartoks</link:broken> 1 255 = {\egroup}
+
+\<link:broken>XeTeXinterchartoks</link:broken> 0 0 = {\hskip 0em plus .05em\relax}
+
 </note-content></text>
-  <last-change-date>2008-11-10T16:47:46.7854770+08:00</last-change-date>
-  <last-metadata-change-date>2008-11-10T16:47:46.7854770+08:00</last-metadata-change-date>
+  <last-change-date>2008-12-10T09:41:15.1102920+08:00</last-change-date>
+  <last-metadata-change-date>2008-12-10T09:41:15.1102920+08:00</last-metadata-change-date>
   <create-date>2008-11-10T16:29:16.8940360+08:00</create-date>
-  <cursor-position>832</cursor-position>
-  <width>450</width>
-  <height>360</height>
-  <x>0</x>
-  <y>0</y>
+  <cursor-position>1739</cursor-position>
+  <width>464</width>
+  <height>361</height>
+  <x>733</x>
+  <y>25</y>
   <tags>
     <tag>system:notebook:日积月累</tag>
   </tags>

@@ -212,7 +212,9 @@ Debugging Shell Scripts
 	#!/bin/sh -xv
 
 ^G
-
+~: capitalizing one letter
+Capitalizing Every Word on a Line
+	:s/\&lt;./\u&amp;/g
 Using vi Abbreviations as Commands (Cut and Paste Between vi's)
 
 vi Line Commands Versus Character Commands
@@ -223,15 +225,46 @@ Neatening Lines
 	:%!fmt    		all text
 	!}fmt		a paragraph
 
+<bold>拾肆 11.13</bold>
+
+awk: pattern scanning and text processing language
+	text manipulation
+awk [options] 'script' [var=value] [file(s)]
+awk [options] -f scriptfile [var=value] [file(s)]
+
+awk '{print $2}'<link:url> /etc/issue</link:url>
+awk -F: '{print $1; print $2; print $3}'<link:url> /etc/passwd</link:url>
+awk -F: '{print $5, "=&gt;", $1}'<link:url> /etc/passwd</link:url>
+
+fmt -p '*' load.cc
+
+Low-Level File Butchery with dd
+
+offset: Indent Text
+
+ Splitting Files at Fixed Points: split
+
+Encoding "Binary" Files into ASCII
+	MIME Encoding: mimencode
+
+Making Text in Columns with pr
+
+stty
+
+Listing the Current Resources for a Client: appres
+
+^D
+
+
 
 </note-content></text>
-  <last-change-date>2008-11-13T11:14:44.4021210+08:00</last-change-date>
-  <last-metadata-change-date>2008-11-13T11:14:44.4021210+08:00</last-metadata-change-date>
+  <last-change-date>2008-11-13T23:03:46.7822920+08:00</last-change-date>
+  <last-metadata-change-date>2008-11-13T23:03:46.7822920+08:00</last-metadata-change-date>
   <create-date>2008-10-24T08:37:24.7443170+08:00</create-date>
-  <cursor-position>3105</cursor-position>
+  <cursor-position>26</cursor-position>
   <width>553</width>
   <height>381</height>
-  <x>0</x>
-  <y>27</y>
+  <x>108</x>
+  <y>451</y>
   <open-on-startup>False</open-on-startup>
 </note>

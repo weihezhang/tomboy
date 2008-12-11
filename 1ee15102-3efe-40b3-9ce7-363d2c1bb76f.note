@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>Today: Friday, December 5 2008</title>
+  <text xml:space="preserve"><note-content version="0.1">Today: Friday, December 5 2008
+
+
+
+<size:huge>Tasks</size:huge>
+
+permutation and factorial
+10! = 3,628,800 = 3.5million
+
+<size:huge>Appointments</size:huge>
+
+
+</note-content></text>
+  <last-change-date>2008-12-05T10:53:45.4612350+08:00</last-change-date>
+  <last-metadata-change-date>2008-12-05T10:53:45.4612350+08:00</last-metadata-change-date>
+  <create-date>2008-12-05T08:25:00.3144840+08:00</create-date>
+  <cursor-position>40</cursor-position>
+  <width>450</width>
+  <height>360</height>
+  <x>0</x>
+  <y>0</y>
+  <tags>
+    <tag>system:NoteOfTheDay</tag>
+  </tags>
+  <open-on-startup>False</open-on-startup>
+</note>

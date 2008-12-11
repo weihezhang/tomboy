@@ -9,7 +9,7 @@
 
 rc: run control file
 
-books: 
+<link:internal>books</link:internal>: 
 	cathedral-bazaar 《大教堂与市集》
 
 fetchmail
@@ -23,8 +23,8 @@ msmtp
 	.msmtprc
 
 	.maildroplog</note-content></text>
-  <last-change-date>2008-11-10T16:18:33.9651940+08:00</last-change-date>
-  <last-metadata-change-date>2008-11-10T16:18:33.9651940+08:00</last-metadata-change-date>
+  <last-change-date>2008-12-02T11:00:12.8240720+08:00</last-change-date>
+  <last-metadata-change-date>2008-12-02T11:00:12.8240720+08:00</last-metadata-change-date>
   <create-date>2008-11-10T15:56:05.3856270+08:00</create-date>
   <cursor-position>200</cursor-position>
   <width>450</width>

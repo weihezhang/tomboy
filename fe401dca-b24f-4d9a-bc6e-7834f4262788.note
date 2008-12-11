@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>Today: Monday, December 1 2008</title>
+  <text xml:space="preserve"><note-content version="0.1">Today: Monday, December 1 2008
+
+
+
+<size:huge>Tasks</size:huge>
+12.8-10 ￥24 学工处 李振华 
+
+<size:huge>Appointments</size:huge>
+
+
+</note-content></text>
+  <last-change-date>2008-12-01T15:35:37.6566190+08:00</last-change-date>
+  <last-metadata-change-date>2008-12-01T15:35:37.6566190+08:00</last-metadata-change-date>
+  <create-date>2008-12-01T12:42:06.3122000+08:00</create-date>
+  <cursor-position>46</cursor-position>
+  <width>450</width>
+  <height>360</height>
+  <x>0</x>
+  <y>0</y>
+  <tags>
+    <tag>system:NoteOfTheDay</tag>
+  </tags>
+  <open-on-startup>False</open-on-startup>
+</note>

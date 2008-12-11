@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>史记</title>
+  <text xml:space="preserve"><note-content version="0.1">史记
+究天人之际，通古今之变，成一家之言
+
+<bold>Dec. 7
+
+</bold>130 = 12 + 10 + 8 + 30 + 70
+          本纪  表	 书	世家   列传
+52万6千512 字
+
+“本纪”是全书提纲，按年月记述帝王的言行政绩。“表”用表格来简列世系、人物和史事。“书”则记述制度发展，涉及礼乐制度、天文兵律、社会经济、河渠地理等诸方面内容。“世家”记述子孙世袭的王侯封国史迹。“列传”是重要人物传记。其中的本纪和列传是主体。</note-content></text>
+  <last-change-date>2008-12-07T16:19:43.7831800+08:00</last-change-date>
+  <last-metadata-change-date>2008-12-07T16:19:43.7831800+08:00</last-metadata-change-date>
+  <create-date>2008-12-07T16:11:12.7097990+08:00</create-date>
+  <cursor-position>95</cursor-position>
+  <width>450</width>
+  <height>360</height>
+  <x>0</x>
+  <y>0</y>
+  <tags>
+    <tag>system:notebook:日积月累</tag>
+  </tags>
+  <open-on-startup>False</open-on-startup>
+</note>

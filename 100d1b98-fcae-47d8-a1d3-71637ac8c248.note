@@ -7,13 +7,23 @@ compiz是一个新的composite manager（特效管理器）+window manager（窗
 Beryl是compiz的一个平行的分支，包括Beryl（红宝石）这个composite manager（特效管理器）+window manager（窗体管理器）、Emerald（绿宝石）这个window decorator（窗体样式管理器）。
 Beryl和Emerald是构建在新的X服务上的（Beryl is not dependent on any single xserver architecture），这些新的X服务就是XGL和AIGLX。
 XGL是novell开发的全新的X服务层，AIGLX是FC/redhat开发的对原有X服务的一个扩展。
-所有的显卡的驱动都是为X服务提供支持用的，单安装好了驱动，没有新的X服务层是无法直接使用Beryl/compiz的。但是很多朋友都会说 zaiEDGY里面不用装AIGLx啊。但是要知道，新的ubuntu6.10、FC6、Ma2007都是使用xorg7.1的，已经带有AIGLX； SUSE10.1自带xgl的，所以不用手动安装而已......</note-content></text>
-  <last-change-date>2007-04-28T15:01:59.0207369+08:00</last-change-date>
-  <last-metadata-change-date>2007-04-28T15:01:59.0207369+08:00</last-metadata-change-date>
+所有的显卡的驱动都是为X服务提供支持用的，单安装好了驱动，没有新的X服务层是无法直接使用Beryl/compiz的。但是很多朋友都会说 zaiEDGY里面不用装AIGLx啊。但是要知道，新的ubuntu6.10、FC6、Ma2007都是使用xorg7.1的，已经带有AIGLX； SUSE10.1自带xgl的，所以不用手动安装而已......
+
+<bold>Nov. 14
+
+</bold>metacity
+
+metacity --replace &amp;
+killall compiz compiz.real
+
+compiz --replace -c emerald &amp;
+killall metacity #just for the case it has some kwin processes</note-content></text>
+  <last-change-date>2008-11-14T23:01:05.0594590+08:00</last-change-date>
+  <last-metadata-change-date>2008-11-14T23:01:05.0594590+08:00</last-metadata-change-date>
   <create-date>2007-04-28T14:52:25.1396380+08:00</create-date>
-  <cursor-position>90</cursor-position>
-  <width>1024</width>
-  <height>689</height>
+  <cursor-position>647</cursor-position>
+  <width>556</width>
+  <height>687</height>
   <x>0</x>
   <y>53</y>
   <open-on-startup>False</open-on-startup>

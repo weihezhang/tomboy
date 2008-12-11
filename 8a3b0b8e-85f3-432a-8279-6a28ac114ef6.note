@@ -7,23 +7,30 @@
 
 <bold>Nov. 11
 
-</bold>1. create ssh
+</bold>1. create <link:internal>ssh</link:internal>
 	passphrase:159159
 <link:url>	~/.ssh</link:url>
-	ssh-keygen , ssh-agent
+	<link:internal>ssh</link:internal>-keygen , <link:internal>ssh</link:internal>-agent
 
 <bold>Nov. 13
 
+</bold><italic>For the first time:</italic><bold>
 </bold>git init
 git add files
 git commit
 	fulfill the commit comments
 git remote add origin <link:url>git@github.com:weihezhang/tomboy.git</link:url>
-git push origin master</note-content></text>
-  <last-change-date>2008-11-13T20:21:48.6617310+08:00</last-change-date>
-  <last-metadata-change-date>2008-11-13T20:21:48.6617310+08:00</last-metadata-change-date>
+git push origin master
+
+<italic>After:
+</italic>git add files
+git commit
+git push
+</note-content></text>
+  <last-change-date>2008-11-15T09:25:33.5948620+08:00</last-change-date>
+  <last-metadata-change-date>2008-11-15T09:25:33.5948620+08:00</last-metadata-change-date>
   <create-date>2008-11-11T16:45:54.5796300+08:00</create-date>
-  <cursor-position>109</cursor-position>
+  <cursor-position>296</cursor-position>
   <width>596</width>
   <height>380</height>
   <x>556</x>

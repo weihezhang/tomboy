@@ -53,11 +53,49 @@ sudo apt-get <link:internal>install</link:internal> <link:internal>Fcitx(GirlDog
 </bold>git: Perl interface to the Git version control system
 
 
-</note-content></text>
-  <last-change-date>2008-11-11T20:46:10.3410180+08:00</last-change-date>
-  <last-metadata-change-date>2008-11-11T20:46:10.3410180+08:00</last-metadata-change-date>
+<bold>Nov. 18
+
+</bold>slim:  desktop-independent graphical login manager for X11 SLiM aims to be light and simple, although completely configurable through themes and an option file. It is particularly suitable for machines that don't require remote logins.
+
+<bold>Nov. 20
+
+</bold><link:internal>gnome</link:internal>-specimen - Simple font preview and compare application for <link:internal>GNOME</link:internal>
+
+<bold>Nov. 23
+
+</bold> Synergy 在主机间共享鼠标和键盘
+
+<bold>Nov. 24
+</bold>mpb, mpb-mpi
+ MIT Photonic-Bands
+ The MIT Photonic-Bands package is a free program for computing the band
+ structures (<link:internal>dispersion</link:internal> relations) and electromagnetic modes of periodic
+ dielectric structures, on both serial and parallel computers. It was
+ developed by Steven G. Johnson at MIT in the Joannopoulos Ab Initio
+ Physics group, and designed to study photonic crystal structures.
+ .
+ URL: <link:url>http://ab-initio.mit.edu/mpb/</link:url>
+
+<bold>Nov. 25
+
+</bold>mldonkey
+	mlnet:  - your door to Edonkey, Directconnect, Gnutella, Bittorent, Overnet, <link:broken>OpenNap</link:broken> networks
+	mlgui
+<link:url>	/etc/init.d/mldonkey-server</link:url> force-start
+	telnet 127.0.0.1 4000
+	&gt; auth admin ""
+	&gt;passwd 159159
+
+<bold>Nov. 26
+
+</bold>webex player
+	.wrf, .arf
+
+Bootchart</note-content></text>
+  <last-change-date>2008-12-05T21:07:22.2851410+08:00</last-change-date>
+  <last-metadata-change-date>2008-12-05T21:07:22.2851410+08:00</last-metadata-change-date>
   <create-date>2008-09-23T10:50:31.8158360+08:00</create-date>
-  <cursor-position>879</cursor-position>
+  <cursor-position>1972</cursor-position>
   <width>466</width>
   <height>360</height>
   <x>0</x>

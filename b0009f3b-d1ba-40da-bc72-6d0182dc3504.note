@@ -106,7 +106,7 @@ dpkg -l | grep tsclient
 </bold>4G内存 highmem
 big memory mode
 rebuilding the kernel with 64GB RAM support
-將桌上型版本改為伺服器版本 ubuntu server edition
+將桌上型版本改為伺服器版本 <link:internal>ubuntu</link:internal> server edition
 mtrr
 PM965系列芯片组
 
@@ -114,13 +114,13 @@ There is actually a hack in the <link:internal>linux</link:internal> kernel (at 
 
 	CONFIG_HIGHMEM64G: 
 This selection turns Intel PAE (Physical Address Extension) mode on. PAE implements 3-level paging on IA32 processors. PAE is fully supported by <link:internal>Linux</link:internal>, PAE mode is implemented on all recent Intel processors (Pentium Pro and better).
-(PAE also has the advantage that you don't have to reinstall Ubuntu as you can just <link:internal>install</link:internal> the PAE kernel on your existing 32bit <link:internal>install</link:internal>.)
+(PAE also has the advantage that you don't have to reinstall <link:internal>Ubuntu</link:internal> as you can just <link:internal>install</link:internal> the PAE kernel on your existing 32bit <link:internal>install</link:internal>.)
 PAE can only access 64 GB of memory if all 36 address pins are properly wired up on the motherboard.
 
 bios：  BIOS for a setting to enable PAE
 get into the grub menu, check if the memtest sees all 4gb
 
-Ubuntu default kernels have been enabling this process at least since version 6.10, and so have Fedora 7's.
+<link:internal>Ubuntu</link:internal> default kernels have been enabling this process at least since version 6.10, and so have Fedora 7's.
 
 If the total memory is 885, then no high memory is enabled on your system 
 if the result shows over 1 gigabyte but less than 4GB when you know you have more, then the 4GB parameter is enabled, but not the 64GB one.
@@ -160,17 +160,18 @@ NVIDIA-<link:internal>Linux</link:internal>-x86-177.80-pkg1.run
 prerequisation:
 	sudo apt-get <link:internal>install</link:internal> <link:internal>linux</link:internal>-headers-`uname -r`
 
-<bold>
+<bold>Nov. 15</bold>
 
-</bold></note-content></text>
-  <last-change-date>2008-11-12T10:17:58.1388090+08:00</last-change-date>
-  <last-metadata-change-date>2008-11-12T10:17:58.1388090+08:00</last-metadata-change-date>
+evince 无法正常显示英文
+</note-content></text>
+  <last-change-date>2008-11-15T11:21:15.8440100+08:00</last-change-date>
+  <last-metadata-change-date>2008-11-15T11:21:15.8440100+08:00</last-metadata-change-date>
   <create-date>2008-02-24T17:09:27.3433100+08:00</create-date>
-  <cursor-position>5256</cursor-position>
+  <cursor-position>5282</cursor-position>
   <width>502</width>
   <height>419</height>
-  <x>484</x>
-  <y>82</y>
+  <x>489</x>
+  <y>108</y>
   <tags>
     <tag>system:notebook:Work</tag>
   </tags>
